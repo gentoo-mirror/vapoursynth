@@ -2,7 +2,7 @@ app-editors/vapoursynth-editor 4 9999: VapourSynth Editor
 app-editors/wobbly 9999: IVTC assistant for VapourSynth, similar to Yatta
 media-libs/l-smash 2.3.0 9999: Media library
 media-libs/vapoursynth 27 9999: VapourSynth is an library for video manipulation.
-media-libs/zimg 1.0 1.1 9999: Scaling, colorspace conversion, and dithering library
+media-libs/zimg 1.0 1.1 1.1.1 9999: Scaling, colorspace conversion, and dithering library
 media-plugins/vapoursynth-addgrain 5 9999: AddGrain generates film like grain or other effects (like rain) by adding random noise to the video
 media-plugins/vapoursynth-adjust 0.20150322 9999: This is a very basic port of the built-in Avisynth filter Tweak
 media-plugins/vapoursynth-bifrost 2.2 9999: Decrawler plugin for VapourSynth
@@ -58,6 +58,6 @@ media-plugins/vapoursynth-vsimagereader 9999: Image reader plugin for VapourSynt
 media-plugins/vapoursynth-vsrawsource 9999: Raw format video reader for VapourSynth
 media-plugins/vapoursynth-wwxd 1.0 9999: Xvid-like scene change detection for VapourSynth
 media-plugins/vapoursynth-yadifmod 8 9999: Modified version of Fizick's avisynth filter port of yadif from mplayer
-media-plugins/vapoursynth-zimg 1.0 1.1 9999: Scaling, colorspace conversion, and dithering library
+media-plugins/vapoursynth-zimg 1.0 1.1 1.1.1 9999: Scaling, colorspace conversion, and dithering library
 media-video/mpv 0.7.3-r1: Free, open source, and cross-platform media player (fork of MPlayer/mplayer2)
 media-video/mpv 0.9.2-r2 9999-r1: Media player based on MPlayer and mplayer2
