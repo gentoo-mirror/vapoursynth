@@ -59,5 +59,4 @@ media-plugins/vapoursynth-vsrawsource 9999: Raw format video reader for VapourSy
 media-plugins/vapoursynth-wwxd 1.0 9999: Xvid-like scene change detection for VapourSynth
 media-plugins/vapoursynth-yadifmod 8 9999: Modified version of Fizick's avisynth filter port of yadif from mplayer
 media-plugins/vapoursynth-zimg 1.0 1.1 1.1.1 9999: Scaling, colorspace conversion, and dithering library
-media-video/mpv 0.7.3-r1: Free, open source, and cross-platform media player (fork of MPlayer/mplayer2)
-media-video/mpv 0.9.2-r2 9999-r1: Media player based on MPlayer and mplayer2
+media-video/mpv 0.7.3-r1 0.9.2-r2 9999-r1: Media player based on MPlayer and mplayer2
