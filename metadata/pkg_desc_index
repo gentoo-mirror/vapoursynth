@@ -1,4 +1,4 @@
-app-editors/vapoursynth-editor 4 9999: VapourSynth Editor
+app-editors/vapoursynth-editor 4 5 9999: VapourSynth Editor
 app-editors/wobbly 1 9999: IVTC assistant for VapourSynth, similar to Yatta
 media-libs/l-smash 2.3.0 9999: Media library
 media-libs/vapoursynth 27 9999: VapourSynth is an library for video manipulation.
