@@ -31,7 +31,7 @@ media-plugins/vapoursynth-genericfilters 9999: Common image-processing filters f
 media-plugins/vapoursynth-havsfunc 18: HolyWu's ported AviSynth scripts for VapourSynth
 media-plugins/vapoursynth-histogram 1.0 9999: Histogram plugin for VapourSynth
 media-plugins/vapoursynth-it 1.2 9999: Inverse Telecine plugin for VapourSynth
-media-plugins/vapoursynth-knlmeanscl 0.6.3-r1 0.6.4 9999: An optimized pixelwise OpenCL implementation of the Non-local means denoising algorithm
+media-plugins/vapoursynth-knlmeanscl 0.6.3-r1 0.6.4 0.6.11 9999: An optimized pixelwise OpenCL implementation of the Non-local means denoising algorithm
 media-plugins/vapoursynth-l-smash-works 9999: Works based on L-SMASH project
 media-plugins/vapoursynth-msmoosh 1.1 9999: MSmooth is a spatial smoother that doesn't touch edges, MSharpen tries to sharpen only edges
 media-plugins/vapoursynth-mvsfunc 0.20150726: mawen1250's VapourSynth functions
