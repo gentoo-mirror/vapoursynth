@@ -53,6 +53,9 @@ media-plugins/vapoursynth-temporalsoften 1.0 9999: TemporalSoften plugin for Vap
 media-plugins/vapoursynth-tnlmeans 9999: VapourSynth port of TNLMeans
 media-plugins/vapoursynth-vaguedenoiser 2 9999: A wavelet based denoiser
 media-plugins/vapoursynth-vautodeint 0.0.1 9999: Auto interlace detection and deinterlace vapoursynth python script
+media-plugins/vapoursynth-vcmod 20141110: vcmod is a plugin for vapoursynth with several functions which essentially operate on pixel values and modify it as per some criteria. Useful for denoising
+media-plugins/vapoursynth-vcmove 20141110: This plugin moves pixels as per requirement. Useful for correcting certain distortions or tilt or for transitions
+media-plugins/vapoursynth-vctrans 20150910: vctrans a plugin for transitions
 media-plugins/vapoursynth-videoscope 1.0 9999: Videoscope plugin for VapourSynth
 media-plugins/vapoursynth-vs-maskdetail 0.20141221 9999: A function to use invks/debilinear
 media-plugins/vapoursynth-vsimagereader 9999: Image reader plugin for VapourSynth
