@@ -4,21 +4,16 @@
 
 EAPI=5
 
-inherit toolchain-funcs multilib
+inherit toolchain-funcs multilib git-r3
 
-DESCRIPTION="VapourSynth port of FFT3DFilter"
-HOMEPAGE="https://github.com/VFR-maniac/VapourSynth-FFT3DFilter"
+DESCRIPTION="VapourSynth port of TNLMeans"
+HOMEPAGE="https://github.com/VFR-maniac/VapourSynth-TNLMeans"
 
-if [[ ${PV} == *9999* ]]; then
-	inherit git-r3
-	EGIT_REPO_URI="https://github.com/VFR-maniac/${PN}.git"
-else
-	inherit vcs-snapshot
-	SRC_URI="https://github.com/VFR-maniac/${PN}/archive/v${PV}.tar.gz -> ${PN}-${PV}.tar.gz"
-fi
+EGIT_REPO_URI="https://github.com/VFR-maniac/${PN}.git"
+EGIT_COMMIT="22a40afaf78b6932800f552c43edc510da2d50a3"
 
-LICENSE="GPL-2"
-KEYWORDS=""
+LICENSE="LGPL-2.1"
+KEYWORDS="~x86 ~amd64"
 IUSE=""
 SLOT="0"
 
