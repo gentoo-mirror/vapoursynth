@@ -5,7 +5,7 @@ media-libs/vapoursynth 27-r1 9999: VapourSynth is an library for video manipulat
 media-libs/zimg 1.0 1.1 1.1.1 9999: Scaling, colorspace conversion, and dithering library
 media-plugins/vapoursynth-addgrain 5 9999: AddGrain generates film like grain or other effects (like rain) by adding random noise to the video
 media-plugins/vapoursynth-adjust 0.20150322 9999: This is a very basic port of the built-in Avisynth filter Tweak
-media-plugins/vapoursynth-awarpsharp2 9999: Sharpens by wrapping
+media-plugins/vapoursynth-awarpsharp2 1 9999: Sharpens by wrapping
 media-plugins/vapoursynth-bifrost 2.2 9999: Decrawler plugin for VapourSynth
 media-plugins/vapoursynth-bilateral 3 9999: Bilateral filter for VapourSynth
 media-plugins/vapoursynth-bm3d 2 3-r1 9999: BM3D denoising filter for VapourSynth
