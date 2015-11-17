@@ -1,7 +1,7 @@
 app-editors/vapoursynth-editor 5 9999: VapourSynth Editor
 app-editors/wobbly 1 9999: IVTC assistant for VapourSynth, similar to Yatta
 media-libs/l-smash 2.9.1 9999: Media library
-media-libs/vapoursynth 27-r1 28-r2 9999: VapourSynth is an library for video manipulation.
+media-libs/vapoursynth 28-r3 9999: VapourSynth is an library for video manipulation.
 media-libs/zimg 1.1.1 2.0 2.0.1 9999: Scaling, colorspace conversion, and dithering library
 media-plugins/vapoursynth-addgrain 5 9999: AddGrain generates film like grain or other effects (like rain) by adding random noise to the video
 media-plugins/vapoursynth-adjust 0.20150322 9999: This is a very basic port of the built-in Avisynth filter Tweak
