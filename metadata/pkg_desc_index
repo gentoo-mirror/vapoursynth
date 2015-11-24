@@ -38,6 +38,7 @@ media-plugins/vapoursynth-msmoosh 1.1 9999: MSmooth is a spatial smoother that d
 media-plugins/vapoursynth-mvsfunc 5: mawen1250's VapourSynth functions
 media-plugins/vapoursynth-mvtools 9 9999: MVTools is a set of filters for motion estimation and compensation
 media-plugins/vapoursynth-nnedi3 7 9999: nnedi3 is an intra-field only deinterlacer
+media-plugins/vapoursynth-plugins-meta 0: VapourSynth plugins meta package.
 media-plugins/vapoursynth-reduceflicker 9999: VapourSynth port of ReduceFlicker
 media-plugins/vapoursynth-removedirt 0.20131120 9999: Port of RemoveDirt to VapourSynth
 media-plugins/vapoursynth-retinex 3 9999: Retinex plugin for VapourSynth
