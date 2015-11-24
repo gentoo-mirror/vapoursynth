@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND==media-libs/ffmpegsource-9999 media-libs/vapoursynth
+DESCRIPTION=A libav/ffmpeg based source library for easy frame accurate access
+EAPI=5
+HOMEPAGE=https://github.com/FFMS/ffms2
+LICENSE=MIT
+RDEPEND==media-libs/ffmpegsource-9999 media-libs/vapoursynth
+SLOT=0
+_eclass_exported_funcs=src_install:-
+_eclasses_=multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=81104eb4378669ae0ea5c3503e529a0b

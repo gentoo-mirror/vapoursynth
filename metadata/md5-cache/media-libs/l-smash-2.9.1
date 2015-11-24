@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure unpack
+DEPEND=>=virtual/ffmpeg-9 virtual/pkgconfig
+DESCRIPTION=Media library
+EAPI=5
+HOMEPAGE=https://github.com/l-smash/l-smash
+IUSE=+shared -static -debug
+KEYWORDS=~amd64 ~x86
+LICENSE=ISC
+RDEPEND=>=virtual/ffmpeg-9
+SLOT=0
+SRC_URI=https://github.com/l-smash/l-smash/archive/v2.9.1.tar.gz -> l-smash-2.9.1.tar.gz
+_eclass_exported_funcs=src_unpack:vcs-snapshot src_configure:-
+_eclasses_=multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	vcs-snapshot	b45be87e7012be0af8424e8a5644da1d
+_md5_=e9df02cd850d4b0189cc01c3cdbf580f

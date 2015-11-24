@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install unpack
+DEPEND=media-libs/vapoursynth
+DESCRIPTION=EEDI2 is an vertical resizer intended for edge-directed interpolation for deinterlacing
+EAPI=5
+HOMEPAGE=https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI2
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/vapoursynth
+SLOT=0
+SRC_URI=https://github.com/HomeOfVapourSynthEvolution/vapoursynth-eedi2/archive/r5.tar.gz -> vapoursynth-eedi2-5.tar.gz
+_eclass_exported_funcs=src_unpack:vcs-snapshot src_configure:- src_install:-
+_eclasses_=multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	vcs-snapshot	b45be87e7012be0af8424e8a5644da1d
+_md5_=d6f829f48a27d8a03e724d0efead61d0

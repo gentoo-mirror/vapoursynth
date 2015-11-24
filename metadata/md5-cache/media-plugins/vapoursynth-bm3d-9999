@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install unpack
+DEPEND=media-libs/vapoursynth >=dev-vcs/git-1.8.2.1
+DESCRIPTION=BM3D denoising filter for VapourSynth
+EAPI=5
+HOMEPAGE=https://github.com/HomeOfVapourSynthEvolution/VapourSynth-BM3D
+IUSE=-debug cpu_flags_x86_sse2 cpu_flags_x86_sse4_1
+LICENSE=GPL-3
+RDEPEND=media-libs/vapoursynth
+REQUIRED_USE=|| ( cpu_flags_x86_sse2 cpu_flags_x86_sse4_1 )
+SLOT=0
+_eclass_exported_funcs=src_unpack:git-r3 src_configure:- src_install:-
+_eclasses_=eutils	f20548a2f7b0128068388cd2ec26708a	git-r3	b00a846f415f26e5b66e5c44c7dc87dc	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=b3a764c0699aedf83b73bea49ebdbfe7
