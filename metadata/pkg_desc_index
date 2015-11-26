@@ -64,5 +64,5 @@ media-plugins/vapoursynth-vsimagereader 0.2.1 9999: Image reader plugin for Vapo
 media-plugins/vapoursynth-vsrawsource 0.3.1.20130731 9999: Raw format video reader for VapourSynth
 media-plugins/vapoursynth-wwxd 1.0 9999: Xvid-like scene change detection for VapourSynth
 media-plugins/vapoursynth-yadifmod 8 9999: Modified version of Fizick's avisynth filter port of yadif from mplayer
-media-plugins/vapoursynth-zimg 1.1.1 2.0 2.0.1 9999: Scaling, colorspace conversion, and dithering library
+media-plugins/vapoursynth-zimg 2.0.1 9999: Scaling, colorspace conversion, and dithering library
 media-video/mpv 0.11.0-r1 9999-r1: Media player based on MPlayer and mplayer2
