@@ -8,7 +8,7 @@ media-plugins/vapoursynth-adjust 0.20150322 9999: This is a very basic port of t
 media-plugins/vapoursynth-awarpsharp2 1 9999: Sharpens by wrapping
 media-plugins/vapoursynth-bifrost 2.2 9999: Decrawler plugin for VapourSynth
 media-plugins/vapoursynth-bilateral 3 9999: Bilateral filter for VapourSynth
-media-plugins/vapoursynth-bm3d 3-r1 4 9999: BM3D denoising filter for VapourSynth
+media-plugins/vapoursynth-bm3d 4 9999: BM3D denoising filter for VapourSynth
 media-plugins/vapoursynth-combmask 0.20130730 9999: CombMask plugin for VapourSynth
 media-plugins/vapoursynth-continuityfixer 6 9999: Continuity Fixer port for Vapoursynth, can help repair damaged borders of frames
 media-plugins/vapoursynth-ctmf 2 9999: Median filter for VapourSynth (the same algorithm that MedianBlur2)
