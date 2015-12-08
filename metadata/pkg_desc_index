@@ -1,8 +1,8 @@
 app-editors/vapoursynth-editor 5 9999: VapourSynth Editor
 app-editors/wobbly 1 9999: IVTC assistant for VapourSynth, similar to Yatta
 media-libs/l-smash 2.9.1 9999: Media library
-media-libs/vapoursynth 28-r4 9999: VapourSynth is an library for video manipulation.
-media-libs/zimg 2.0.1 2.0.2 9999: Scaling, colorspace conversion, and dithering library
+media-libs/vapoursynth 29 9999: VapourSynth is an library for video manipulation.
+media-libs/zimg 2.0.2 9999: Scaling, colorspace conversion, and dithering library
 media-plugins/vapoursynth-addgrain 5 9999: AddGrain generates film like grain or other effects (like rain) by adding random noise to the video
 media-plugins/vapoursynth-adjust 0.20150322 9999: This is a very basic port of the built-in Avisynth filter Tweak
 media-plugins/vapoursynth-awarpsharp2 1 9999: Sharpens by wrapping
@@ -38,7 +38,7 @@ media-plugins/vapoursynth-msmoosh 1.1 9999: MSmooth is a spatial smoother that d
 media-plugins/vapoursynth-mvsfunc 5: mawen1250's VapourSynth functions
 media-plugins/vapoursynth-mvtools 9 9999: MVTools is a set of filters for motion estimation and compensation
 media-plugins/vapoursynth-nnedi3 7 9999: nnedi3 is an intra-field only deinterlacer
-media-plugins/vapoursynth-plugins-meta 0: VapourSynth plugins meta package.
+media-plugins/vapoursynth-plugins-meta 1: VapourSynth plugins meta package.
 media-plugins/vapoursynth-reduceflicker 9999: VapourSynth port of ReduceFlicker
 media-plugins/vapoursynth-removedirt 0.20131120 9999: Port of RemoveDirt to VapourSynth
 media-plugins/vapoursynth-retinex 3 9999: Retinex plugin for VapourSynth
@@ -64,5 +64,4 @@ media-plugins/vapoursynth-vsimagereader 0.2.1 9999: Image reader plugin for Vapo
 media-plugins/vapoursynth-vsrawsource 0.3.1.20130731 9999: Raw format video reader for VapourSynth
 media-plugins/vapoursynth-wwxd 1.0 9999: Xvid-like scene change detection for VapourSynth
 media-plugins/vapoursynth-yadifmod 8 9999: Modified version of Fizick's avisynth filter port of yadif from mplayer
-media-plugins/vapoursynth-zimg 2.0.1: Scaling, colorspace conversion, and dithering library
 media-video/mpv 0.11.0-r1 9999-r1: Media player based on MPlayer and mplayer2
