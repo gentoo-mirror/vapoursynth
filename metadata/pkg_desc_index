@@ -38,7 +38,7 @@ media-plugins/vapoursynth-msmoosh 1.1 9999: MSmooth is a spatial smoother that d
 media-plugins/vapoursynth-mvsfunc 5-r1: mawen1250's VapourSynth functions
 media-plugins/vapoursynth-mvtools 9 9999: MVTools is a set of filters for motion estimation and compensation
 media-plugins/vapoursynth-nnedi3 7 9999: nnedi3 is an intra-field only deinterlacer
-media-plugins/vapoursynth-plugins-meta 1: VapourSynth plugins meta package.
+media-plugins/vapoursynth-plugins-meta 2: VapourSynth plugins meta package.
 media-plugins/vapoursynth-reduceflicker 9999: VapourSynth port of ReduceFlicker
 media-plugins/vapoursynth-removedirt 0.20131120 9999: Port of RemoveDirt to VapourSynth
 media-plugins/vapoursynth-retinex 3 9999: Retinex plugin for VapourSynth
@@ -62,6 +62,7 @@ media-plugins/vapoursynth-videoscope 1.0 9999: Videoscope plugin for VapourSynth
 media-plugins/vapoursynth-vs-maskdetail 0.20141221 9999: A function to use invks/debilinear
 media-plugins/vapoursynth-vsimagereader 0.2.1 9999: Image reader plugin for VapourSynth
 media-plugins/vapoursynth-vsrawsource 0.3.1.20130731 9999: Raw format video reader for VapourSynth
+media-plugins/vapoursynth-vstaambk 0.3.2 9999: A ported AA-script from Avisynth
 media-plugins/vapoursynth-wwxd 1.0 9999: Xvid-like scene change detection for VapourSynth
 media-plugins/vapoursynth-yadifmod 8 9999: Modified version of Fizick's avisynth filter port of yadif from mplayer
 media-video/mpv 0.13.0-r1 9999-r1: Media player based on MPlayer and mplayer2
