@@ -11,7 +11,7 @@ inherit python-utils-r1 python-single-r1 git-r3
 DESCRIPTION="A function to use invks/debilinear"
 HOMEPAGE="http://forum.doom9.org/showthread.php?t=171546"
 EGIT_REPO_URI="https://github.com/MonoS/VS-MaskDetail.git"
-EGIT_COMMIT="2af7b11dff9b1ef4a686829abc568e8dac4282b9"
+EGIT_COMMIT="1f927c842820ec61583c9b87ba3c169b15e09c4c"
 
 LICENSE=""
 SLOT="0"
