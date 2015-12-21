@@ -60,7 +60,7 @@ media-plugins/vapoursynth-vcmod 20141110: vcmod is a plugin for vapoursynth with
 media-plugins/vapoursynth-vcmove 20141110: This plugin moves pixels as per requirement. Useful for correcting certain distortions or tilt or for transitions
 media-plugins/vapoursynth-vctrans 20150910: vctrans a plugin for transitions
 media-plugins/vapoursynth-videoscope 1.0 9999: Videoscope plugin for VapourSynth
-media-plugins/vapoursynth-vs-maskdetail 0.20141221 9999: A function to use invks/debilinear
+media-plugins/vapoursynth-vs-maskdetail 0.20151220 9999: A function to use invks/debilinear
 media-plugins/vapoursynth-vsimagereader 0.2.1 9999: Image reader plugin for VapourSynth
 media-plugins/vapoursynth-vsrawsource 0.3.1.20130731 9999: Raw format video reader for VapourSynth
 media-plugins/vapoursynth-vstaambk 0.3.2 9999: A ported AA-script from Avisynth
