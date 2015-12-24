@@ -16,7 +16,7 @@ media-plugins/vapoursynth-d2vsource 7 9999: D2V Source plugin for VapourSynth
 media-plugins/vapoursynth-damb 3 9999: Basic audio support for VapourSynth
 media-plugins/vapoursynth-dctfilter 2 9999: Performs DCT on 8x8 blocks of source clip, applies modification to it, then performs IDCT
 media-plugins/vapoursynth-deblock 4 9999: It does a deblocking of the picture, using the deblocking filter of h264
-media-plugins/vapoursynth-delogo 0.3 9999: DeLogo Plugin Ported for VapourSynth
+media-plugins/vapoursynth-delogo 0.4 9999: DeLogo Plugin Ported for VapourSynth
 media-plugins/vapoursynth-dfttest 3 9999: 2D/3D frequency domain denoiser
 media-plugins/vapoursynth-eedi2 5 9999: EEDI2 is an vertical resizer intended for edge-directed interpolation for deinterlacing
 media-plugins/vapoursynth-ffmpegsource 2.20 9999: A libav/ffmpeg based source library for easy frame accurate access
