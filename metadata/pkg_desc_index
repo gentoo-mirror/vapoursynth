@@ -1,5 +1,4 @@
 app-editors/vapoursynth-editor 5 9999: VapourSynth Editor
-app-editors/wobbly 1 9999: IVTC assistant for VapourSynth, similar to Yatta
 media-libs/l-smash 2.9.1 9999: Media library
 media-libs/vapoursynth 29-r1 9999: VapourSynth is an library for video manipulation.
 media-libs/zimg 2.0.2 9999: Scaling, colorspace conversion, and dithering library
@@ -66,4 +65,6 @@ media-plugins/vapoursynth-vsrawsource 0.3.1.20130731 9999: Raw format video read
 media-plugins/vapoursynth-vstaambk 0.4.0 9999: A ported AA-script from Avisynth
 media-plugins/vapoursynth-wwxd 1.0 9999: Xvid-like scene change detection for VapourSynth
 media-plugins/vapoursynth-yadifmod 8 9999: Modified version of Fizick's avisynth filter port of yadif from mplayer
+media-video/d2vwitch 9999: Cross-platform D2V creator
 media-video/mpv 0.13.0-r1 9999-r1: Media player based on MPlayer and mplayer2
+media-video/wobbly 1 9999: IVTC assistant for VapourSynth, similar to Yatta
