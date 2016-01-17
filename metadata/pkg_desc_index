@@ -65,6 +65,6 @@ media-plugins/vapoursynth-vsrawsource 0.3.1.20130731 9999: Raw format video read
 media-plugins/vapoursynth-vstaambk 0.4.0 9999: A ported AA-script from Avisynth
 media-plugins/vapoursynth-wwxd 1.0 9999: Xvid-like scene change detection for VapourSynth
 media-plugins/vapoursynth-yadifmod 8 9999: Modified version of Fizick's avisynth filter port of yadif from mplayer
-media-video/d2vwitch 9999: Cross-platform D2V creator
+media-video/d2vwitch 1 9999: Cross-platform D2V creator
 media-video/mpv 0.13.0-r1 9999-r1: Media player based on MPlayer and mplayer2
 media-video/wobbly 1 9999: IVTC assistant for VapourSynth, similar to Yatta
