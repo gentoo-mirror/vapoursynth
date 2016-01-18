@@ -36,7 +36,7 @@ media-plugins/vapoursynth-knlmeanscl 0.6.11 0.7.3 9999: An optimized pixelwise O
 media-plugins/vapoursynth-l-smash-works 0.20150928 9999: Works based on L-SMASH project
 media-plugins/vapoursynth-msmoosh 1.1 9999: MSmooth is a spatial smoother that doesn't touch edges, MSharpen tries to sharpen only edges
 media-plugins/vapoursynth-mvsfunc 5-r1 6: mawen1250's VapourSynth functions
-media-plugins/vapoursynth-mvtools 9 9999: MVTools is a set of filters for motion estimation and compensation
+media-plugins/vapoursynth-mvtools 10 9999: MVTools is a set of filters for motion estimation and compensation
 media-plugins/vapoursynth-nnedi3 7 9999: nnedi3 is an intra-field only deinterlacer
 media-plugins/vapoursynth-plugins-meta 3: VapourSynth plugins meta package.
 media-plugins/vapoursynth-reduceflicker 9999: VapourSynth port of ReduceFlicker
