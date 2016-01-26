@@ -2,38 +2,3 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-media-libs/vapoursynth:assvapour - Enable SSA/ASS subtitles plugin using media-libs/libass
-media-libs/vapoursynth:debug - Enable compilation options required for debugging
-media-libs/vapoursynth:doc - Install project documentation
-media-libs/vapoursynth:eedi3 - Enable slow edge directed interpolation filterplugin
-media-libs/vapoursynth:guard - Adds 32 bytes on the left and the right sides of each frame, fills them with a certain value, and checks their integrity after each filter. It can be used to detect buggy filters that write a little outside the frame
-media-libs/vapoursynth:imagemagick - Enable Image Reader/Writer plugin using media-gfx/imagemagick
-media-libs/vapoursynth:morpho - Enable simple morphological filters plugin
-media-libs/vapoursynth:ocr - Enable video frames Optical Character Recognition plugin using app-text/tesseract
-media-libs/vapoursynth:removegrain - Enable Remove Grain plugin
-media-libs/vapoursynth:shared - Build shared libraries
-media-libs/vapoursynth:static - Build static libraries
-media-libs/vapoursynth:vinverse - Enable residual combing removal plugin
-media-libs/vapoursynth:vivtc - Enable Inverse Telecine and Decimation plugin
-media-libs/vapoursynth:vspipe - Enable support for piping output
-media-libs/vapoursynth:x86-asm - Enable assembler code for x86 CPUs
-media-video/mpv:bluray - Enable playback of Blu-ray filesystems
-media-video/mpv:bs2b - Enable Bauer stereophonic-to-binaural headphone filter
-media-video/mpv:cdio - Enable CDDA support via dev-libs/libcdio-paranoia
-media-video/mpv:cli - Build mpv CLI player
-media-video/mpv:doc-pdf - Build documentation in pdf format
-media-video/mpv:dvdnav - Enable support for DVD navigation using media-libs/libdvdnav
-media-video/mpv:egl - Enable EGL backend for X11 OpenGL video output (experimental)
-media-video/mpv:enca - Enable support for charset discovery and conversion using app-i18n/enca
-media-video/mpv:jpeg - Enable support for saving screenshots to JPEG format
-media-video/mpv:libguess - Enable support for charset discovery and conversion using app-i18n/libguess
-media-video/mpv:libmpv - Build mpv shared library
-media-video/mpv:lua - Enable Lua scripting, OSC (On Screen Controller) GUI and net-misc/youtube-dl hook-script
-media-video/mpv:luajit - Use dev-lang/luajit instead of dev-lang/lua
-media-video/mpv:mpg123 - Enable support for mp3 decoding via media-sound/mpg123 instead of relying on ffmpeg support
-media-video/mpv:mpvhq - Use https://github.com/haasn/mpvhq git repository instead of the official one, use at your own risk
-media-video/mpv:postproc - Enable image post-processing via libpostproc
-media-video/mpv:pvr - Enable Video4Linux2 MPEG PVR
-media-video/mpv:sdl - Enable media-libs/libsdl2 based video and audio outputs
-media-video/mpv:vapoursynth - Enable vapoursynth scripting via media-libs/vapoursynth
-media-video/mpv:vf-dlopen - Install additional video filters for using with -vf dlopen
