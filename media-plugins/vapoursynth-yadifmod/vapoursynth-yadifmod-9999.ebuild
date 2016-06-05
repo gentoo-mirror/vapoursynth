@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -32,10 +32,9 @@ src_configure() {
 	sed -i -e "s:CXX=\"g++\":CXX=\"$(tc-getCXX)\":" configure || die
 	sed -i -e "s:LD=\"g++\":LD=\"$(tc-getCXX)\":" configure || die
 	chmod +x configure
-	# We need -mno-xop here to fix compilation on AMD
 	./configure \
 		--install="${ED}/usr/$(get_libdir)/vapoursynth/" \
-		--extra-cxxflags="${CXXFLAGS} -mno-xop" --extra-ldflags="${LDFLAGS}" || die "configure failed"
+		--extra-cxxflags="${CXXFLAGS}" --extra-ldflags="${LDFLAGS}" || die "configure failed"
 }
 
 src_install() {

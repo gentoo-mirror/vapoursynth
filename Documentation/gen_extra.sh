@@ -14,12 +14,14 @@ setsfile="${root}/sets/vapoursynth-plugins"
 for category in ${pack_cat}; do
 	for package in $( ls -1 "${root}/${category}" ); do
 		echo "${category}/${package} ~*" >> ${keywordsfile}
-		echo "=${category}/${package}-9999 **" >> ${unmaskfile}
+		echo "~${category}/${package}-9999 **" >> ${unmaskfile}
 	done
 done
 
 for category in ${set_cat}; do
 	for package in $( ls -1 "${root}/${category}" ); do
-		echo "${category}/${package}" >> ${setsfile}
+		if [ "${package}" != "vapoursynth-plugins-meta" ]; then
+			echo "${category}/${package}" >> ${setsfile}
+        fi
 	done
 done
