@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install unpack
+DEPEND=media-libs/vapoursynth
+DESCRIPTION=It does a deblocking of the picture, using the deblocking filter of h264
+EAPI=5
+HOMEPAGE=https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Deblock
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/vapoursynth
+SLOT=0
+SRC_URI=https://github.com/HomeOfVapourSynthEvolution/vapoursynth-deblock/archive/r4.tar.gz -> vapoursynth-deblock-4.tar.gz
+_eclass_exported_funcs=src_unpack:vcs-snapshot src_configure:- src_compile:- src_install:-
+_eclasses_=multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	vcs-snapshot	b45be87e7012be0af8424e8a5644da1d
+_md5_=8de513a013697141aa135684b0188d1a

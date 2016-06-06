@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=media-libs/vapoursynth app-arch/p7zip
+DESCRIPTION=This plugin moves pixels as per requirement. Useful for correcting certain distortions or tilt or for transitions
+EAPI=5
+HOMEPAGE=http://forum.doom9.org/showthread.php?t=171414
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=media-libs/vapoursynth
+SLOT=0
+SRC_URI=https://dl.dropboxusercontent.com/u/36232595/vapoursynth/vapoursynth-vcmove-20141110.7z
+_eclass_exported_funcs=src_prepare:- src_compile:- src_install:-
+_eclasses_=multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=9dff313b94944a9a9e67cbc62b2db3b9

@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile configure install unpack
+DEPEND=media-libs/vapoursynth >=dev-vcs/git-1.8.2.1
+DESCRIPTION=Performs DCT on 8x8 blocks of source clip, applies modification to it, then performs IDCT
+EAPI=5
+HOMEPAGE=https://bitbucket.org/mystery_keeper/vapoursynth-dctfilter
+LICENSE=MIT
+RDEPEND=media-libs/vapoursynth
+SLOT=0
+_eclass_exported_funcs=src_unpack:git-r3 src_configure:- src_compile:- src_install:-
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	git-r3	00f60a84fc7b499c99edfe99caea9f95	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=9fa79bea0b309c1639ae8c74ac85640d

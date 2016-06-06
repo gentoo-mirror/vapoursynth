@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure install unpack
+DEPEND=media-libs/vapoursynth >=dev-vcs/git-1.8.2.1
+DESCRIPTION=A deinterlace / antialiasing plugin for VapourSynth
+EAPI=5
+HOMEPAGE=https://github.com/HomeOfVapourSynthEvolution/VapourSynth-SangNomMod
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=media-libs/vapoursynth
+SLOT=0
+_eclass_exported_funcs=src_unpack:git-r3 src_configure:- src_install:-
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	git-r3	00f60a84fc7b499c99edfe99caea9f95	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=4d873c77707c4cc7b26013aa82dbcd7d

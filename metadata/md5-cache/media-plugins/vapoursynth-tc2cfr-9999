@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare unpack
+DEPEND=media-libs/vapoursynth >=dev-vcs/git-1.8.2.1
+DESCRIPTION=Plugin that can read a timecode file and convert a given video clip into one with constant framerate
+EAPI=5
+HOMEPAGE=https://github.com/gnaggnoyil/tc2cfr
+IUSE=doc
+LICENSE=BSD-2
+RDEPEND=media-libs/vapoursynth
+SLOT=0
+_eclass_exported_funcs=src_unpack:git-r3 src_prepare:- src_compile:- src_install:-
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	git-r3	00f60a84fc7b499c99edfe99caea9f95	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=8b7e01bb32dbdf3aa08ade711dcfb896

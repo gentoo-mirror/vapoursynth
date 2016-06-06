@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=media-libs/vapoursynth app-arch/p7zip
+DESCRIPTION=vcmod is a plugin for vapoursynth with several functions which essentially operate on pixel values and modify it as per some criteria. Useful for denoising
+EAPI=5
+HOMEPAGE=http://forum.doom9.org/showthread.php?t=171412&highlight=vcmod
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=media-libs/vapoursynth
+SLOT=0
+SRC_URI=https://dl.dropboxusercontent.com/u/36232595/vapoursynth/vapoursynth-vcmod-20160221.7z
+_eclass_exported_funcs=src_prepare:- src_compile:- src_install:-
+_eclasses_=multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=c96010738dd0cb0c9ff0bbde69763fc8
