@@ -74,4 +74,4 @@ media-plugins/vapoursynth-wwxd 1.0 9999: Xvid-like scene change detection for Va
 media-plugins/vapoursynth-yadifmod 9-r1 9999: Modified version of Fizick's avisynth filter port of yadif from mplayer
 media-video/d2vwitch 1 9999: Cross-platform D2V creator
 media-video/mpv 0.16.0-r9 9999-r9: Media player based on MPlayer and mplayer2
-media-video/wobbly 2 3 9999: IVTC assistant for VapourSynth, similar to Yatta
+media-video/wobbly 2 3 4 9999: IVTC assistant for VapourSynth, similar to Yatta
