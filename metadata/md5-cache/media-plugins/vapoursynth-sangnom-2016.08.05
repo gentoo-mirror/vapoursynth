@@ -11,4 +11,4 @@ REQUIRED_USE=cpu_flags_x86_sse4_1
 SLOT=0
 _eclass_exported_funcs=src_unpack:mercurial src_configure:- src_compile:- src_install:-
 _eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	mercurial	789038b352d112bcff9dff083aa40d8d	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441
-_md5_=4d65d7133fce38c10919f61cad871fcd
+_md5_=f49be4d88650ce46454ab32f15da68d7
