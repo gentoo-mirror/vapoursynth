@@ -43,12 +43,11 @@ media-plugins/vapoursynth-mvtools 11 12-r1 13 14 15 16 9999: MVTools is a set of
 media-plugins/vapoursynth-mvtools-sf 1 2 3 5 9999: MVTools is a set of filters for motion estimation and compensation
 media-plugins/vapoursynth-nnedi3 8 9999: nnedi3 is an intra-field only deinterlacer
 media-plugins/vapoursynth-oyster 2.1 2.2 3 9999: A top class de-noising filter against compression artifacts
-media-plugins/vapoursynth-plugins-meta 11: VapourSynth plugins meta package.
+media-plugins/vapoursynth-plugins-meta 11 12: VapourSynth plugins meta package.
 media-plugins/vapoursynth-reduceflicker 9999: VapourSynth port of ReduceFlicker
 media-plugins/vapoursynth-removedirt 0.20131120 9999: Port of RemoveDirt to VapourSynth
 media-plugins/vapoursynth-retinex 3 9999: Retinex plugin for VapourSynth
-media-plugins/vapoursynth-sangnom 2016.08.05 9999: A rewrite version of AVISynth SangNom2
-media-plugins/vapoursynth-sangnommod 0.1.20150109 9999: A deinterlace / antialiasing plugin for VapourSynth
+media-plugins/vapoursynth-sangnom 2016.08.06 9999: A rewrite version of AVISynth SangNom2
 media-plugins/vapoursynth-scenechange 0.2.2: A scene change detection plugin for VapourSynth plus temporalsoften2 that makes use of it
 media-plugins/vapoursynth-scxvid 1 9999: Scene change detection plugin for VapourSynth, using XviD
 media-plugins/vapoursynth-ssiq 1.0 9999: SSIQ plugin for VapourSynth
