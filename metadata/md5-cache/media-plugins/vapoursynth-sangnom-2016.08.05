@@ -1,14 +1,14 @@
 DEFINED_PHASES=compile configure install unpack
-DEPEND=media-libs/vapoursynth dev-vcs/mercurial
+DEPEND=!media-plugins/vapoursynth-sangnommod media-libs/vapoursynth dev-vcs/mercurial
 DESCRIPTION=A rewrite version of AVISynth SangNom2
 EAPI=6
 HOMEPAGE=https://bitbucket.org/James1201/vapoursynth-sangnom
 IUSE=doc cpu_flags_x86_sse4_1
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-RDEPEND=media-libs/vapoursynth
+RDEPEND=!media-plugins/vapoursynth-sangnommod media-libs/vapoursynth
 REQUIRED_USE=cpu_flags_x86_sse4_1
 SLOT=0
 _eclass_exported_funcs=src_unpack:mercurial src_configure:- src_compile:- src_install:-
 _eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	mercurial	789038b352d112bcff9dff083aa40d8d	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441
-_md5_=f49be4d88650ce46454ab32f15da68d7
+_md5_=7e7361b9ea3a8507a598c74dc69f4438
