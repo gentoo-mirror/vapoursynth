@@ -16,6 +16,7 @@ media-plugins/vapoursynth-d2vsource 1.0 9999: D2V Source plugin for VapourSynth
 media-plugins/vapoursynth-damb 3 9999: Basic audio support for VapourSynth
 media-plugins/vapoursynth-dctfilter 2 9999: Performs DCT on 8x8 blocks of source clip, applies modification to it, then performs IDCT
 media-plugins/vapoursynth-deblock 4 9999: It does a deblocking of the picture, using the deblocking filter of h264
+media-plugins/vapoursynth-degrainmedian 1 9999: Spatio-temporal limited median denoiser
 media-plugins/vapoursynth-delogo 0.4 9999: DeLogo Plugin Ported for VapourSynth
 media-plugins/vapoursynth-depan 1 9999: VapourSynth port of DePan
 media-plugins/vapoursynth-dfttest 3-r1 9999: 2D/3D frequency domain denoiser
@@ -43,7 +44,7 @@ media-plugins/vapoursynth-mvtools 11 12-r1 13 14 15 16 9999: MVTools is a set of
 media-plugins/vapoursynth-mvtools-sf 1 2 3 5 9999: MVTools is a set of filters for motion estimation and compensation
 media-plugins/vapoursynth-nnedi3 8 9999: nnedi3 is an intra-field only deinterlacer
 media-plugins/vapoursynth-oyster 2.1 2.2 3 9999: A top class de-noising filter against compression artifacts
-media-plugins/vapoursynth-plugins-meta 11 12: VapourSynth plugins meta package.
+media-plugins/vapoursynth-plugins-meta 11 12 13: VapourSynth plugins meta package.
 media-plugins/vapoursynth-reduceflicker 9999: VapourSynth port of ReduceFlicker
 media-plugins/vapoursynth-removedirt 0.20131120 9999: Port of RemoveDirt to VapourSynth
 media-plugins/vapoursynth-retinex 3 9999: Retinex plugin for VapourSynth
