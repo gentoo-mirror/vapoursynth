@@ -1,7 +1,7 @@
 app-editors/vapoursynth-editor 6 8 9999: VapourSynth Editor
 media-libs/l-smash 2.9.1 9999: Media library
 media-libs/vapoursynth 30 31 32 9999: VapourSynth is an library for video manipulation.
-media-libs/zimg 2.0.4 2.1-r1 2.2 9999: Scaling, colorspace conversion, and dithering library
+media-libs/zimg 2.0.4 2.1-r1 2.2 2.2.1 9999: Scaling, colorspace conversion, and dithering library
 media-plugins/vapoursynth-addgrain 5 9999: AddGrain generates film like grain or other effects (like rain) by adding random noise to the video
 media-plugins/vapoursynth-adjust 0.20150322 9999: This is a very basic port of the built-in Avisynth filter Tweak
 media-plugins/vapoursynth-awarpsharp2 1 2 9999: Sharpens by wrapping
@@ -27,7 +27,7 @@ media-plugins/vapoursynth-fieldhint 3 9999: Fieldhint plugin for VapourSynth
 media-plugins/vapoursynth-fillborders 1.0 9999: VapourSynth filter that fills the borders of a clip, without changing the clip's dimensions.
 media-plugins/vapoursynth-finesharp 2016.01.09 2016.08.21 9999: Small and relatively fast realtime-sharpening function for VapourSynth
 media-plugins/vapoursynth-flash3kyuu_deband 2.0.0.20151127 9999: A deband library and filter for VapourSynth
-media-plugins/vapoursynth-fluxsmooth 1.0 9999: A filter for smoothing of fluctuations
+media-plugins/vapoursynth-fluxsmooth 1.0 2 9999: A filter for smoothing of fluctuations
 media-plugins/vapoursynth-fmtconv 20 9999: A format-conversion plug-in for the Vapoursynth video processing engine
 media-plugins/vapoursynth-fmtcwrap 0.20141010 9999: A convenience wrapper for fmtconv
 media-plugins/vapoursynth-genericfilters 0.20150505 9999: Common image-processing filters for vapoursynth
