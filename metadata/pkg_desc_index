@@ -67,7 +67,7 @@ media-plugins/vapoursynth-vcmod 20141110 20160221: vcmod is a plugin for vapours
 media-plugins/vapoursynth-vcmove 20141110 20160409: This plugin moves pixels as per requirement. Useful for correcting certain distortions or tilt or for transitions
 media-plugins/vapoursynth-vctrans 20150910: vctrans a plugin for transitions
 media-plugins/vapoursynth-videoscope 1.0 9999: Videoscope plugin for VapourSynth
-media-plugins/vapoursynth-vine 3 9999: A collection of a non-local error based de-halo filter and a set of morphological filters
+media-plugins/vapoursynth-vine 3 4 9999: A collection of a non-local error based de-halo filter and a set of morphological filters
 media-plugins/vapoursynth-vs-maskdetail 0.20151220 9999: A function to use invks/debilinear
 media-plugins/vapoursynth-vsimagereader 0.2.1 9999: Image reader plugin for VapourSynth
 media-plugins/vapoursynth-vsrawsource 0.3.1.20130731 9999: Raw format video reader for VapourSynth
