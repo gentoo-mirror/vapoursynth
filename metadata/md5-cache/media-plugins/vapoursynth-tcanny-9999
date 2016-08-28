@@ -1,11 +1,11 @@
-DEFINED_PHASES=configure install unpack
+DEFINED_PHASES=configure prepare unpack
 DEPEND=media-libs/vapoursynth >=dev-vcs/git-1.8.2.1
 DESCRIPTION=Builds an edge map using canny edge detection
-EAPI=5
+EAPI=6
 HOMEPAGE=https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TCanny
 LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth
 SLOT=0
-_eclass_exported_funcs=src_unpack:git-r3 src_configure:- src_install:-
+_eclass_exported_funcs=src_unpack:git-r3 src_prepare:- src_configure:-
 _eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	git-r3	00f60a84fc7b499c99edfe99caea9f95	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
-_md5_=9ccf253a8eed9d400708564e7fb2a26d
+_md5_=9843b5053116d7ecf6d085faa9b958c3
