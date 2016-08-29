@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure prepare unpack
+DEPEND=media-libs/vapoursynth dev-vcs/mercurial
+DESCRIPTION=A rewrite version of AVISynth SangNom2
+EAPI=6
+HOMEPAGE=https://bitbucket.org/James1201/vapoursynth-sangnom
+IUSE=doc cpu_flags_x86_sse2
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=media-libs/vapoursynth
+SLOT=0
+_eclass_exported_funcs=src_unpack:mercurial src_prepare:- src_configure:-
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	mercurial	789038b352d112bcff9dff083aa40d8d	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_md5_=2c60cb749ef34572d95ef67914c1800f

@@ -48,7 +48,7 @@ media-plugins/vapoursynth-plugins-meta 13 14: VapourSynth plugins meta package.
 media-plugins/vapoursynth-reduceflicker 9999: VapourSynth port of ReduceFlicker
 media-plugins/vapoursynth-removedirt 0.20131120 9999: Port of RemoveDirt to VapourSynth
 media-plugins/vapoursynth-retinex 3 9999: Retinex plugin for VapourSynth
-media-plugins/vapoursynth-sangnom 2016.08.06 9999: A rewrite version of AVISynth SangNom2
+media-plugins/vapoursynth-sangnom 2016.08.06 2016.08.29-r1 9999: A rewrite version of AVISynth SangNom2
 media-plugins/vapoursynth-scenechange 0.2.2: A scene change detection plugin for VapourSynth plus temporalsoften2 that makes use of it
 media-plugins/vapoursynth-scxvid 1 9999: Scene change detection plugin for VapourSynth, using XviD
 media-plugins/vapoursynth-ssiq 1.0 9999: SSIQ plugin for VapourSynth
