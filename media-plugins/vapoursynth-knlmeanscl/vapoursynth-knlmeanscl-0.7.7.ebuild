@@ -65,6 +65,6 @@ pkg_postinst() {
 }
 
 src_install() {
-	emake install
-	dodoc DOC.md
+	exeinto "/usr/$(get_libdir)/vapoursynth/"
+	doexe libknlmeanscl.so
 }
