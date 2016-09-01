@@ -44,7 +44,8 @@ media-plugins/vapoursynth-mvtools 11 12-r1 13 14 15 16 9999: MVTools is a set of
 media-plugins/vapoursynth-mvtools-sf 1 2 3 5 9999: MVTools is a set of filters for motion estimation and compensation
 media-plugins/vapoursynth-nnedi3 8 9 10 9999: nnedi3 is an intra-field only deinterlacer
 media-plugins/vapoursynth-oyster 2.1 2.2 3 4 9999: A top class de-noising filter against compression artifacts
-media-plugins/vapoursynth-plugins-meta 13 14: VapourSynth plugins meta package.
+media-plugins/vapoursynth-plugins-meta 13 14 15 16: VapourSynth plugins meta package.
+media-plugins/vapoursynth-plum 2016.08.21 9999: A sharpening/blind deconvolution suite with certain advanced features like Non-Local error, Block Matching, etc...
 media-plugins/vapoursynth-reduceflicker 9999: VapourSynth port of ReduceFlicker
 media-plugins/vapoursynth-removedirt 0.20131120 9999: Port of RemoveDirt to VapourSynth
 media-plugins/vapoursynth-retinex 3 9999: Retinex plugin for VapourSynth
@@ -63,6 +64,7 @@ media-plugins/vapoursynth-temporalsoften 1.0 9999: TemporalSoften plugin for Vap
 media-plugins/vapoursynth-tnlmeans 0.20150225 9999: VapourSynth port of TNLMeans
 media-plugins/vapoursynth-vaguedenoiser 2 9999: A wavelet based denoiser
 media-plugins/vapoursynth-vautodeint 0.0.1 9999: Auto interlace detection and deinterlace vapoursynth python script
+media-plugins/vapoursynth-vcfreq 2016.08.17: A plugin that operates in frequency domain to filter out certain types of regular noises
 media-plugins/vapoursynth-vcmod 20141110 20160221: vcmod is a plugin for vapoursynth with several functions which essentially operate on pixel values and modify it as per some criteria. Useful for denoising
 media-plugins/vapoursynth-vcmove 20141110 20160409: This plugin moves pixels as per requirement. Useful for correcting certain distortions or tilt or for transitions
 media-plugins/vapoursynth-vctrans 20150910: vctrans a plugin for transitions
