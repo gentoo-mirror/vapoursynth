@@ -9,5 +9,5 @@ RDEPEND=media-libs/vapoursynth
 SLOT=0
 SRC_URI=https://dl.dropboxusercontent.com/u/36232595/vapoursynth/vapoursynth-vcmod-20141110.7z
 _eclass_exported_funcs=src_prepare:- src_compile:- src_install:-
-_eclasses_=multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_eclasses_=multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
 _md5_=c96010738dd0cb0c9ff0bbde69763fc8
