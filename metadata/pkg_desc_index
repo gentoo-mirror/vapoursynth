@@ -41,7 +41,7 @@ media-plugins/vapoursynth-minsrp 2 3 4-r1 9999: simple blurring/sharpening filte
 media-plugins/vapoursynth-msmoosh 1.1 9999: MSmooth is a spatial smoother that doesn't touch edges, MSharpen tries to sharpen only edges
 media-plugins/vapoursynth-mvsfunc 5-r1 6-r1 7 8 9999: mawen1250's VapourSynth functions
 media-plugins/vapoursynth-mvtools 11 12-r1 13 14 15 16 9999: MVTools is a set of filters for motion estimation and compensation
-media-plugins/vapoursynth-mvtools-sf 1 2 3 5 9999: MVTools is a set of filters for motion estimation and compensation
+media-plugins/vapoursynth-mvtools-sf 5 9999: MVTools is a set of filters for motion estimation and compensation
 media-plugins/vapoursynth-nnedi3 8 9 10 9999: nnedi3 is an intra-field only deinterlacer
 media-plugins/vapoursynth-oyster 2.1 2.2 3 4 9999: A top class de-noising filter against compression artifacts
 media-plugins/vapoursynth-plugins-meta 13 14 15 16: VapourSynth plugins meta package.
