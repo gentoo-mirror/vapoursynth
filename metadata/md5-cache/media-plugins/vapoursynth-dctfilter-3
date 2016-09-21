@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install unpack
+DEPEND=media-libs/vapoursynth
+DESCRIPTION=Performs DCT on 8x8 blocks of source clip, applies modification to it, then performs IDCT
+EAPI=5
+HOMEPAGE=https://bitbucket.org/mystery_keeper/vapoursynth-dctfilter
+LICENSE=MIT
+RDEPEND=media-libs/vapoursynth
+SLOT=0
+SRC_URI=https://bitbucket.org/mystery_keeper/vapoursynth-dctfilter/get/r3.tar.bz2 -> vapoursynth-dctfilter-3.tar.bz2
+_eclass_exported_funcs=src_unpack:vcs-snapshot src_configure:- src_compile:- src_install:-
+_eclasses_=multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	vcs-snapshot	2b65ecb2d0f91e4322c2ac8d673993bd
+_md5_=9fa79bea0b309c1639ae8c74ac85640d
