@@ -75,7 +75,7 @@ media-plugins/vapoursynth-vine 3 4 5 9999: A collection of a non-local error bas
 media-plugins/vapoursynth-vs-maskdetail 0.20151220 9999: A function to use invks/debilinear
 media-plugins/vapoursynth-vsimagereader 0.2.1 9999: Image reader plugin for VapourSynth
 media-plugins/vapoursynth-vsrawsource 0.3.1.20130731 9999: Raw format video reader for VapourSynth
-media-plugins/vapoursynth-vstaambk 0.4.1-r1 9999-r1: A ported AA-script from Avisynth
+media-plugins/vapoursynth-vstaambk 0.4.1-r1 0.6.0 9999-r1: A ported AA-script from Avisynth
 media-plugins/vapoursynth-w3fdif 1 9999: VapourSynth port of W3FDIF
 media-plugins/vapoursynth-wwxd 1.0 9999: Xvid-like scene change detection for VapourSynth
 media-plugins/vapoursynth-yadifmod 9-r1 9999: Modified version of Fizick's avisynth filter port of yadif from mplayer
