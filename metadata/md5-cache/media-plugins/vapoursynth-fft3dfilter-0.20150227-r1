@@ -1,11 +1,12 @@
 DEFINED_PHASES=configure prepare unpack
 DEPEND=media-libs/vapoursynth sci-libs/fftw:3.0[threads] >=dev-vcs/git-1.8.2.1
 DESCRIPTION=VapourSynth port of FFT3DFilter
-EAPI=5
+EAPI=6
 HOMEPAGE=https://github.com/VFR-maniac/VapourSynth-FFT3DFilter
+KEYWORDS=~x86 ~amd64
 LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth sci-libs/fftw:3.0[threads]
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-r3 src_prepare:- src_configure:-
 _eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	git-r3	00f60a84fc7b499c99edfe99caea9f95	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
-_md5_=74dcf4be69f2f76c344807ef2797a102
+_md5_=2d54190e0f83577171f9f6cd398cd70e
