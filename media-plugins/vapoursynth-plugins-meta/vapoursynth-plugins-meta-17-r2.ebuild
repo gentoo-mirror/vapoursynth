@@ -38,7 +38,6 @@ IUSE="
 	vapoursynth_plugins_flash3kyuu_deband
 	vapoursynth_plugins_fluxsmooth
 	vapoursynth_plugins_fmtconv
-	vapoursynth_plugins_fmtcwrap
 	vapoursynth_plugins_genericfilters
 	vapoursynth_plugins_havsfunc
 	vapoursynth_plugins_histogram
@@ -62,7 +61,6 @@ IUSE="
 	vapoursynth_plugins_scenechange
 	vapoursynth_plugins_scxvid
 	vapoursynth_plugins_ssiq
-	vapoursynth_plugins_subtitle
 	vapoursynth_plugins_surfaceblur
 	vapoursynth_plugins_tc2cfr
 	vapoursynth_plugins_tcanny
@@ -117,7 +115,6 @@ DEPEND="${RDEPEND}
 	vapoursynth_plugins_flash3kyuu_deband? ( media-plugins/vapoursynth-flash3kyuu_deband )
 	vapoursynth_plugins_fluxsmooth? ( media-plugins/vapoursynth-fluxsmooth )
 	vapoursynth_plugins_fmtconv? ( media-plugins/vapoursynth-fmtconv )
-	vapoursynth_plugins_fmtcwrap? ( media-plugins/vapoursynth-fmtcwrap )
 	vapoursynth_plugins_genericfilters? ( media-plugins/vapoursynth-genericfilters )
 	vapoursynth_plugins_havsfunc? ( media-plugins/vapoursynth-havsfunc )
 	vapoursynth_plugins_histogram? ( media-plugins/vapoursynth-histogram )
@@ -141,7 +138,6 @@ DEPEND="${RDEPEND}
 	vapoursynth_plugins_scenechange? ( media-plugins/vapoursynth-scenechange )
 	vapoursynth_plugins_scxvid? ( media-plugins/vapoursynth-scxvid )
 	vapoursynth_plugins_ssiq? ( media-plugins/vapoursynth-ssiq )
-	vapoursynth_plugins_subtitle? ( media-plugins/vapoursynth-subtitle )
 	vapoursynth_plugins_surfaceblur? ( media-plugins/vapoursynth-surfaceblur )
 	vapoursynth_plugins_tc2cfr? ( media-plugins/vapoursynth-tc2cfr )
 	vapoursynth_plugins_tcanny? ( media-plugins/vapoursynth-tcanny )
