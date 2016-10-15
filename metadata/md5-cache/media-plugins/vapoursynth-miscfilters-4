@@ -1,12 +1,13 @@
 DEFINED_PHASES=compile install
 DEPEND=media-libs/vapoursynth
-DESCRIPTION=Miscellaneous vapoursynth filters to test
+DESCRIPTION=Miscellaneous vapoursynth filters
 EAPI=6
 HOMEPAGE=http://forum.doom9.org/showthread.php?t=173871
 KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1
 RDEPEND=media-libs/vapoursynth
 SLOT=0
-SRC_URI=https://dl.dropboxusercontent.com/u/36232595/vapoursynth/vapoursynth-miscfilters-3.tar.gz
+SRC_URI=https://dl.dropboxusercontent.com/u/36232595/vapoursynth/vapoursynth-miscfilters-4.tar.gz
 _eclass_exported_funcs=src_compile:- src_install:-
 _eclasses_=multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
-_md5_=3f960d631ea01cd927c48f98ef956388
+_md5_=aad599aedecd69b099d965c2ed7f1fc0
