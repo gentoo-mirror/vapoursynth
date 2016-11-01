@@ -14,7 +14,7 @@ media-plugins/vapoursynth-ctmf 2 9999: Median filter for VapourSynth (the same a
 media-plugins/vapoursynth-d2vsource 1.0 9999: D2V Source plugin for VapourSynth
 media-plugins/vapoursynth-damb 3 9999: Basic audio support for VapourSynth
 media-plugins/vapoursynth-dctfilter 3 9999: Performs DCT on 8x8 blocks of source clip, applies modification to it, then performs IDCT
-media-plugins/vapoursynth-deblock 4 9999: It does a deblocking of the picture, using the deblocking filter of h264
+media-plugins/vapoursynth-deblock 5 9999: It does a deblocking of the picture, using the deblocking filter of h264
 media-plugins/vapoursynth-degrainmedian 1 9999: Spatio-temporal limited median denoiser
 media-plugins/vapoursynth-delogo 0.4 9999: DeLogo Plugin Ported for VapourSynth
 media-plugins/vapoursynth-depan 1 9999: VapourSynth port of DePan
