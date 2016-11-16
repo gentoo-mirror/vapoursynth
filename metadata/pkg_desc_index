@@ -1,4 +1,4 @@
-app-editors/vapoursynth-editor 9 9999: VapourSynth Editor
+app-editors/vapoursynth-editor 11 9999: VapourSynth Editor
 media-libs/l-smash 2.9.1 9999: Media library
 media-libs/vapoursynth 35 9999: VapourSynth is an library for video manipulation.
 media-libs/waifu2x-converter-cpp 2016.06.23 9999: Image Super-Resolution for anime-style-art using Deep Convolutional Neural Networks implementation in c++ using opencv
