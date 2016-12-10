@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=virtual/ffmpeg-9 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEPEND=>=virtual/ffmpeg-9 dev-qt/qtwidgets media-libs/vapoursynth !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
 DESCRIPTION=Cross-platform D2V creator
 EAPI=5
 HOMEPAGE=https://github.com/dubhater/D2VWitch
 KEYWORDS=~amd64 ~x86
-LICENSE=ISC
+LICENSE=ISC LGPL-2.1
 RDEPEND=>=virtual/ffmpeg-9
 SLOT=0
-SRC_URI=https://github.com/dubhater/d2vwitch/archive/v1.tar.gz -> d2vwitch-1.tar.gz
+SRC_URI=https://github.com/dubhater/d2vwitch/archive/v2.tar.gz -> d2vwitch-2.tar.gz
 _eclass_exported_funcs=src_unpack:vcs-snapshot src_prepare:autotools-utils src_configure:autotools-utils src_compile:autotools-utils src_test:autotools-utils src_install:autotools-utils
 _eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	autotools-utils	419811142edf3516b0d0cf1a254d93cb	eutils	b83a2420b796f7c6eff682679d08fe25	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	vcs-snapshot	2b65ecb2d0f91e4322c2ac8d673993bd
-_md5_=06f1cf157273226c14c8161a31c6b2fa
+_md5_=0f81737563f3dffee616f437a7aba531
