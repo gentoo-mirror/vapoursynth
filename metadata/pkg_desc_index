@@ -1,4 +1,4 @@
-app-editors/vapoursynth-editor 11 9999: VapourSynth Editor
+app-editors/vapoursynth-editor 13 9999: VapourSynth Editor
 media-libs/l-smash 2.9.1 9999: Media library
 media-libs/vapoursynth 35 9999: VapourSynth is an library for video manipulation.
 media-libs/waifu2x-converter-cpp 2016.06.23 9999: Image Super-Resolution for anime-style-art using Deep Convolutional Neural Networks implementation in c++ using opencv
@@ -41,7 +41,7 @@ media-plugins/vapoursynth-miscfilters 4: Miscellaneous vapoursynth filters
 media-plugins/vapoursynth-msmoosh 1.1 9999: MSmooth is a spatial smoother that doesn't touch edges, MSharpen tries to sharpen only edges
 media-plugins/vapoursynth-mvsfunc 8 9999: mawen1250's VapourSynth functions
 media-plugins/vapoursynth-mvtools 16 17 9999: MVTools is a set of filters for motion estimation and compensation
-media-plugins/vapoursynth-mvtools-sf 5 6 9999: MVTools is a set of filters for motion estimation and compensation
+media-plugins/vapoursynth-mvtools-sf 7 9999: MVTools is a set of filters for motion estimation and compensation
 media-plugins/vapoursynth-nnedi3 10 9999: nnedi3 is an intra-field only deinterlacer
 media-plugins/vapoursynth-nnedi3_resample 2016.08.28 9999: A function for scaling, color space conversion, etc.
 media-plugins/vapoursynth-oyster 4 9999: A top class de-noising filter against compression artifacts
