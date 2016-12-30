@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare unpack
+DEPEND=media-libs/vapoursynth
+DESCRIPTION=Fix Telecined Fades
+EAPI=6
+HOMEPAGE=https://github.com/IFeelBloated/Fix-Telecined-Fades
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=media-libs/vapoursynth
+SLOT=0
+SRC_URI=https://github.com/IFeelBloated/Fix-Telecined-Fades/archive/r1.tar.gz -> vapoursynth-fix-telecined-fades-1.tar.gz
+_eclass_exported_funcs=src_unpack:vcs-snapshot src_prepare:- src_compile:- src_install:-
+_eclasses_=multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	vcs-snapshot	2b65ecb2d0f91e4322c2ac8d673993bd
+_md5_=1b9b689bcd25ceadabaa3c4c9baa87ed
