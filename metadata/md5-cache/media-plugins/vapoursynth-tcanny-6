@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install unpack
+DEPEND=media-libs/vapoursynth
+DESCRIPTION=Builds an edge map using canny edge detection
+EAPI=5
+HOMEPAGE=https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TCanny
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/vapoursynth
+SLOT=0
+SRC_URI=https://github.com/HomeOfVapourSynthEvolution/vapoursynth-tcanny/archive/r6.tar.gz -> vapoursynth-tcanny-6.tar.gz
+_eclass_exported_funcs=src_unpack:vcs-snapshot src_configure:- src_install:-
+_eclasses_=multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	vcs-snapshot	2b65ecb2d0f91e4322c2ac8d673993bd
+_md5_=9ccf253a8eed9d400708564e7fb2a26d
