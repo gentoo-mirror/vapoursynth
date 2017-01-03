@@ -21,7 +21,7 @@ media-plugins/vapoursynth-delogo 0.4 9999: DeLogo Plugin Ported for VapourSynth
 media-plugins/vapoursynth-depan 1 9999: VapourSynth port of DePan
 media-plugins/vapoursynth-dfttest 3-r1 9999: 2D/3D frequency domain denoiser
 media-plugins/vapoursynth-eedi2 5 9999: EEDI2 is an vertical resizer intended for edge-directed interpolation for deinterlacing
-media-plugins/vapoursynth-ffmpegsource 2.22 9999: A libav/ffmpeg based source library for easy frame accurate access
+media-plugins/vapoursynth-ffmpegsource 2.22 2.23 9999: A libav/ffmpeg based source library for easy frame accurate access
 media-plugins/vapoursynth-fft3dfilter 0.20150227-r1 9999-r1: VapourSynth port of FFT3DFilter
 media-plugins/vapoursynth-fieldhint 3 9999: Fieldhint plugin for VapourSynth
 media-plugins/vapoursynth-fillborders 1.0 9999: VapourSynth filter that fills the borders of a clip, without changing the clip's dimensions.
