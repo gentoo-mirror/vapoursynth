@@ -9,6 +9,7 @@ media-libs/vapoursynth:shared - Build shared libraries
 media-libs/vapoursynth:static - Build static libraries
 media-libs/vapoursynth:vapoursynth_plugins_eedi3 - Enable slow edge directed interpolation filterplugin
 media-libs/vapoursynth:vapoursynth_plugins_imagemagick - Enable Image Reader/Writer plugin using media-gfx/imagemagick
+media-libs/vapoursynth:vapoursynth_plugins_miscfilters - Enable miscfilters plugin
 media-libs/vapoursynth:vapoursynth_plugins_morpho - Enable simple morphological filters plugin
 media-libs/vapoursynth:vapoursynth_plugins_ocr - Enable video frames Optical Character Recognition plugin using app-text/tesseract
 media-libs/vapoursynth:vapoursynth_plugins_removegrain - Enable Remove Grain plugin
