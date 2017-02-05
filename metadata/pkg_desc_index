@@ -46,7 +46,7 @@ media-plugins/vapoursynth-nnedi3 11 9999: nnedi3 is an intra-field only deinterl
 media-plugins/vapoursynth-nnedi3_resample 2016.08.28 9999: A function for scaling, color space conversion, etc.
 media-plugins/vapoursynth-oyster 5 9999: A top class de-noising filter against compression artifacts
 media-plugins/vapoursynth-plugins-meta 20-r1: VapourSynth plugins meta package.
-media-plugins/vapoursynth-plum 2016.08.21 9999: A sharpening/blind deconvolution suite with certain advanced features like Non-Local error, Block Matching, etc...
+media-plugins/vapoursynth-plum 1 9999: A sharpening/blind deconvolution suite with certain advanced features like Non-Local error, Block Matching, etc...
 media-plugins/vapoursynth-qrcodesource 1.0.0.0 9999: Plugin to provide a means to embed QR codes in video
 media-plugins/vapoursynth-reduceflicker 9999: VapourSynth port of ReduceFlicker
 media-plugins/vapoursynth-removedirt 0.20131120 9999: Port of RemoveDirt to VapourSynth
@@ -70,7 +70,7 @@ media-plugins/vapoursynth-vcmod 20160221: vcmod is a plugin for vapoursynth with
 media-plugins/vapoursynth-vcmove 20160409: This plugin moves pixels as per requirement. Useful for correcting certain distortions or tilt or for transitions
 media-plugins/vapoursynth-vctrans 20150910: vctrans a plugin for transitions
 media-plugins/vapoursynth-videoscope 1.0 9999: Videoscope plugin for VapourSynth
-media-plugins/vapoursynth-vine 5 6 9999: A collection of a non-local error based de-halo filter and a set of morphological filters
+media-plugins/vapoursynth-vine 6-r1 9999: A collection of a non-local error based de-halo filter and a set of morphological filters
 media-plugins/vapoursynth-vs-maskdetail 0.20151220 9999: A function to use invks/debilinear
 media-plugins/vapoursynth-vsimagereader 0.2.1 9999: Image reader plugin for VapourSynth
 media-plugins/vapoursynth-vsrawsource 0.3.1.20130731 9999: Raw format video reader for VapourSynth
