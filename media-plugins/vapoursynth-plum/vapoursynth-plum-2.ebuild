@@ -8,11 +8,11 @@ PYTHON_COMPAT=( python3_{4,5} )
 
 inherit python-utils-r1 python-single-r1 git-r3
 
-DESCRIPTION="A collection of a non-local error based de-halo filter and a set of morphological filters"
-HOMEPAGE="https://github.com/IFeelBloated/Vine"
+DESCRIPTION="A sharpening/blind deconvolution suite with certain advanced features like Non-Local error, Block Matching, etc..."
+HOMEPAGE="https://github.com/IFeelBloated/Plum"
 
-EGIT_REPO_URI="https://github.com/IFeelBloated/Vine.git"
-EGIT_COMMIT="fe54a9df7812ea8a81bea0f3d565777be7ec77ed"
+EGIT_REPO_URI="https://github.com/IFeelBloated/Plum.git"
+EGIT_COMMIT="cffeb87117f05d296b3b9451ee687a4fb439f9b4"
 
 KEYWORDS="~amd64 ~x86"
 
@@ -22,7 +22,10 @@ IUSE="doc"
 
 RDEPEND+="
 	media-libs/vapoursynth[${PYTHON_USEDEP}]
-	media-plugins/vapoursynth-tcanny
+	media-plugins/vapoursynth-bm3d
+	media-plugins/vapoursynth-dfttest
+	media-plugins/vapoursynth-vcfreq
+	media-plugins/vapoursynth-mvtools-sf
 	media-plugins/vapoursynth-knlmeanscl
 	media-plugins/vapoursynth-fmtconv
 	media-plugins/vapoursynth-nnedi3
@@ -33,5 +36,5 @@ DOCS=( "README.md" )
 
 src_install(){
 	use doc && dodoc ${DOCS}
-	python_domodule Vine.py
+	python_domodule Plum.py
 }
