@@ -12,7 +12,7 @@ media-plugins/vapoursynth-cnr2 1 9999: Chroma noise reducer
 media-plugins/vapoursynth-combmask 0.20130730 9999: CombMask plugin for VapourSynth
 media-plugins/vapoursynth-continuityfixer 6 9999: Continuity Fixer port for Vapoursynth, can help repair damaged borders of frames
 media-plugins/vapoursynth-ctmf 2 9999: Median filter for VapourSynth (the same algorithm that MedianBlur2)
-media-plugins/vapoursynth-d2vsource 1.0 9999: D2V Source plugin for VapourSynth
+media-plugins/vapoursynth-d2vsource 1.0 1.1 9999: D2V Source plugin for VapourSynth
 media-plugins/vapoursynth-damb 3 9999: Basic audio support for VapourSynth
 media-plugins/vapoursynth-dctfilter 3 9999: Performs DCT on 8x8 blocks, applies modification to it, then performs IDCT
 media-plugins/vapoursynth-deblock 4 5 9999: It does a deblocking of the picture, using the deblocking filter of h264
