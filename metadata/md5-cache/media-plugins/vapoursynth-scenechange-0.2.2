@@ -1,14 +1,14 @@
 DEFINED_PHASES=compile install setup
-DEPEND=media-libs/vapoursynth[python_targets_python3_4(-)?,python_targets_python3_5(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_6(-),python_single_target_python3_4(+)?,python_single_target_python3_5(+)?]
+DEPEND=media-libs/vapoursynth[python_targets_python3_4(-)?,python_targets_python3_5(-)?,python_targets_python3_6(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),python_single_target_python3_4(+)?,python_single_target_python3_5(+)?,python_single_target_python3_6(+)?]
 DESCRIPTION=A scene change detection plugin for VapourSynth plus temporalsoften2 that makes use of it
 EAPI=5
 HOMEPAGE=http://forum.doom9.org/showthread.php?t=166769
-IUSE=python_targets_python3_4 python_targets_python3_5 python_single_target_python3_4 python_single_target_python3_5
+IUSE=python_targets_python3_4 python_targets_python3_5 python_targets_python3_6 python_single_target_python3_4 python_single_target_python3_5 python_single_target_python3_6
 KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2.1
-RDEPEND=media-libs/vapoursynth[python_targets_python3_4(-)?,python_targets_python3_5(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_6(-),python_single_target_python3_4(+)?,python_single_target_python3_5(+)?]
+RDEPEND=media-libs/vapoursynth[python_targets_python3_4(-)?,python_targets_python3_5(-)?,python_targets_python3_6(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python2_7(-),python_single_target_python3_4(+)?,python_single_target_python3_5(+)?,python_single_target_python3_6(+)?]
 SLOT=0
 SRC_URI=https://dl.dropboxusercontent.com/u/36232595/vapoursynth-scenechange-0.2.2.tar.bz2
 _eclass_exported_funcs=pkg_setup:python-single-r1 src_compile:- src_install:-
 _eclasses_=eutils	708f85bc1bf00876604e223fb56e062a	multilib	165fc17c38d1b11dac2008280dab6e80	python-single-r1	6793fc854691a2320226801400573568	python-utils-r1	50dad5f912d4c16c130f5679777f25e8	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
-_md5_=30eadc0e9cbb4da36e1e165a9d86fd9d
+_md5_=867e440bf8ec83fc94a25e80c75c9bd6
