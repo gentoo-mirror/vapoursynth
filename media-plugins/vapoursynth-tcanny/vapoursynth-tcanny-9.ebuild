@@ -1,15 +1,13 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
-EAPI=5
+EAPI=6
 
-AUTOTOOLS_AUTORECONF=1
+inherit toolchain-funcs
 
-inherit autotools-utils multilib eutils
-
-DESCRIPTION="Modified version of Fizick's avisynth filter port of yadif from mplayer"
-HOMEPAGE="https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Yadifmod"
+DESCRIPTION="Builds an edge map using canny edge detection"
+HOMEPAGE="https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TCanny"
 
 if [[ ${PV} == *9999* ]]; then
 	inherit git-r3
@@ -30,8 +28,11 @@ RDEPEND+="
 DEPEND="${RDEPEND}
 "
 
-DOCS=( README.md )
+src_prepare() {
+	eapply_user
+	./autogen.sh
+}
 
 src_configure() {
-	autotools-utils_src_configure --libdir="/usr/$(get_libdir)/vapoursynth/"
+	econf --libdir="/usr/$(get_libdir)/vapoursynth/"
 }
