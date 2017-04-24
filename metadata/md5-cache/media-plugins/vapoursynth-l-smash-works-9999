@@ -9,4 +9,4 @@ RDEPEND==media-libs/l-smash-9999
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-r3 src_prepare:- src_configure:-
 _eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
-_md5_=726f61fd2ef99b585e7cda258488aff2
+_md5_=83cad4646ca372af134a4ed0d639735f

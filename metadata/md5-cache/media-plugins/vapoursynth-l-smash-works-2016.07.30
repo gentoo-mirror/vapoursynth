@@ -10,4 +10,4 @@ RDEPEND=media-video/ffmpeg media-libs/l-smash
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-r3 src_prepare:- src_configure:-
 _eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
-_md5_=a90546f7dde344b0c2099f634ecc1e42
+_md5_=40fa9ed7b9139fa0285411e145c2cbe6
