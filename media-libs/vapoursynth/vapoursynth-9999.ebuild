@@ -26,13 +26,13 @@ fi
 LICENSE="LGPL-2.1 OFL-1.1"
 SLOT="0"
 VSPLUGINS="
-	vapoursynth_plugins_subtext
 	vapoursynth_plugins_eedi3
 	vapoursynth_plugins_imagemagick
 	vapoursynth_plugins_miscfilters
 	vapoursynth_plugins_morpho
 	vapoursynth_plugins_ocr
 	vapoursynth_plugins_removegrain
+	vapoursynth_plugins_subtext
 	vapoursynth_plugins_vinverse
 	vapoursynth_plugins_vivtc
 "
@@ -45,7 +45,7 @@ RDEPEND+="${PYTHON_DEPS}
 		media-libs/libass
 		virtual/ffmpeg
 	)
-	vapoursynth_plugins_imagemagick? ( media-gfx/imagemagick[cxx,-q8(-),-q64(-)] )
+	vapoursynth_plugins_imagemagick? ( >=media-gfx/imagemagick-7.0.0.0[cxx,-q8(-),-q64(-)] )
 	>=media-libs/zimg-2.4
 	vapoursynth_plugins_ocr? ( app-text/tesseract )
 	vapoursynth_plugins_miscfilters? ( !media-plugins/vapoursynth-miscfilters )
