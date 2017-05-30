@@ -1,4 +1,4 @@
-app-editors/vapoursynth-editor 13 15 9999: VapourSynth Editor
+app-editors/vapoursynth-editor 16 9999: VapourSynth Editor
 media-libs/l-smash 2.9.1 9999: Media library
 media-libs/vapoursynth 36 37 9999: VapourSynth is an library for video manipulation.
 media-libs/waifu2x-converter-cpp 2016.06.23-r1 9999: Image Super-Resolution for anime-style-art using Deep Convolutional Neural Networks implementation in c++ using opencv
@@ -12,7 +12,7 @@ media-plugins/vapoursynth-bm3d 6 9999: BM3D denoising filter for VapourSynth
 media-plugins/vapoursynth-cnr2 1 9999: Chroma noise reducer
 media-plugins/vapoursynth-combmask 0.20130730 9999: CombMask plugin for VapourSynth
 media-plugins/vapoursynth-continuityfixer 6 9999: Continuity Fixer port for Vapoursynth, can help repair damaged borders of frames
-media-plugins/vapoursynth-ctmf 2 9999: Median filter for VapourSynth (the same algorithm that MedianBlur2)
+media-plugins/vapoursynth-ctmf 3 9999: Median filter for VapourSynth (the same algorithm that MedianBlur2)
 media-plugins/vapoursynth-d2vsource 1.0 1.1 9999: D2V Source plugin for VapourSynth
 media-plugins/vapoursynth-damb 3 9999: Basic audio support for VapourSynth
 media-plugins/vapoursynth-dctfilter 3 9999: Performs DCT on 8x8 blocks, applies modification to it, then performs IDCT

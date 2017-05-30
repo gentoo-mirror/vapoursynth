@@ -1,11 +1,11 @@
-DEFINED_PHASES=configure install unpack
+DEFINED_PHASES=configure prepare unpack
 DEPEND=media-libs/vapoursynth >=dev-vcs/git-1.8.2.1
 DESCRIPTION=Median filter for VapourSynth (the same algorithm that MedianBlur2)
-EAPI=5
+EAPI=6
 HOMEPAGE=https://github.com/HomeOfVapourSynthEvolution/VapourSynth-CTMF
-LICENSE=GPL-2
+LICENSE=GPL-3
 RDEPEND=media-libs/vapoursynth
 SLOT=0
-_eclass_exported_funcs=src_unpack:git-r3 src_configure:- src_install:-
-_eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
-_md5_=d4092930935ce0e64a9e6d15bf468808
+_eclass_exported_funcs=src_unpack:git-r3 src_prepare:- src_configure:-
+_eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
+_md5_=875b8a6e9bc06b981ffcb39b8b92e578
