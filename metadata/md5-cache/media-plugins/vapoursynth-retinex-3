@@ -9,5 +9,5 @@ RDEPEND=media-libs/vapoursynth
 SLOT=0
 SRC_URI=https://github.com/HomeOfVapourSynthEvolution/vapoursynth-retinex/archive/r3.tar.gz -> vapoursynth-retinex-3.tar.gz
 _eclass_exported_funcs=src_unpack:vcs-snapshot src_configure:- src_install:-
-_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	772b26a6baefb4c8c5e0c1fc724508b7	vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
 _md5_=770c6972431127c4eb20a159140d330b

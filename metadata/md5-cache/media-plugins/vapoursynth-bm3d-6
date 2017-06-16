@@ -11,5 +11,5 @@ REQUIRED_USE=|| ( cpu_flags_x86_sse2 cpu_flags_x86_sse4_1 )
 SLOT=0
 SRC_URI=https://github.com/HomeOfVapourSynthEvolution/vapoursynth-bm3d/archive/r6.tar.gz -> vapoursynth-bm3d-6.tar.gz
 _eclass_exported_funcs=src_unpack:vcs-snapshot src_configure:- src_install:-
-_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	772b26a6baefb4c8c5e0c1fc724508b7	vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
 _md5_=4e4e1a18caa8fb0459d0b2a85a113c19
