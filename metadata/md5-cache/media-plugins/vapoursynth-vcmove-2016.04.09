@@ -9,5 +9,5 @@ RDEPEND=media-libs/vapoursynth
 SLOT=0
 SRC_URI=https://www.dropbox.com/s/2fku3g1b4smgrt3/vapoursynth-vcmove-2016.04.09.tar.bz2
 _eclass_exported_funcs=src_prepare:- src_compile:- src_install:-
-_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	772b26a6baefb4c8c5e0c1fc724508b7
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	8fec6b1eb195836560e70b66d98fb163
 _md5_=a45fb112fe4822b1de77e09da8216989

@@ -7,5 +7,5 @@ LICENSE=LGPL-2.1
 RDEPEND=media-libs/vapoursynth media-libs/libpng:0 media-libs/libjpeg-turbo sys-libs/zlib
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-r3 src_configure:- src_install:-
-_eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	772b26a6baefb4c8c5e0c1fc724508b7
+_eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	8fec6b1eb195836560e70b66d98fb163
 _md5_=78bdac95a6a75289bb29a18e9ef22bd2
