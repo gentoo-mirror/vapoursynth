@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare unpack
+DEPEND=media-libs/vapoursynth >=dev-util/meson-0.28.0 virtual/pkgconfig >=dev-vcs/git-1.8.2.1
+DESCRIPTION=Converts VFR video to CFR video through the use of Matroska Version 2 Timecodes
+EAPI=6
+HOMEPAGE=https://github.com/Irrational-Encoding-Wizardry/Vapoursynth-VFRToCFR
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD-3
+RDEPEND=media-libs/vapoursynth
+SLOT=0
+_eclass_exported_funcs=src_unpack:git-r3 src_prepare:- src_configure:- src_compile:- src_install:-
+_eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
+_md5_=a85a7c94e56dfc984a31c9ba48577b81

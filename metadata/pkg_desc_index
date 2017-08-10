@@ -47,10 +47,11 @@ media-plugins/vapoursynth-mvtools-sf 9 9999: MVTools is a set of filters for mot
 media-plugins/vapoursynth-nnedi3 11 9999: nnedi3 is an intra-field only deinterlacer
 media-plugins/vapoursynth-nnedi3_resample 2016.08.28 9999: A function for scaling, color space conversion, etc.
 media-plugins/vapoursynth-oyster 6 9999: A top class de-noising filter against compression artifacts
-media-plugins/vapoursynth-plugins-meta 20-r1 21 22: VapourSynth plugins meta package.
+media-plugins/vapoursynth-plugins-meta 20-r1 21 22 23: VapourSynth plugins meta package.
 media-plugins/vapoursynth-plum 2 9999: A sharpening/blind deconvolution suite with certain advanced features like Non-Local error, Block Matching, etc...
 media-plugins/vapoursynth-qrcodesource 1.0.0.0 9999: Plugin to provide a means to embed QR codes in video
 media-plugins/vapoursynth-reduceflicker 9999: VapourSynth port of ReduceFlicker
+media-plugins/vapoursynth-remapframes 1.0.2017.07.21 9999: Allows easy remapping of frames in a clip through the use of a text file or an input string
 media-plugins/vapoursynth-removedirt 0.20131120 9999: Port of RemoveDirt to VapourSynth
 media-plugins/vapoursynth-retinex 3 9999: Retinex plugin for VapourSynth
 media-plugins/vapoursynth-sangnom 2016.08.31 9999: A rewrite version of AVISynth SangNom2
@@ -71,6 +72,7 @@ media-plugins/vapoursynth-vcfreq 2016.08.17: A plugin that operates in frequency
 media-plugins/vapoursynth-vcmod 2016.02.21: vcmod is a plugin for vapoursynth with several functions which essentially operate on pixel values and modify it as per some criteria. Useful for denoising
 media-plugins/vapoursynth-vcmove 2016.04.09: This plugin moves pixels as per requirement. Useful for correcting certain distortions or tilt or for transitions
 media-plugins/vapoursynth-vctrans 2015.09.10: vctrans a plugin for transitions
+media-plugins/vapoursynth-vfrtocrf 1.0.2017.07.21 9999: Converts VFR video to CFR video through the use of Matroska Version 2 Timecodes
 media-plugins/vapoursynth-videoscope 1.0 9999: Videoscope plugin for VapourSynth
 media-plugins/vapoursynth-vine 7 9999: A collection of a non-local error based de-halo filter and a set of morphological filters
 media-plugins/vapoursynth-vs-maskdetail 0.20151220 9999: A function to use invks/debilinear
