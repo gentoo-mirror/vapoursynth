@@ -48,7 +48,7 @@ media-plugins/vapoursynth-mvtools-sf 9 9999: MVTools is a set of filters for mot
 media-plugins/vapoursynth-nnedi3 11 9999: nnedi3 is an intra-field only deinterlacer
 media-plugins/vapoursynth-nnedi3_resample 2016.08.28 9999: A function for scaling, color space conversion, etc.
 media-plugins/vapoursynth-oyster 6 9999: A top class de-noising filter against compression artifacts
-media-plugins/vapoursynth-plugins-meta 20-r1 21 22 23: VapourSynth plugins meta package.
+media-plugins/vapoursynth-plugins-meta 20-r1 21 22 23 24: VapourSynth plugins meta package.
 media-plugins/vapoursynth-plum 2 9999: A sharpening/blind deconvolution suite with certain advanced features like Non-Local error, Block Matching, etc...
 media-plugins/vapoursynth-qrcodesource 1.0.0.0 9999: Plugin to provide a means to embed QR codes in video
 media-plugins/vapoursynth-reduceflicker 9999: VapourSynth port of ReduceFlicker
