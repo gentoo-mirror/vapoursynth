@@ -7,6 +7,5 @@ KEYWORDS=~x86 ~amd64
 LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth sci-libs/fftw:3.0[threads]
 SLOT=0
-_eclass_exported_funcs=src_unpack:git-r3 src_prepare:- src_configure:-
 _eclasses_=git-r3	4f7ddb4119309845d6687213171ab445
 _md5_=73c2a0630ad31b76eb2521d563d34574

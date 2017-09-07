@@ -6,6 +6,5 @@ HOMEPAGE=https://github.com/IFeelBloated/Fix-Telecined-Fades
 LICENSE=GPL-3
 RDEPEND=media-libs/vapoursynth
 SLOT=0
-_eclass_exported_funcs=src_unpack:git-r3 src_prepare:- src_configure:- src_compile:- src_install:-
 _eclasses_=git-r3	4f7ddb4119309845d6687213171ab445
 _md5_=ed3fbeabe72530338dd15dbac9744e8e

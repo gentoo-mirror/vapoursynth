@@ -6,6 +6,5 @@ HOMEPAGE=https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DFTTest
 LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth sci-libs/fftw:3.0[threads]
 SLOT=0
-_eclass_exported_funcs=src_unpack:git-r3 src_prepare:- src_configure:- src_install:-
 _eclasses_=git-r3	4f7ddb4119309845d6687213171ab445	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
 _md5_=69e82164b121645aad1e42a7a4167a07

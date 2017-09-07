@@ -7,6 +7,5 @@ IUSE=opencl
 LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth opencl? ( virtual/opencl )
 SLOT=0
-_eclass_exported_funcs=src_unpack:git-r3 src_prepare:- src_configure:-
 _eclasses_=git-r3	4f7ddb4119309845d6687213171ab445
 _md5_=774b31f2befdc01bf65d1fe86ab76588
