@@ -6,5 +6,5 @@ HOMEPAGE=https://github.com/VFR-maniac/VapourSynth-FFT3DFilter
 LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth sci-libs/fftw:3.0[threads]
 SLOT=0
-_eclasses_=git-r3	52a888802d25387c2c74cb845d1219bc
-_md5_=c67d4f752c3730ae81f42952682f7a46
+_eclasses_=git-r3	52a888802d25387c2c74cb845d1219bc	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
+_md5_=36ac9f077924d0957549175d44f090b5
