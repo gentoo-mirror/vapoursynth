@@ -73,7 +73,7 @@ media-plugins/vapoursynth-tnlmeans 0.20150225 9999: VapourSynth port of TNLMeans
 media-plugins/vapoursynth-vaguedenoiser 2 9999: A wavelet based denoiser
 media-plugins/vapoursynth-vautodeint 0.0.1 9999: Auto interlace detection and deinterlace vapoursynth python script
 media-plugins/vapoursynth-vcfreq 2016.08.17: A plugin that operates in frequency domain to filter out certain types of regular noises
-media-plugins/vapoursynth-vcmod 2016.02.21: vcmod is a plugin for vapoursynth with several functions which essentially operate on pixel values and modify it as per some criteria. Useful for denoising
+media-plugins/vapoursynth-vcmod 2016.02.21 2017.10.17: A plugin which operate on pixel values and modify it as per some criteria. Useful for denoising
 media-plugins/vapoursynth-vcmove 2016.04.09: This plugin moves pixels as per requirement. Useful for correcting certain distortions or tilt or for transitions
 media-plugins/vapoursynth-vctrans 2015.09.10: vctrans a plugin for transitions
 media-plugins/vapoursynth-vfrtocrf 1.0.2017.07.21 9999: Converts VFR video to CFR video through the use of Matroska Version 2 Timecodes
