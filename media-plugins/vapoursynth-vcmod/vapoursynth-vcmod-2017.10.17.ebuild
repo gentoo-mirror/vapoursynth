@@ -12,7 +12,7 @@ if [[ ${PV} == *9999* ]]; then
 	inherit git-r3
 	EGIT_REPO_URI=""
 else
-	SRC_URI="https://www.dropbox.com/s/r0t5acm7afn41h5/${P}.tar.bz2"
+	SRC_URI="https://www.dropbox.com/s/it6gx663d3hevss/${P}.tar.bz2"
 fi
 
 LICENSE="GPL-3"
@@ -31,12 +31,12 @@ LIBNAME="libvcmod.so"
 EXTRAFLAGS="-fPIC -shared -std=c++11"
 
 src_prepare(){
-	rm VSHelper.h VapourSynth.h || die
+	eapply_user
 	sed -i -e s/vapoursynth.h/VapourSynth.h/g -e s/vshelper.h/VSHelper.h/g *.cpp || die
 }
 
 src_compile(){
-	printf "$(tc-getCC) ${CFLAGS} ${EXTRAFLAGS} ${LDFLAGS} -o ${LIBNAME} $(pkg-config --cflags vapoursynth) vcmod.cpp"
+	echo "$(tc-getCC) ${CFLAGS} ${EXTRAFLAGS} ${LDFLAGS} -o ${LIBNAME} $(pkg-config --cflags vapoursynth) vcmod.cpp"
 	$(tc-getCC) ${CFLAGS} ${EXTRAFLAGS} ${LDFLAGS} -o ${LIBNAME} $(pkg-config --cflags vapoursynth) vcmod.cpp || die "Build failed"
 }
 
