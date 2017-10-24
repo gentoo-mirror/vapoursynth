@@ -1,11 +1,11 @@
 DEFINED_PHASES=configure prepare unpack
-DEPEND=media-libs/vapoursynth opencl? ( virtual/opencl ) >=dev-vcs/git-1.8.2.1
+DEPEND=media-libs/vapoursynth opencl? ( virtual/opencl media-libs/mesa[opencl] ) >=dev-vcs/git-1.8.2.1
 DESCRIPTION=An intra-frame deinterlacer
 EAPI=6
 HOMEPAGE=https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI3
 IUSE=opencl
 LICENSE=GPL-2
-RDEPEND=media-libs/vapoursynth opencl? ( virtual/opencl )
+RDEPEND=media-libs/vapoursynth opencl? ( virtual/opencl media-libs/mesa[opencl] )
 SLOT=0
 _eclasses_=git-r3	52a888802d25387c2c74cb845d1219bc
-_md5_=774b31f2befdc01bf65d1fe86ab76588
+_md5_=20e10fc69492ff4615d57b2c492401d5
