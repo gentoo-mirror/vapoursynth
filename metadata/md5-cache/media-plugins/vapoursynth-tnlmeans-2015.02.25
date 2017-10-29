@@ -1,11 +1,11 @@
 DEFINED_PHASES=configure prepare unpack
 DEPEND=media-libs/vapoursynth >=dev-vcs/git-1.8.2.1
 DESCRIPTION=VapourSynth port of TNLMeans
-EAPI=5
+EAPI=6
 HOMEPAGE=https://github.com/VFR-maniac/VapourSynth-TNLMeans
 KEYWORDS=~x86 ~amd64
 LICENSE=LGPL-2.1
 RDEPEND=media-libs/vapoursynth
 SLOT=0
 _eclasses_=git-r3	52a888802d25387c2c74cb845d1219bc	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
-_md5_=54a97863ca73dd749a72af2600a71d42
+_md5_=ade5f25cc58d22b1222b95db59016720
