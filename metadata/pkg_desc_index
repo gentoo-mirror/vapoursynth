@@ -89,5 +89,5 @@ media-plugins/vapoursynth-waifu2x-w2xc 6 9999: Image super-resolution/denoise fi
 media-plugins/vapoursynth-wwxd 1.0 9999: Xvid-like scene change detection for VapourSynth
 media-plugins/vapoursynth-yadifmod 9-r1 10 9999: Modified version of Fizick's avisynth filter port of yadif from mplayer
 media-video/d2vwitch 2 9999: Cross-platform D2V creator
-media-video/mpv 9999-r9: Media player based on MPlayer and mplayer2
+media-video/mpv 2017.10.27 9999-r9: Media player based on MPlayer and mplayer2
 media-video/wobbly 4 9999: IVTC assistant for VapourSynth, similar to Yatta
