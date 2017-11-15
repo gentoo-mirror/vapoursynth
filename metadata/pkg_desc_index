@@ -52,7 +52,7 @@ media-plugins/vapoursynth-nnedi3 11 9999: nnedi3 is an intra-field only deinterl
 media-plugins/vapoursynth-nnedi3_resample 2016.08.28 9999: A function for scaling, color space conversion, etc.
 media-plugins/vapoursynth-nnedi3cl 5 6 9999: VapourSynth port of NNEDI3 utilizing OpenCL
 media-plugins/vapoursynth-oyster 6 9999: A top class de-noising filter against compression artifacts
-media-plugins/vapoursynth-plugins-meta 26 27: VapourSynth plugins meta package.
+media-plugins/vapoursynth-plugins-meta 26 27 28: VapourSynth plugins meta package.
 media-plugins/vapoursynth-plum 2 9999: A sharpening/blind deconvolution suite with certain advanced features like Non-Local error, Block Matching, etc...
 media-plugins/vapoursynth-qrcodesource 1.0.0.0 9999: Plugin to provide a means to embed QR codes in video
 media-plugins/vapoursynth-reduceflicker 2015.02.25 9999: VapourSynth port of ReduceFlicker
@@ -88,6 +88,7 @@ media-plugins/vapoursynth-w3fdif 1 9999: VapourSynth port of W3FDIF
 media-plugins/vapoursynth-waifu2x-w2xc 6 9999: Image super-resolution/denoise filter for VapourSynth, based on the waifu2x-opt library
 media-plugins/vapoursynth-wwxd 1.0 9999: Xvid-like scene change detection for VapourSynth
 media-plugins/vapoursynth-yadifmod 9-r1 10 9999: Modified version of Fizick's avisynth filter port of yadif from mplayer
+media-plugins/vapoursynth-znedi3 0.2017.11.08 9999: Optimized nnedi3 filter
 media-video/d2vwitch 2 9999: Cross-platform D2V creator
 media-video/mpv 0.27.0.2017.10.27 9999-r9: Media player based on MPlayer and mplayer2
 media-video/wobbly 4 9999: IVTC assistant for VapourSynth, similar to Yatta
