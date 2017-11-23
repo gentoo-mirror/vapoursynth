@@ -45,6 +45,7 @@ media-plugins/vapoursynth-knlmeanscl 0.6.11-r1 0.7.7 1.1.0 9999: An optimized pi
 media-plugins/vapoursynth-l-smash-works 2016.07.30 9999: Works based on L-SMASH project
 media-plugins/vapoursynth-minsrp 4-r4 9999: simple blurring/sharpening filter for vaporsynth
 media-plugins/vapoursynth-msmoosh 1.1 9999: MSmooth is a spatial smoother that doesn't touch edges, MSharpen tries to sharpen only edges
+media-plugins/vapoursynth-muvsfunc 2017.11.23 9999: Muonium's VapourSynth functions
 media-plugins/vapoursynth-mvsfunc 8 9999: mawen1250's VapourSynth functions
 media-plugins/vapoursynth-mvtools 18 9999: MVTools is a set of filters for motion estimation and compensation
 media-plugins/vapoursynth-mvtools-sf 9 9999: MVTools is a set of filters for motion estimation and compensation
@@ -52,7 +53,7 @@ media-plugins/vapoursynth-nnedi3 11 9999: nnedi3 is an intra-field only deinterl
 media-plugins/vapoursynth-nnedi3_resample 2016.08.28 9999: A function for scaling, color space conversion, etc.
 media-plugins/vapoursynth-nnedi3cl 5 6 9999: VapourSynth port of NNEDI3 utilizing OpenCL
 media-plugins/vapoursynth-oyster 6 9999: A top class de-noising filter against compression artifacts
-media-plugins/vapoursynth-plugins-meta 26 27 28: VapourSynth plugins meta package.
+media-plugins/vapoursynth-plugins-meta 26 27 28 29: VapourSynth plugins meta package.
 media-plugins/vapoursynth-plum 2 9999: A sharpening/blind deconvolution suite with certain advanced features like Non-Local error, Block Matching, etc...
 media-plugins/vapoursynth-qrcodesource 1.0.0.0 9999: Plugin to provide a means to embed QR codes in video
 media-plugins/vapoursynth-reduceflicker 2015.02.25 9999: VapourSynth port of ReduceFlicker
