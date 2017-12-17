@@ -9,4 +9,4 @@ RDEPEND=media-libs/vapoursynth
 SLOT=0
 SRC_URI=https://www.dropbox.com/s/it6gx663d3hevss/vapoursynth-vcmod-2017.10.17.tar.bz2
 _eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
-_md5_=1a7249f48afbce13cdd2002d07b971f0
+_md5_=68b21817f29e030f5913666a0e024047
