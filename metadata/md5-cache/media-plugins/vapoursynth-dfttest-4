@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure prepare unpack
+DEPEND=media-libs/vapoursynth sci-libs/fftw:3.0[threads]
+DESCRIPTION=2D/3D frequency domain denoiser
+EAPI=6
+HOMEPAGE=https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DFTTest
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/vapoursynth sci-libs/fftw:3.0[threads]
+SLOT=0
+SRC_URI=https://github.com/HomeOfVapourSynthEvolution/vapoursynth-dfttest/archive/r4.tar.gz -> vapoursynth-dfttest-4.tar.gz
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af	vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
+_md5_=efb16d9501c997cd5f3735710ea1bcab
