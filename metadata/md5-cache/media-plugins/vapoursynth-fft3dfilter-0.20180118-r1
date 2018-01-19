@@ -1,11 +1,11 @@
 DEFINED_PHASES=compile configure install test unpack
-DEPEND=media-libs/vapoursynth sci-libs/fftw:3.0[threads] dev-util/meson virtual/pkgconfig >=dev-util/meson-0.40.0 >=dev-util/ninja-1.7.2 >=dev-vcs/git-1.8.2.1
+DEPEND=media-libs/vapoursynth sci-libs/fftw:3.0[threads] >=sys-devel/gcc-7.2.0 dev-util/meson virtual/pkgconfig >=dev-util/meson-0.40.0 >=dev-util/ninja-1.7.2 >=dev-vcs/git-1.8.2.1
 DESCRIPTION=VapourSynth port of FFT3DFilter
 EAPI=6
 HOMEPAGE=https://github.com/myrsloik/VapourSynth-FFT3DFilter
 KEYWORDS=~x86 ~amd64
 LICENSE=GPL-2
-RDEPEND=media-libs/vapoursynth sci-libs/fftw:3.0[threads]
+RDEPEND=media-libs/vapoursynth sci-libs/fftw:3.0[threads] >=sys-devel/gcc-7.2.0
 SLOT=0
 _eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a	meson	f8e09b2b2ac1e9bb0bd374b6ad77a90d	multilib	97f470f374f2e94ccab04a2fb21d811e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	ebb2eaddc6331c4fa000b8eb8f6fe074	python-utils-r1	c9de01becf9df3f8c10aeec3dc693f5d	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
-_md5_=e37d1c5f0905721ad02927972de8c246
+_md5_=54d51fab21eccb28d3fac7e42fa9b50d
