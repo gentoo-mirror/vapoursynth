@@ -7,4 +7,4 @@ LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth dev-libs/boost virtual/opencl
 SLOT=0
 _eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a
-_md5_=95303ca9eb8133e5114cfc93262eced5
+_md5_=c486301d5055627a5994076f379f7703
