@@ -1,10 +1,12 @@
 DEFINED_PHASES=configure prepare unpack
-DEPEND=media-libs/vapoursynth >=dev-vcs/git-1.8.2.1
+DEPEND=media-libs/vapoursynth
 DESCRIPTION=VapourSynth port of TDeint and TMM
 EAPI=6
 HOMEPAGE=https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TDeintMod
+KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth
 SLOT=0
-_eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a
+SRC_URI=https://github.com/HomeOfVapourSynthEvolution/vapoursynth-tdeintmod/archive/r9.tar.gz -> vapoursynth-tdeintmod-9.tar.gz
+_eclasses_=vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
 _md5_=f0c38c45b9edfe5e00273913f610fcda
