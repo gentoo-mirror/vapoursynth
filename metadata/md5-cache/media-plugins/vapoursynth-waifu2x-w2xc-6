@@ -9,5 +9,5 @@ LICENSE=MIT
 RDEPEND=media-libs/vapoursynth media-libs/waifu2x-converter-cpp
 SLOT=0
 SRC_URI=https://github.com/HomeOfVapourSynthEvolution/vapoursynth-waifu2x-w2xc/archive/r6.tar.gz -> vapoursynth-waifu2x-w2xc-6.tar.gz
-_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9	vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9	vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
 _md5_=dd6ab3480f746823a9e5166916a114f2
