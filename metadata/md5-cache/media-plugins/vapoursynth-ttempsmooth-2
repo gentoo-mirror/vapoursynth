@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure prepare unpack
+DEPEND=media-libs/vapoursynth
+DESCRIPTION=TTempSmooth is a motion adaptive temporal smoothing filter
+EAPI=6
+HOMEPAGE=https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TTempSmooth
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=media-libs/vapoursynth
+SLOT=0
+SRC_URI=https://github.com/HomeOfVapourSynthEvolution/vapoursynth-ttempsmooth/archive/r2.tar.gz -> vapoursynth-ttempsmooth-2.tar.gz
+_eclasses_=vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
+_md5_=29efa17205ff6123f28121337ab953aa
