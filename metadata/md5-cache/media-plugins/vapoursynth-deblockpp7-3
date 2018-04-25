@@ -7,6 +7,6 @@ KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 RDEPEND=media-libs/vapoursynth
 SLOT=0
-SRC_URI=https://github.com/HomeOfVapourSynthEvolution/vapoursynth-deblockpp7/archive/r1.tar.gz -> vapoursynth-deblockpp7-1.tar.gz
+SRC_URI=https://github.com/HomeOfVapourSynthEvolution/vapoursynth-deblockpp7/archive/r3.tar.gz -> vapoursynth-deblockpp7-3.tar.gz
 _eclasses_=vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
 _md5_=f298ea86afb2c8770b33651303090b91
