@@ -7,5 +7,5 @@ IUSE=+shared -static -debug
 LICENSE=ISC
 RDEPEND=>=virtual/ffmpeg-9
 SLOT=0
-_eclasses_=git-r3	25b08efef07cea6bcd45b8c6dcce2782	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
+_eclasses_=git-r3	25b08efef07cea6bcd45b8c6dcce2782	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	fa02994d0beba88681127d93da4411ec
 _md5_=0b21c3830d230ef5c9c6241bcf5e0b3f
