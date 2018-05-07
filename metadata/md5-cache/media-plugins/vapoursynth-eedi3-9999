@@ -7,5 +7,5 @@ IUSE=opencl
 LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth opencl? ( virtual/opencl media-libs/mesa[opencl] )
 SLOT=0
-_eclasses_=git-r3	25b08efef07cea6bcd45b8c6dcce2782
+_eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8
 _md5_=20e10fc69492ff4615d57b2c492401d5

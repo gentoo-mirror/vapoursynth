@@ -6,5 +6,5 @@ HOMEPAGE=https://github.com/VFR-maniac/L-SMASH-Works
 LICENSE=GPL-2
 RDEPEND=media-video/ffmpeg =media-libs/l-smash-9999
 SLOT=0
-_eclasses_=git-r3	25b08efef07cea6bcd45b8c6dcce2782	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	fa02994d0beba88681127d93da4411ec
+_eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	fa02994d0beba88681127d93da4411ec
 _md5_=366f89ba6fea1e9a1937d38f9f63946b
