@@ -8,5 +8,5 @@ LICENSE=GPL-3
 RDEPEND=media-libs/vapoursynth
 SLOT=0
 SRC_URI=https://www.dropbox.com/s/it6gx663d3hevss/vapoursynth-vcmod-2017.10.17.tar.bz2
-_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	fa02994d0beba88681127d93da4411ec
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
 _md5_=68b21817f29e030f5913666a0e024047
