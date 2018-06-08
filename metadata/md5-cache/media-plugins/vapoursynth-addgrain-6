@@ -1,10 +1,12 @@
 DEFINED_PHASES=configure prepare unpack
-DEPEND=media-libs/vapoursynth >=dev-vcs/git-1.8.2.1
+DEPEND=media-libs/vapoursynth
 DESCRIPTION=AddGrain generates film like grain or other effects (like rain) by adding random noise to the video
 EAPI=6
 HOMEPAGE=https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain
+KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth
 SLOT=0
-_eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8
+SRC_URI=https://github.com/HomeOfVapourSynthEvolution/vapoursynth-addgrain/archive/r6.tar.gz -> vapoursynth-addgrain-6.tar.gz
+_eclasses_=vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
 _md5_=1121e886f00c8268584ff08e2e2f05c1
