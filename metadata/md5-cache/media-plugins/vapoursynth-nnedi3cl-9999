@@ -1,10 +1,10 @@
 DEFINED_PHASES=configure prepare unpack
-DEPEND=media-libs/vapoursynth dev-libs/boost virtual/opencl >=dev-vcs/git-1.8.2.1
+DEPEND=media-libs/vapoursynth dev-libs/boost virtual/opencl >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=VapourSynth port of NNEDI3 utilizing OpenCL
 EAPI=6
 HOMEPAGE=https://github.com/HomeOfVapourSynthEvolution/VapourSynth-NNEDI3CL
 LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth dev-libs/boost virtual/opencl
 SLOT=0
-_eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8
+_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b
 _md5_=c486301d5055627a5994076f379f7703

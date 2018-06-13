@@ -1,10 +1,10 @@
 DEFINED_PHASES=configure prepare unpack
-DEPEND=media-libs/vapoursynth sci-libs/fftw:3.0[threads] >=dev-vcs/git-1.8.2.1
+DEPEND=media-libs/vapoursynth sci-libs/fftw:3.0[threads] >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Performs DCT on 8x8 blocks, applies modification to it, then performs IDCT
 EAPI=6
 HOMEPAGE=https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DCTFilter
 LICENSE=MIT
 RDEPEND=media-libs/vapoursynth sci-libs/fftw:3.0[threads]
 SLOT=0
-_eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
+_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
 _md5_=9f704f17b71ad4b54e961966bb45889b

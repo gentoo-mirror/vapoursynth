@@ -1,10 +1,10 @@
 DEFINED_PHASES=compile configure install prepare unpack
-DEPEND=media-libs/vapoursynth >=dev-util/meson-0.28.0 virtual/pkgconfig >=dev-vcs/git-1.8.2.1
+DEPEND=media-libs/vapoursynth >=dev-util/meson-0.28.0 virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Fix Telecined Fades
 EAPI=6
 HOMEPAGE=https://github.com/IFeelBloated/Fix-Telecined-Fades
 LICENSE=GPL-3
 RDEPEND=media-libs/vapoursynth
 SLOT=0
-_eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8
+_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b
 _md5_=ed3fbeabe72530338dd15dbac9744e8e

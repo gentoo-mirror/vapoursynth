@@ -1,5 +1,5 @@
 DEFINED_PHASES=configure prepare unpack
-DEPEND=media-libs/vapoursynth >=dev-vcs/git-1.8.2.1
+DEPEND=media-libs/vapoursynth >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=A 3-way low-pass filter, which can completely remove high-frequency noise while minimizing blending artifacts
 EAPI=6
 HOMEPAGE=https://github.com/Hinterwaeldlers/vapoursynth-hqdn3d
@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth
 SLOT=0
-_eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8
+_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b
 _md5_=9705869a29bcce9f5584ead39c262e58

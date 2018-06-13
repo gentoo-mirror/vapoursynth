@@ -1,5 +1,5 @@
 DEFINED_PHASES=configure install unpack
-DEPEND=media-libs/vapoursynth >=dev-vcs/git-1.8.2.1
+DEPEND=media-libs/vapoursynth >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Raw format video reader for VapourSynth
 EAPI=5
 HOMEPAGE=https://github.com/maki-rxrz/vsrawsource
@@ -7,5 +7,5 @@ IUSE=debug
 LICENSE=LGPL-2.1
 RDEPEND=media-libs/vapoursynth
 SLOT=0
-_eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
+_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
 _md5_=4aec9e3549f61add1ac93cc5313c594b
