@@ -5,8 +5,8 @@ EAPI=6
 
 inherit meson
 
-DESCRIPTION="Sharpens by wrapping"
-HOMEPAGE="https://github.com/dubhater/vapoursynth-awarpsharp2"
+DESCRIPTION="Spatial derainbow filter"
+HOMEPAGE="https://github.com/dubhater/vapoursynth-smoothuv"
 
 if [[ ${PV} == *9999* ]]; then
 	inherit git-r3
@@ -18,7 +18,7 @@ else
 	KEYWORDS="~amd64 ~x86"
 fi
 
-LICENSE="ISC"
+LICENSE="GPL"
 SLOT="0"
 
 RDEPEND+="

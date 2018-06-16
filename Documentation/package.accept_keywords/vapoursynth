@@ -20,6 +20,7 @@ media-plugins/vapoursynth-damb ~*
 media-plugins/vapoursynth-dctfilter ~*
 media-plugins/vapoursynth-deblock ~*
 media-plugins/vapoursynth-deblockpp7 ~*
+media-plugins/vapoursynth-decross ~*
 media-plugins/vapoursynth-degrainmedian ~*
 media-plugins/vapoursynth-delogo ~*
 media-plugins/vapoursynth-depan ~*
@@ -65,6 +66,7 @@ media-plugins/vapoursynth-retinex ~*
 media-plugins/vapoursynth-sangnom ~*
 media-plugins/vapoursynth-scenechange ~*
 media-plugins/vapoursynth-scxvid ~*
+media-plugins/vapoursynth-smoothuv ~*
 media-plugins/vapoursynth-ssiq ~*
 media-plugins/vapoursynth-surfaceblur ~*
 media-plugins/vapoursynth-tc2cfr ~*
