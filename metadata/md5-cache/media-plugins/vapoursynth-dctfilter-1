@@ -8,5 +8,5 @@ LICENSE=MIT
 RDEPEND=media-libs/vapoursynth sci-libs/fftw:3.0[threads]
 SLOT=0
 SRC_URI=https://github.com/HomeOfVapourSynthEvolution/DCTFilter/archive/r1.tar.gz -> vapoursynth-dctfilter-1.tar.gz
-_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607	vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607	vcs-snapshot	b77011b62e2053c646ad720defe6d921
 _md5_=9f704f17b71ad4b54e961966bb45889b

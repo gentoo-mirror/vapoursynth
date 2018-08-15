@@ -6,5 +6,5 @@ HOMEPAGE=https://github.com/HomeOfVapourSynthEvolution/VapourSynth-NNEDI3CL
 LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth dev-libs/boost virtual/opencl
 SLOT=0
-_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b
+_eclasses_=git-r3	918d6a744039c29af2cadc7317459765
 _md5_=c486301d5055627a5994076f379f7703

@@ -8,5 +8,5 @@ LICENSE=GPL-3
 RDEPEND=media-libs/vapoursynth
 SLOT=0
 SRC_URI=https://github.com/HomeOfVapourSynthEvolution/vapoursynth-deblockpp7/archive/r4.tar.gz -> vapoursynth-deblockpp7-4.tar.gz
-_eclasses_=vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
+_eclasses_=vcs-snapshot	b77011b62e2053c646ad720defe6d921
 _md5_=f298ea86afb2c8770b33651303090b91

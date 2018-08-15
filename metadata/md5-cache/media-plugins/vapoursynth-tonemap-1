@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth
 SLOT=0
 SRC_URI=https://github.com/ifb/vapoursynth-tonemap/archive/R1.tar.gz -> vapoursynth-tonemap-1.tar.gz
-_eclasses_=vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
+_eclasses_=vcs-snapshot	b77011b62e2053c646ad720defe6d921
 _md5_=dcada1cf74f734485e2c704f157caf0f

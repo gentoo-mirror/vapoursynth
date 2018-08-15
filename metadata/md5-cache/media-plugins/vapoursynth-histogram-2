@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth
 SLOT=0
 SRC_URI=https://github.com/dubhater/vapoursynth-histogram/archive/v2.tar.gz -> vapoursynth-histogram-2.tar.gz
-_eclasses_=vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
+_eclasses_=vcs-snapshot	b77011b62e2053c646ad720defe6d921
 _md5_=f7234cbb1ec01039e18ec6ddeba02d5b
