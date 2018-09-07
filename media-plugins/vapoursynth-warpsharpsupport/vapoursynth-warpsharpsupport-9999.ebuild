@@ -7,16 +7,16 @@ PYTHON_COMPAT=( python3_{4,5,6,7} )
 
 inherit python-utils-r1 python-single-r1
 
-DESCRIPTION="This is a very basic port of the built-in Avisynth filter Tweak"
-HOMEPAGE="https://github.com/dubhater/vapoursynth-adjust"
+DESCRIPTION="Script versions of support functions from WarpSharp"
+HOMEPAGE="https://github.com/myrsloik/WarpSharpSupport"
 
 if [[ ${PV} == *9999* ]]; then
 	inherit git-r3
-	EGIT_REPO_URI="https://github.com/dubhater/vapoursynth-adjust.git"
+	EGIT_REPO_URI="https://github.com/myrsloik/WarpSharpSupport.git"
 	KEYWORDS=""
 else
 	inherit vcs-snapshot
-	SRC_URI="https://github.com/dubhater/vapoursynth-adjust/archive/v${PV}.tar.gz -> ${PN}-${PV}.tar.gz"
+	SRC_URI="https://github.com/myrsloik/WarpSharpSupport/archive/R${PV}.tar.gz -> ${PN}-${PV}.tar.gz"
 	KEYWORDS="~amd64 ~x86"
 fi
 
@@ -30,6 +30,5 @@ DEPEND="${RDEPEND}
 "
 
 src_install(){
-	python_domodule adjust.py
-	dodoc readme.rst
+	python_domodule wss.py
 }
