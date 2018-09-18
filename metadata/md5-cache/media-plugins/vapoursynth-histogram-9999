@@ -6,5 +6,5 @@ HOMEPAGE=https://github.com/dubhater/vapoursynth-histogram
 LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth
 SLOT=0
-_eclasses_=git-r3	918d6a744039c29af2cadc7317459765
+_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9
 _md5_=f7234cbb1ec01039e18ec6ddeba02d5b

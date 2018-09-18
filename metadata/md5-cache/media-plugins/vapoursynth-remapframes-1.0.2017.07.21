@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=BSD-2
 RDEPEND=media-libs/vapoursynth
 SLOT=0
-_eclasses_=git-r3	918d6a744039c29af2cadc7317459765
+_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9
 _md5_=b273c532838acdf57cd44ce4dc00393f
