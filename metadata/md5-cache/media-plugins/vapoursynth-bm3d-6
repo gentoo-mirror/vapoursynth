@@ -10,5 +10,5 @@ RDEPEND=media-libs/vapoursynth sci-libs/fftw:3.0
 REQUIRED_USE=|| ( cpu_flags_x86_sse2 cpu_flags_x86_sse4_1 )
 SLOT=0
 SRC_URI=https://github.com/HomeOfVapourSynthEvolution/vapoursynth-bm3d/archive/r6.tar.gz -> vapoursynth-bm3d-6.tar.gz
-_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	e4a9360924c5ce9f52e61342cde58512	vcs-snapshot	b77011b62e2053c646ad720defe6d921
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	vcs-snapshot	b77011b62e2053c646ad720defe6d921
 _md5_=4e4e1a18caa8fb0459d0b2a85a113c19
