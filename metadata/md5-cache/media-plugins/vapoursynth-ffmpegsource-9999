@@ -6,5 +6,5 @@ HOMEPAGE=https://github.com/FFMS/ffms2
 LICENSE=MIT
 RDEPEND==media-libs/ffmpegsource-9999 media-libs/vapoursynth
 SLOT=0
-_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
+_eclasses_=multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
 _md5_=99110890a7e0241046193d88ce537e92
