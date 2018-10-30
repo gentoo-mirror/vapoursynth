@@ -1,4 +1,4 @@
-DEFINED_PHASES=install unpack
+DEFINED_PHASES=compile install unpack
 DEPEND=media-libs/vapoursynth >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Optimized nnedi3 filter
 EAPI=6
@@ -7,4 +7,4 @@ LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth
 SLOT=0
 _eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9
-_md5_=e535872424ae187735d313f5cb925143
+_md5_=90d7875a1f934712cb1c6df674602005
