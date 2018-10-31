@@ -1,11 +1,11 @@
-DEFINED_PHASES=configure install unpack
-DEPEND=media-libs/vapoursynth media-libs/waifu2x-converter-cpp >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure install prepare unpack
+DEPEND=media-libs/vapoursynth >=media-libs/waifu2x-converter-cpp-6_pre >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Image super-resolution/denoise filter for VapourSynth, based on the waifu2x-opt library
-EAPI=5
+EAPI=6
 HOMEPAGE=https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Waifu2x-w2xc
 IUSE=debug
 LICENSE=MIT
-RDEPEND=media-libs/vapoursynth media-libs/waifu2x-converter-cpp
+RDEPEND=media-libs/vapoursynth >=media-libs/waifu2x-converter-cpp-6_pre
 SLOT=0
 _eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9	multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
-_md5_=3f317c3f6a79ab8943471824c2079bc4
+_md5_=f7546213a49898dabfc5e9d6c89a2b8a
