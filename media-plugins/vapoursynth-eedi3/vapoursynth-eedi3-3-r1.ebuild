@@ -1,12 +1,10 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2018Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
 
-inherit toolchain-funcs
-
-DESCRIPTION="Builds an edge map using canny edge detection"
-HOMEPAGE="https://github.com/HomeOfVapourSynthEvolution/VapourSynth-TCanny"
+DESCRIPTION="An intra-frame deinterlacer"
+HOMEPAGE="https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI3"
 
 if [[ ${PV} == *9999* ]]; then
 	inherit git-r3
@@ -20,18 +18,23 @@ fi
 
 LICENSE="GPL-2"
 SLOT="0"
+IUSE="opencl"
 
 RDEPEND+="
 	media-libs/vapoursynth
+	opencl? ( virtual/opencl )
 "
 DEPEND="${RDEPEND}
 "
 
+DOCS=( "README.md" )
+
 src_prepare() {
+	eapply "${FILESDIR}/${P}-fix_disable-opencl.patch"
 	eapply_user
 	./autogen.sh
 }
 
 src_configure() {
-	econf --libdir="/usr/$(get_libdir)/vapoursynth/"
+	econf $(use_enable opencl) --libdir="/usr/$(get_libdir)/vapoursynth/"
 }

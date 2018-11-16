@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -33,6 +33,7 @@ DEPEND="${RDEPEND}
 "
 
 src_prepare() {
+	eapply "${FILESDIR}/${P}-fix_disable-opencl.patch"
 	eapply_user
 	./autogen.sh
 }
