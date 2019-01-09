@@ -1,10 +1,10 @@
-DEFINED_PHASES=configure prepare pretend unpack
-DEPEND=media-libs/vapoursynth || ( >=sys-devel/gcc-5.1.0 sys-devel/clang ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install test unpack
+DEPEND=media-libs/vapoursynth >=dev-util/meson-0.45.1 >=dev-util/ninja-1.7.2 >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=It does a deblocking of the picture, using the deblocking filter of h264
 EAPI=6
 HOMEPAGE=https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Deblock
 LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth
 SLOT=0
-_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9	multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
-_md5_=fa95150ba68fe4ba47420c08a2b39c75
+_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9	meson	2780db7405ab6249571d07667ab97ba1	multilib	b2f01ad412baf81650c23fcf0975fa33	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	python-utils-r1	12114a2a9aab35b93efc037a196b3234	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
+_md5_=6cfc122eec39de1959a38b192b952dc8
