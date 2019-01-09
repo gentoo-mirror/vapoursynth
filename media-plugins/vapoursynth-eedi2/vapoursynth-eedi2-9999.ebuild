@@ -1,11 +1,9 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=5
+EAPI=6
 
-AUTOTOOLS_AUTORECONF=1
-
-inherit autotools-utils
+inherit meson
 
 DESCRIPTION="EEDI2 is an vertical resizer intended for edge-directed interpolation for deinterlacing"
 HOMEPAGE="https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI2"
@@ -29,6 +27,12 @@ RDEPEND+="
 DEPEND="${RDEPEND}
 "
 
+DOCS=( "README.md" )
+
+
 src_configure() {
-	autotools-utils_src_configure --libdir="/usr/$(get_libdir)/vapoursynth/"
+	local emesonargs=(
+		--libdir="/usr/$(get_libdir)/vapoursynth/"
+	)
+	meson_src_configure
 }
