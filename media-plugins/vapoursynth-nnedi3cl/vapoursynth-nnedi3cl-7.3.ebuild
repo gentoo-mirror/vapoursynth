@@ -5,13 +5,14 @@ EAPI=6
 
 inherit meson
 
-DESCRIPTION="Modified version of Fizick's avisynth filter port of yadif from mplayer"
-HOMEPAGE="https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Yadifmod"
+DESCRIPTION="VapourSynth port of NNEDI3 utilizing OpenCL"
+HOMEPAGE="https://github.com/HomeOfVapourSynthEvolution/VapourSynth-NNEDI3CL"
 
 if [[ ${PV} == *9999* ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/HomeOfVapourSynthEvolution/${PN}.git"
 	KEYWORDS=""
+	KEYWORDS="~amd64 ~x86"
 else
 	inherit vcs-snapshot
 	SRC_URI="https://github.com/HomeOfVapourSynthEvolution/${PN}/archive/r${PV}.tar.gz -> ${PN}-${PV}.tar.gz"
@@ -24,6 +25,8 @@ IUSE="lto"
 
 RDEPEND+="
 	media-libs/vapoursynth
+	dev-libs/boost
+	virtual/opencl
 "
 DEPEND="${RDEPEND}
 "
