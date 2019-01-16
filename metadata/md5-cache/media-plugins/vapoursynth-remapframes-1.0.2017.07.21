@@ -1,11 +1,12 @@
-DEFINED_PHASES=compile configure install prepare unpack
-DEPEND=media-libs/vapoursynth >=dev-util/meson-0.28.0 virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install test unpack
+DEPEND=media-libs/vapoursynth virtual/pkgconfig >=dev-util/meson-0.45.1 >=dev-util/ninja-1.7.2 >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Allows easy remapping of frames in a clip through the use of a text file or an input string
 EAPI=6
 HOMEPAGE=https://github.com/Irrational-Encoding-Wizardry/Vapoursynth-RemapFrames
+IUSE=lto
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD-2
 RDEPEND=media-libs/vapoursynth
 SLOT=0
-_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9
-_md5_=b273c532838acdf57cd44ce4dc00393f
+_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9	meson	2780db7405ab6249571d07667ab97ba1	multilib	b2f01ad412baf81650c23fcf0975fa33	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	python-utils-r1	12114a2a9aab35b93efc037a196b3234	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
+_md5_=3007ebd69f36729f9ae4da0836a1a03b
