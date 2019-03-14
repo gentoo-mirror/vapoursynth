@@ -6,5 +6,5 @@ HOMEPAGE=https://github.com/dubhater/Wobbly
 LICENSE=ISC
 RDEPEND=media-libs/vapoursynth dev-qt/qtwidgets media-plugins/vapoursynth-d2vsource media-plugins/vapoursynth-fieldhint media-plugins/vapoursynth-scxvid
 SLOT=0
-_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9	multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
+_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9	multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	b45201c4e6c096b98e250336954e64b9
 _md5_=0388f0bd6f81c8a6663b2643ec3e78cc

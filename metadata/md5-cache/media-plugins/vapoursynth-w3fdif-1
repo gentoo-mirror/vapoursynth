@@ -8,5 +8,5 @@ LICENSE=LGPL-3
 RDEPEND=media-libs/vapoursynth
 SLOT=0
 SRC_URI=https://github.com/HomeOfVapourSynthEvolution/vapoursynth-w3fdif/archive/r1.tar.gz -> vapoursynth-w3fdif-1.tar.gz
-_eclasses_=multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	vcs-snapshot	b77011b62e2053c646ad720defe6d921
+_eclasses_=multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	b45201c4e6c096b98e250336954e64b9	vcs-snapshot	b77011b62e2053c646ad720defe6d921
 _md5_=5440c8e562e8df3ff9e389dd9d7328b8
