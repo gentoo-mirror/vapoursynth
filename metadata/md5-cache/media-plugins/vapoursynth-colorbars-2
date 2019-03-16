@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure prepare unpack
+DEPEND=media-libs/vapoursynth
+DESCRIPTION=ColorBars is a filter for generating test signals
+EAPI=6
+HOMEPAGE=https://github.com/ifb/vapoursynth-colorbars
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/vapoursynth
+SLOT=0
+SRC_URI=https://github.com/ifb/vapoursynth-colorbars/archive/R2.tar.gz -> vapoursynth-colorbars-2.tar.gz
+_eclasses_=vcs-snapshot	b77011b62e2053c646ad720defe6d921
+_md5_=efd0e63366cd226958f48b7294ca9d94
