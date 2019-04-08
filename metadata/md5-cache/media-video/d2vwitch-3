@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure prepare unpack
+DEPEND=media-video/ffmpeg dev-qt/qtwidgets media-libs/vapoursynth
+DESCRIPTION=Cross-platform D2V creator
+EAPI=6
+HOMEPAGE=https://github.com/dubhater/D2VWitch
+KEYWORDS=~amd64 ~x86
+LICENSE=ISC LGPL-2.1
+RDEPEND=media-video/ffmpeg
+SLOT=0
+SRC_URI=https://github.com/dubhater/d2vwitch/archive/v3.tar.gz -> d2vwitch-3.tar.gz
+_eclasses_=vcs-snapshot	b77011b62e2053c646ad720defe6d921
+_md5_=652e5ea065ef7fdcdd74bef958ff6010
