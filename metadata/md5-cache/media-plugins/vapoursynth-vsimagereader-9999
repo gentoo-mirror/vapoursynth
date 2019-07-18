@@ -6,5 +6,5 @@ HOMEPAGE=https://github.com/chikuzen/vsimagereader
 LICENSE=LGPL-2.1
 RDEPEND=media-libs/vapoursynth media-libs/libpng:0 media-libs/libjpeg-turbo sys-libs/zlib
 SLOT=0
-_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529
+_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56
 _md5_=78bdac95a6a75289bb29a18e9ef22bd2
