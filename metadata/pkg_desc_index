@@ -1,0 +1,123 @@
+app-editors/vapoursynth-editor 19 9999: VapourSynth Editor
+media-libs/l-smash 2.9.1 9999: Media library
+media-libs/vapoursynth 46 47.1 9999: VapourSynth is an library for video manipulation.
+media-libs/waifu2x-converter-cpp 5.2.3 9999: Image Super-Resolution for anime-style-art using Deep Convolutional Neural Networks implementation in c++ using opencv
+media-libs/zimg 2.9.1 2.9.2: Scaling, colorspace conversion, and dithering library
+media-plugins/vapoursynth-addgrain 7 9999: AddGrain generates film like grain or other effects (like rain) by adding random noise to the video
+media-plugins/vapoursynth-adjust 1 9999: This is a very basic port of the built-in Avisynth filter Tweak
+media-plugins/vapoursynth-astdr 2 9999: A derainbow function for VapourSynth
+media-plugins/vapoursynth-autocrop 0.1 9999: AutoCrop for Vapoursynth
+media-plugins/vapoursynth-awarpsharp2 4 9999: Sharpens by wrapping
+media-plugins/vapoursynth-beziercurve 2 9999: A plugin which adjust the clip via bezier curve
+media-plugins/vapoursynth-bifrost 2.2 9999: Decrawler plugin for VapourSynth
+media-plugins/vapoursynth-bilateral 3 9999: Bilateral filter for VapourSynth
+media-plugins/vapoursynth-bm3d 6 8 9999: BM3D denoising filter for VapourSynth
+media-plugins/vapoursynth-cnr2 1 9999: Chroma noise reducer
+media-plugins/vapoursynth-colorbars 2 9999: ColorBars is a filter for generating test signals
+media-plugins/vapoursynth-combmask 0.20130730 9999: CombMask plugin for VapourSynth
+media-plugins/vapoursynth-continuityfixer 6 9999: Continuity Fixer port for Vapoursynth, can help repair damaged borders of frames
+media-plugins/vapoursynth-ctmf 4.1 9999: Median filter for VapourSynth (the same algorithm that MedianBlur2)
+media-plugins/vapoursynth-curve 2 9999: Apply color adjustments using curves
+media-plugins/vapoursynth-d2vsource 1.0 1.1 9999: D2V Source plugin for VapourSynth
+media-plugins/vapoursynth-damb 3 9999: Basic audio support for VapourSynth
+media-plugins/vapoursynth-dctfilter 2.1 9999: Performs DCT on 8x8 blocks, applies modification to it, then performs IDCT
+media-plugins/vapoursynth-deblock 6.1 9999: It does a deblocking of the picture, using the deblocking filter of h264
+media-plugins/vapoursynth-deblockpp7 4.1 9999: TTempSmooth is a motion adaptive temporal smoothing filter
+media-plugins/vapoursynth-decross 1 9999: Spatio-temporal cross color (rainbow) reduction filter
+media-plugins/vapoursynth-dedot 1 9999: Dedot is a temporal cross color (rainbow) and cross luminance (dotcrawl) reduction filter
+media-plugins/vapoursynth-degrainmedian 1 9999: Spatio-temporal limited median denoiser
+media-plugins/vapoursynth-delogo 0.4 9999: DeLogo Plugin Ported for VapourSynth
+media-plugins/vapoursynth-depan 1: VapourSynth port of DePan
+media-plugins/vapoursynth-descale 2 9999: VapourSynth plugin to undo upscaling
+media-plugins/vapoursynth-dfmderainbow 2 9999: A derainbow function for VapourSynth
+media-plugins/vapoursynth-dfttest 6 9999: 2D/3D frequency domain denoiser
+media-plugins/vapoursynth-dotkill 2017.12.28 9999: Spatial dotcrawl remover for VapourSynth
+media-plugins/vapoursynth-eedi2 7 7.1 9999: EEDI2 is an vertical resizer intended for edge-directed interpolation for deinterlacing
+media-plugins/vapoursynth-eedi3 4 9999: An intra-frame deinterlacer
+media-plugins/vapoursynth-ffmpegsource 2.23 9999: A libav/ffmpeg based source library for easy frame accurate access
+media-plugins/vapoursynth-fft3dfilter 1 9999: VapourSynth port of FFT3DFilter
+media-plugins/vapoursynth-fftspectrum 1.20190209 9999: A VapourSynth filter that displays the FFT frequency spectrum of a given clip
+media-plugins/vapoursynth-fieldhint 3 9999: Fieldhint plugin for VapourSynth
+media-plugins/vapoursynth-fillborders 1.0 9999: VapourSynth filter that fills the borders of a clip, without changing the clip's dimensions.
+media-plugins/vapoursynth-finesharp 2017.12.16 9999: Small and relatively fast realtime-sharpening function for VapourSynth
+media-plugins/vapoursynth-fix-telecined-fades 5.20170224 9999: Fix Telecined Fades
+media-plugins/vapoursynth-flash3kyuu_deband 2.0.0.20151127 9999: A deband library and filter for VapourSynth
+media-plugins/vapoursynth-fluxsmooth 2 9999: A filter for smoothing of fluctuations
+media-plugins/vapoursynth-fmtconv 20 9999: A format-conversion plug-in for the Vapoursynth video processing engine
+media-plugins/vapoursynth-fvsfunc 2018.10.25 9999: Frechdachs's Vapoursynth functions
+media-plugins/vapoursynth-genericfilters 0.20150505 9999: Common image-processing filters for vapoursynth
+media-plugins/vapoursynth-havsfunc 32 9999: HolyWu's ported AviSynth scripts for VapourSynth
+media-plugins/vapoursynth-histogram 2 9999: Histogram plugin for VapourSynth
+media-plugins/vapoursynth-hqdn3d 0.2017.11.10 9999: A 3-way low-pass filter, which can completely remove high-frequency noise while minimizing blending artifacts
+media-plugins/vapoursynth-hysteria 2017.06.14 9999: Line darkening script for VapourSynth
+media-plugins/vapoursynth-inpaint 0.20151023 9999: VapourSynth plugin for image inpaintin
+media-plugins/vapoursynth-it 1.2 9999: Inverse Telecine plugin for VapourSynth
+media-plugins/vapoursynth-kagefunc 2019.07.07 9999: kageru's Vapoursynth functions
+media-plugins/vapoursynth-knlmeanscl 0.6.11-r1 0.7.7 1.1.1-r1 9999: An optimized pixelwise OpenCL implementation of the Non-local means denoising algorithm
+media-plugins/vapoursynth-l-smash-works 2016.07.30 9999: Works based on L-SMASH project
+media-plugins/vapoursynth-median 4 9999: Various median functions on a single/several clips.
+media-plugins/vapoursynth-minideen 1 9999: Spatial denoising filter
+media-plugins/vapoursynth-minsrp 4-r4 9999: simple blurring/sharpening filter for vaporsynth
+media-plugins/vapoursynth-motionmask 2 9999: Creates a mask of moving pixels. Every output pixel will be set to the absolute difference between the current frame and the previous frame
+media-plugins/vapoursynth-msmoosh 1.1 9999: MSmooth is a spatial smoother that doesn't touch edges, MSharpen tries to sharpen only edges
+media-plugins/vapoursynth-muvsfunc 0.2.0 9999: Muonium's VapourSynth functions
+media-plugins/vapoursynth-mvsfunc 8 9999: mawen1250's VapourSynth functions
+media-plugins/vapoursynth-mvtools 21 9999: MVTools is a set of filters for motion estimation and compensation
+media-plugins/vapoursynth-mvtools-sf 9 9999: MVTools is a set of filters for motion estimation and compensation
+media-plugins/vapoursynth-nnedi3 12 9999: nnedi3 is an intra-field only deinterlacer
+media-plugins/vapoursynth-nnedi3_resample 2016.08.28 9999: A function for scaling, color space conversion, etc.
+media-plugins/vapoursynth-nnedi3_rpow2 2017.09.14 9999: 
+media-plugins/vapoursynth-nnedi3cl 7.3 9999: VapourSynth port of NNEDI3 utilizing OpenCL
+media-plugins/vapoursynth-oyster 6 9999: A top class de-noising filter against compression artifacts
+media-plugins/vapoursynth-plugins-meta 44 45 46 47: VapourSynth plugins meta package.
+media-plugins/vapoursynth-plum 2 9999: A sharpening/blind deconvolution suite with certain advanced features like Non-Local error, Block Matching, etc...
+media-plugins/vapoursynth-qrcodesource 1.0.0.0 9999: Plugin to provide a means to embed QR codes in video
+media-plugins/vapoursynth-reduceflicker 2015.02.25 9999: VapourSynth port of ReduceFlicker
+media-plugins/vapoursynth-remapframes 1.0.2017.07.21 9999: Allows easy remapping of frames in a clip through the use of a text file or an input string
+media-plugins/vapoursynth-removedirt 0.20131120 9999: Port of RemoveDirt to VapourSynth
+media-plugins/vapoursynth-retinex 4 9999: Retinex plugin for VapourSynth
+media-plugins/vapoursynth-sangnom 41 9999: A rewrite version of AVISynth SangNom2
+media-plugins/vapoursynth-scenechange 0.2.2-r1: A scene change detection plugin for VapourSynth plus temporalsoften2 that makes use of it
+media-plugins/vapoursynth-scxvid 1 9999: Scene change detection plugin for VapourSynth, using XviD
+media-plugins/vapoursynth-smoothuv 2 9999: Spatial derainbow filter
+media-plugins/vapoursynth-ssiq 1.0 9999: SSIQ plugin for VapourSynth
+media-plugins/vapoursynth-surfaceblur 0 9999: Surface Blur
+media-plugins/vapoursynth-tc2cfr 0.0.1 9999: Plugin that can read a timecode file and convert a given video clip into one with constant framerate
+media-plugins/vapoursynth-tcanny 12 9999: Builds an edge map using canny edge detection
+media-plugins/vapoursynth-tcomb 2 3 9999: TComb is a temporal comb filter
+media-plugins/vapoursynth-tdeintmod 10.1 9999: VapourSynth port of TDeint and TMM
+media-plugins/vapoursynth-tedgemask 1 9999: TEdgeMask is an edge detection filter
+media-plugins/vapoursynth-templinearapproximate 3 9999: Takes several frames and for each pixel calculates linear approximation of its values through time
+media-plugins/vapoursynth-temporalmedian 1 9999: TemporalMedian is a temporal denoising filter
+media-plugins/vapoursynth-temporalsoften 1.0 9999: TemporalSoften plugin for VapourSynth
+media-plugins/vapoursynth-temporalsoften2 1 9999: TemporalSoften filter for VapourSynth
+media-plugins/vapoursynth-timecube 2 9999: A plugin to load and apply 3D luts to a video
+media-plugins/vapoursynth-tnlmeans 2015.02.25 9999: VapourSynth port of TNLMeans
+media-plugins/vapoursynth-tonemap 1 9999: A filter for converting high dynamic range (HDR) video to standard dynamic range (SDR)
+media-plugins/vapoursynth-ttempsmooth 3.1 9999: TTempSmooth is a motion adaptive temporal smoothing filter
+media-plugins/vapoursynth-vaguedenoiser 2 9999: A wavelet based denoiser
+media-plugins/vapoursynth-vautodeint 0.0.1 9999: Auto interlace detection and deinterlace vapoursynth python script
+media-plugins/vapoursynth-vcfreq 2016.08.17: A plugin that operates in frequency domain to filter out certain types of regular noises
+media-plugins/vapoursynth-vcmod 2017.10.17: A plugin which operate on pixel values and modify it as per some criteria. Useful for denoising
+media-plugins/vapoursynth-vcmove 2016.04.09: This plugin moves pixels as per requirement. Useful for correcting certain distortions or tilt or for transitions
+media-plugins/vapoursynth-vctrans 2015.09.10: vctrans a plugin for transitions
+media-plugins/vapoursynth-vfrtocrf 1.0.2017.07.21 9999: Converts VFR video to CFR video through the use of Matroska Version 2 Timecodes
+media-plugins/vapoursynth-videoscope 1.0 9999: Videoscope plugin for VapourSynth
+media-plugins/vapoursynth-vine 7 9999: A collection of a non-local error based de-halo filter and a set of morphological filters
+media-plugins/vapoursynth-vmaf 5 9999: VMAF is a perceptual video quality assessment algorithm developed by Netflix.
+media-plugins/vapoursynth-vs-maskdetail 0.20151220 9999: A function to use invks/debilinear
+media-plugins/vapoursynth-vsimagereader 0.2.1 9999: Image reader plugin for VapourSynth
+media-plugins/vapoursynth-vsrawsource 0.3.3.20130731 9999: Raw format video reader for VapourSynth
+media-plugins/vapoursynth-vstaambk 0.7.4 9999: A ported AA-script from Avisynth
+media-plugins/vapoursynth-w3fdif 1 9999: VapourSynth port of W3FDIF
+media-plugins/vapoursynth-waifu2x-w2xc 8 9999: Image super-resolution/denoise filter for VapourSynth, based on the waifu2x-opt library
+media-plugins/vapoursynth-warpsharpsupport 1 9999: Script versions of support functions from WarpSharp
+media-plugins/vapoursynth-wwxd 1.0 9999: Xvid-like scene change detection for VapourSynth
+media-plugins/vapoursynth-xaa 2019.03.17 9999: xaa is a many-in-one antialiasing function for VapourSynth
+media-plugins/vapoursynth-yadifmod 10.1 9999: Modified version of Fizick's avisynth filter port of yadif from mplayer
+media-plugins/vapoursynth-znedi3 0.2018.10.09 9999: Optimized nnedi3 filter
+media-plugins/vsutil 0.2.0 9999: A collection of general purpose Vapoursynth functions to be reused in modules and scripts
+media-video/d2vwitch 3 9999: Cross-platform D2V creator
+media-video/mpv 0.29.1-r1 9999-r9: Media player based on MPlayer and mplayer2
+media-video/wobbly 4-r1 9999: IVTC assistant for VapourSynth, similar to Yatta
+sci-libs/vmaf 1.3.14: Perceptual video quality assessment based on multi-method fusion.
