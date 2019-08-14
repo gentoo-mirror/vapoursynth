@@ -17,7 +17,7 @@ media-plugins/vapoursynth-colorbars 2 9999: ColorBars is a filter for generating
 media-plugins/vapoursynth-combmask 0.20130730 9999: CombMask plugin for VapourSynth
 media-plugins/vapoursynth-continuityfixer 6 9999: Continuity Fixer port for Vapoursynth, can help repair damaged borders of frames
 media-plugins/vapoursynth-ctmf 4.1 9999: Median filter for VapourSynth (the same algorithm that MedianBlur2)
-media-plugins/vapoursynth-curve 2 9999: Apply color adjustments using curves
+media-plugins/vapoursynth-curve 2 3 9999: Apply color adjustments using curves
 media-plugins/vapoursynth-d2vsource 1.0 1.1 9999: D2V Source plugin for VapourSynth
 media-plugins/vapoursynth-damb 3 9999: Basic audio support for VapourSynth
 media-plugins/vapoursynth-dctfilter 2.1 9999: Performs DCT on 8x8 blocks, applies modification to it, then performs IDCT
