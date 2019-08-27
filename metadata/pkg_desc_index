@@ -60,7 +60,7 @@ media-plugins/vapoursynth-minideen 1 9999: Spatial denoising filter
 media-plugins/vapoursynth-minsrp 4-r4 9999: simple blurring/sharpening filter for vaporsynth
 media-plugins/vapoursynth-motionmask 2 9999: Creates a mask of moving pixels. Every output pixel will be set to the absolute difference between the current frame and the previous frame
 media-plugins/vapoursynth-msmoosh 1.1 9999: MSmooth is a spatial smoother that doesn't touch edges, MSharpen tries to sharpen only edges
-media-plugins/vapoursynth-muvsfunc 0.2.0 9999: Muonium's VapourSynth functions
+media-plugins/vapoursynth-muvsfunc 0.2.0 0.3.0 9999: Muonium's VapourSynth functions
 media-plugins/vapoursynth-mvsfunc 8 9999: mawen1250's VapourSynth functions
 media-plugins/vapoursynth-mvtools 21 9999: MVTools is a set of filters for motion estimation and compensation
 media-plugins/vapoursynth-mvtools-sf 9 9999: MVTools is a set of filters for motion estimation and compensation
