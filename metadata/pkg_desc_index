@@ -73,7 +73,7 @@ media-plugins/vapoursynth-plugins-meta 44 45 46 47: VapourSynth plugins meta pac
 media-plugins/vapoursynth-plum 2 9999: A sharpening/blind deconvolution suite with certain advanced features like Non-Local error, Block Matching, etc...
 media-plugins/vapoursynth-qrcodesource 1.0.0.0 9999: Plugin to provide a means to embed QR codes in video
 media-plugins/vapoursynth-reduceflicker 2015.02.25 9999: VapourSynth port of ReduceFlicker
-media-plugins/vapoursynth-remapframes 1.0.2017.07.21 9999: Allows easy remapping of frames in a clip through the use of a text file or an input string
+media-plugins/vapoursynth-remapframes 1.1 9999: Allows easy remapping of frames in a clip through the use of a text file or an input string
 media-plugins/vapoursynth-removedirt 0.20131120 9999: Port of RemoveDirt to VapourSynth
 media-plugins/vapoursynth-retinex 4 9999: Retinex plugin for VapourSynth
 media-plugins/vapoursynth-sangnom 41 9999: A rewrite version of AVISynth SangNom2
