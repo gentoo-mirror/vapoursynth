@@ -54,7 +54,7 @@ media-plugins/vapoursynth-inpaint 0.20151023 9999: VapourSynth plugin for image 
 media-plugins/vapoursynth-it 1.2 9999: Inverse Telecine plugin for VapourSynth
 media-plugins/vapoursynth-kagefunc 2019.07.07 9999: kageru's Vapoursynth functions
 media-plugins/vapoursynth-knlmeanscl 0.6.11-r1 0.7.7 1.1.1-r1 9999: An optimized pixelwise OpenCL implementation of the Non-local means denoising algorithm
-media-plugins/vapoursynth-l-smash-works 2016.07.30 9999: Works based on L-SMASH project
+media-plugins/vapoursynth-l-smash-works 2019.09.01 9999: Works based on L-SMASH project
 media-plugins/vapoursynth-median 4 9999: Various median functions on a single/several clips.
 media-plugins/vapoursynth-minideen 1 9999: Spatial denoising filter
 media-plugins/vapoursynth-minsrp 4-r4 9999: simple blurring/sharpening filter for vaporsynth
