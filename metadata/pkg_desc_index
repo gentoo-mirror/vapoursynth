@@ -55,6 +55,7 @@ media-plugins/vapoursynth-it 1.2 9999: Inverse Telecine plugin for VapourSynth
 media-plugins/vapoursynth-kagefunc 2019.07.07 9999: kageru's Vapoursynth functions
 media-plugins/vapoursynth-knlmeanscl 0.6.11-r1 0.7.7 1.1.1-r1 9999: An optimized pixelwise OpenCL implementation of the Non-local means denoising algorithm
 media-plugins/vapoursynth-l-smash-works 2019.09.01 9999: Works based on L-SMASH project
+media-plugins/vapoursynth-matchhistogram 1 9999: MatchHistogram modifies one clip's histogram to match the histogram of another clip
 media-plugins/vapoursynth-median 4 9999: Various median functions on a single/several clips.
 media-plugins/vapoursynth-minideen 1 9999: Spatial denoising filter
 media-plugins/vapoursynth-minsrp 4-r4 9999: simple blurring/sharpening filter for vaporsynth
@@ -69,7 +70,7 @@ media-plugins/vapoursynth-nnedi3_resample 2016.08.28 9999: A function for scalin
 media-plugins/vapoursynth-nnedi3_rpow2 2017.09.14 9999: 
 media-plugins/vapoursynth-nnedi3cl 7.3 9999: VapourSynth port of NNEDI3 utilizing OpenCL
 media-plugins/vapoursynth-oyster 6 9999: A top class de-noising filter against compression artifacts
-media-plugins/vapoursynth-plugins-meta 44 45 46 47: VapourSynth plugins meta package.
+media-plugins/vapoursynth-plugins-meta 44 45 46 47 48: VapourSynth plugins meta package.
 media-plugins/vapoursynth-plum 2 9999: A sharpening/blind deconvolution suite with certain advanced features like Non-Local error, Block Matching, etc...
 media-plugins/vapoursynth-qrcodesource 1.0.0.0 9999: Plugin to provide a means to embed QR codes in video
 media-plugins/vapoursynth-reduceflicker 2015.02.25 9999: VapourSynth port of ReduceFlicker
