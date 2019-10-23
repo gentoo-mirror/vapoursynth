@@ -116,7 +116,7 @@ media-plugins/vapoursynth-w3fdif 1 9999: VapourSynth port of W3FDIF
 media-plugins/vapoursynth-waifu2x-w2xc 8 9999: Image super-resolution/denoise filter for VapourSynth, based on the waifu2x-opt library
 media-plugins/vapoursynth-warpsharpsupport 1 9999: Script versions of support functions from WarpSharp
 media-plugins/vapoursynth-wwxd 1.0 9999: Xvid-like scene change detection for VapourSynth
-media-plugins/vapoursynth-xaa 2019.03.17 9999: xaa is a many-in-one antialiasing function for VapourSynth
+media-plugins/vapoursynth-xaa 3 9999: xaa is a many-in-one antialiasing function for VapourSynth
 media-plugins/vapoursynth-yadifmod 10.1 9999: Modified version of Fizick's avisynth filter port of yadif from mplayer
 media-plugins/vapoursynth-znedi3 0.2018.10.09 9999: Optimized nnedi3 filter
 media-plugins/vsutil 0.2.0 9999: A collection of general purpose Vapoursynth functions to be reused in modules and scripts
