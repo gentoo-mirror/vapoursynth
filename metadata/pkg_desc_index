@@ -84,7 +84,7 @@ media-plugins/vapoursynth-scxvid 1 9999: Scene change detection plugin for Vapou
 media-plugins/vapoursynth-smoothuv 2 9999: Spatial derainbow filter
 media-plugins/vapoursynth-ssiq 1.0 9999: SSIQ plugin for VapourSynth
 media-plugins/vapoursynth-surfaceblur 0 9999: Surface Blur
-media-plugins/vapoursynth-tbilateral 2 9999: A spatial smoothing filter that uses the bilateral filtering algorithm
+media-plugins/vapoursynth-tbilateral 3 9999: A spatial smoothing filter that uses the bilateral filtering algorithm
 media-plugins/vapoursynth-tc2cfr 0.0.1 9999: Plugin that can read a timecode file and convert a given video clip into one with constant framerate
 media-plugins/vapoursynth-tcanny 12 9999: Builds an edge map using canny edge detection
 media-plugins/vapoursynth-tcomb 2 3 9999: TComb is a temporal comb filter
