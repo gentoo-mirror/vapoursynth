@@ -39,7 +39,7 @@ media-plugins/vapoursynth-fft3dfilter 1 9999: VapourSynth port of FFT3DFilter
 media-plugins/vapoursynth-fftspectrum 1.20190209 9999: A VapourSynth filter that displays the FFT frequency spectrum of a given clip
 media-plugins/vapoursynth-fieldhint 3 9999: Fieldhint plugin for VapourSynth
 media-plugins/vapoursynth-fillborders 1.0 9999: VapourSynth filter that fills the borders of a clip, without changing the clip's dimensions.
-media-plugins/vapoursynth-finesharp 2019.10.10 9999: Small and relatively fast realtime-sharpening function for VapourSynth
+media-plugins/vapoursynth-finesharp 2019.11.03 9999: Small and relatively fast realtime-sharpening function for VapourSynth
 media-plugins/vapoursynth-fix-telecined-fades 5.20170224 9999: Fix Telecined Fades
 media-plugins/vapoursynth-flash3kyuu_deband 2.0.0.20151127 9999: A deband library and filter for VapourSynth
 media-plugins/vapoursynth-fluxsmooth 2 9999: A filter for smoothing of fluctuations
