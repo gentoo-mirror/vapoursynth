@@ -1,12 +1,12 @@
 DEFINED_PHASES=configure prepare unpack
 DEPEND=media-libs/vapoursynth
 DESCRIPTION=A filter for converting high dynamic range (HDR) video to standard dynamic range (SDR)
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/ifb/vapoursynth-tonemap
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth
 SLOT=0
-SRC_URI=https://github.com/ifb/vapoursynth-tonemap/archive/R1.tar.gz -> vapoursynth-tonemap-1.tar.gz
+SRC_URI=https://github.com/ifb/vapoursynth-tonemap/archive/R2.tar.gz -> vapoursynth-tonemap-2.tar.gz
 _eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
-_md5_=dcada1cf74f734485e2c704f157caf0f
+_md5_=b887ee1a7608da65886f2c188944933d

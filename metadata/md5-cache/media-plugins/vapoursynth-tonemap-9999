@@ -1,11 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=configure prepare unpack
-DEPEND=media-libs/vapoursynth >=dev-vcs/git-1.8.2.1[curl]
+DEPEND=media-libs/vapoursynth
 DESCRIPTION=A filter for converting high dynamic range (HDR) video to standard dynamic range (SDR)
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/ifb/vapoursynth-tonemap
 LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=media-libs/vapoursynth
 SLOT=0
 _eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
-_md5_=dcada1cf74f734485e2c704f157caf0f
+_md5_=b887ee1a7608da65886f2c188944933d
