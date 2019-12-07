@@ -6,5 +6,5 @@ HOMEPAGE=https://github.com/sekrit-twc/timecube
 PROPERTIES=live
 RDEPEND=media-libs/vapoursynth
 SLOT=0
-_eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
+_eclasses_=git-r3	6d22636df236df4cc8475f7b7668bdcd
 _md5_=a52d27473e6902b9340e769bc0a847bd
