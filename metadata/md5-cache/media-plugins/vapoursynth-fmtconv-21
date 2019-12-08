@@ -1,12 +1,12 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=configure prepare unpack
 DEPEND=media-libs/vapoursynth
 DESCRIPTION=A format-conversion plug-in for the Vapoursynth video processing engine
 EAPI=7
 HOMEPAGE=http://forum.doom9.org/showthread.php?t=166504
+KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
-PROPERTIES=live
 RDEPEND=media-libs/vapoursynth
 SLOT=0
-_eclasses_=git-r3	6d22636df236df4cc8475f7b7668bdcd
+SRC_URI=https://github.com/EleonoreMizo/fmtconv/archive/r21.tar.gz -> vapoursynth-fmtconv-21.tar.gz
+_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=8a58283012af925c78dbff27a1bcf416
