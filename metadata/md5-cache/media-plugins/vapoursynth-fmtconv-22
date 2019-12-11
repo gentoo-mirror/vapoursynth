@@ -7,6 +7,6 @@ KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth
 SLOT=0
-SRC_URI=https://github.com/EleonoreMizo/fmtconv/archive/r21.tar.gz -> vapoursynth-fmtconv-21.tar.gz
+SRC_URI=https://github.com/EleonoreMizo/fmtconv/archive/r22.tar.gz -> vapoursynth-fmtconv-22.tar.gz
 _eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=8a58283012af925c78dbff27a1bcf416
