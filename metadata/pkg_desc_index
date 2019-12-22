@@ -8,7 +8,7 @@ media-plugins/vapoursynth-adjust 1 9999: This is a very basic port of the built-
 media-plugins/vapoursynth-astdr 2 9999: A derainbow function for VapourSynth
 media-plugins/vapoursynth-autocrop 0.1 9999: AutoCrop for Vapoursynth
 media-plugins/vapoursynth-awarpsharp2 4 9999: Sharpens by wrapping
-media-plugins/vapoursynth-beziercurve 2 9999: A plugin which adjust the clip via bezier curve
+media-plugins/vapoursynth-beziercurve 3 9999: A plugin which adjust the clip via bezier curve
 media-plugins/vapoursynth-bifrost 2.2 9999: Decrawler plugin for VapourSynth
 media-plugins/vapoursynth-bilateral 3 9999: Bilateral filter for VapourSynth
 media-plugins/vapoursynth-bm3d 6 8 9999: BM3D denoising filter for VapourSynth
@@ -121,6 +121,6 @@ media-plugins/vapoursynth-yadifmod 10.1 9999: Modified version of Fizick's avisy
 media-plugins/vapoursynth-znedi3 0.2018.10.09 9999: Optimized nnedi3 filter
 media-plugins/vsutil 0.2.0 9999: A collection of general purpose Vapoursynth functions to be reused in modules and scripts
 media-video/d2vwitch 3 9999: Cross-platform D2V creator
-media-video/mpv 0.29.1-r1 9999-r9: Media player based on MPlayer and mplayer2
+media-video/mpv 0.29.1-r1 0.30.0 9999: Media player based on MPlayer and mplayer2
 media-video/wobbly 4-r1 9999: IVTC assistant for VapourSynth, similar to Yatta
 sci-libs/vmaf 1.3.14: Perceptual video quality assessment based on multi-method fusion.
