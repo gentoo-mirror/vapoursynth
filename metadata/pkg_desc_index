@@ -3,6 +3,8 @@ media-libs/l-smash 2.14.5 9999: Media library
 media-libs/vapoursynth 48 9999: VapourSynth is an library for video manipulation.
 media-libs/waifu2x-converter-cpp 5.3.3 9999: Image Super-Resolution for anime-style-art using Deep Convolutional Neural Networks implementation in c++ using opencv
 media-libs/zimg 2.9.1 2.9.2: Scaling, colorspace conversion, and dithering library
+media-plugins/acsuite 0.20191123 9999: Frame-based cutting/trimming/splicing of audio files from within VapourSynth
+media-plugins/audiocutter 0.20190712 9999: A tool to cut audio and generate associated chapters/qpfiles for vapoursynth
 media-plugins/vapoursynth-addgrain 7 9999: AddGrain generates film like grain or other effects (like rain) by adding random noise to the video
 media-plugins/vapoursynth-adjust 1 9999: This is a very basic port of the built-in Avisynth filter Tweak
 media-plugins/vapoursynth-astdr 2 9999: A derainbow function for VapourSynth
@@ -55,6 +57,7 @@ media-plugins/vapoursynth-it 1.2 9999: Inverse Telecine plugin for VapourSynth
 media-plugins/vapoursynth-kagefunc 2019.07.07 9999: kageru's Vapoursynth functions
 media-plugins/vapoursynth-knlmeanscl 0.6.11-r1 0.7.7 1.1.1-r1 9999: An optimized pixelwise OpenCL implementation of the Non-local means denoising algorithm
 media-plugins/vapoursynth-l-smash-works 20191127 99999999: Works based on L-SMASH project
+media-plugins/vapoursynth-lvsfunc 0.20191216 9999: Light's Vapoursynth Functions
 media-plugins/vapoursynth-matchhistogram 2 9999: MatchHistogram modifies one clip's histogram to match the histogram of another clip
 media-plugins/vapoursynth-median 4 9999: Various median functions on a single/several clips.
 media-plugins/vapoursynth-minideen 1 9999: Spatial denoising filter
