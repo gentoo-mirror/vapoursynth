@@ -14,6 +14,7 @@ media-plugins/vapoursynth-beziercurve 3 9999: A plugin which adjust the clip via
 media-plugins/vapoursynth-bifrost 2.2 9999: Decrawler plugin for VapourSynth
 media-plugins/vapoursynth-bilateral 3 9999: Bilateral filter for VapourSynth
 media-plugins/vapoursynth-bm3d 6 8 9999: BM3D denoising filter for VapourSynth
+media-plugins/vapoursynth-cmedian 0.20160816 9999: Implements the constant time median filter algorithm for Vapoursynth
 media-plugins/vapoursynth-cnr2 1 9999: Chroma noise reducer
 media-plugins/vapoursynth-colorbars 2 9999: ColorBars is a filter for generating test signals
 media-plugins/vapoursynth-combmask 0.20130730 9999: CombMask plugin for VapourSynth

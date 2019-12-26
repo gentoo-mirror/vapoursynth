@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure prepare unpack
+DEPEND=media-libs/vapoursynth dev-vcs/mercurial
+DESCRIPTION=Implements the constant time median filter algorithm for Vapoursynth
+EAPI=7
+HOMEPAGE=https://bitbucket.org/James1201/vapoursynth-cmedian
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1
+PROPERTIES=live
+RDEPEND=media-libs/vapoursynth
+SLOT=0
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	mercurial	d22fe98ea362174612a57c233239102f
+_md5_=b085a95190f94dc280d8e2afd76b196e
