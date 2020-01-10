@@ -8,5 +8,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=media-libs/vapoursynth
 SLOT=0
-_eclasses_=git-r3	7d6c351ee8b1feb12ed8c8b0adae088b
+_eclasses_=git-r3	809e27702c573cbba31c08ed00bbad33
 _md5_=e97df4086a2626864a234f67ff1f47f1
