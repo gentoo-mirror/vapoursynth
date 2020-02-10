@@ -10,4 +10,4 @@ RDEPEND=media-libs/vapoursynth
 SLOT=0
 SRC_URI=https://github.com/dubhater/vapoursynth-degrainmedian/archive/v1.tar.gz -> vapoursynth-degrainmedian-1.tar.gz
 _eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
-_md5_=bd4fb8e62cb4cf983119949c679143f3
+_md5_=3264d85b9f1bac9deb01c511f20653f2
