@@ -1,13 +1,13 @@
 DEFINED_PHASES=install setup unpack
-DEPEND=media-libs/vapoursynth[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)?,python_single_target_python3_7(+)?]
+DEPEND=media-libs/vapoursynth[%PYTHON_USEDEP-HAS-BEEN-REMOVED%]
 DESCRIPTION=This is a very basic port of the built-in Avisynth filter Tweak
 EAPI=6
 HOMEPAGE=https://github.com/dubhater/vapoursynth-adjust
-IUSE=python_targets_python3_6 python_targets_python3_7 python_single_target_python3_6 python_single_target_python3_7
+IUSE=python_single_target_python3_6 python_single_target_python3_7
 KEYWORDS=~amd64 ~x86
 LICENSE=WTFPL-2
-RDEPEND=media-libs/vapoursynth[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)?,python_single_target_python3_7(+)?]
+RDEPEND=media-libs/vapoursynth[%PYTHON_USEDEP-HAS-BEEN-REMOVED%]
 SLOT=0
 SRC_URI=https://github.com/dubhater/vapoursynth-adjust/archive/v1.tar.gz -> vapoursynth-adjust-1.tar.gz
-_eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-single-r1	36ac48e647d2627de28c87aaffb94753	python-utils-r1	611c493a4cfef5254350fabc04b606f5	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-single-r1	fdfdbe462f245e931069310e892a8538	python-utils-r1	611c493a4cfef5254350fabc04b606f5	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=90ab0f535c474af8d54b3697cb4441d9

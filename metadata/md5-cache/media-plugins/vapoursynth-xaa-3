@@ -1,12 +1,12 @@
 DEFINED_PHASES=install setup
-DEPEND=media-libs/vapoursynth[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)?,python_single_target_python3_7(+)?,vapoursynth_plugins_removegrain] media-plugins/vapoursynth-eedi2 media-plugins/vapoursynth-eedi3 media-plugins/vapoursynth-znedi3 media-plugins/vapoursynth-nnedi3cl media-plugins/vapoursynth-sangnom media-plugins/vapoursynth-tcanny media-plugins/vapoursynth-tedgemask
+DEPEND=media-libs/vapoursynth[%PYTHON_USEDEP-HAS-BEEN-REMOVED%,vapoursynth_plugins_removegrain] media-plugins/vapoursynth-eedi2 media-plugins/vapoursynth-eedi3 media-plugins/vapoursynth-znedi3 media-plugins/vapoursynth-nnedi3cl media-plugins/vapoursynth-sangnom media-plugins/vapoursynth-tcanny media-plugins/vapoursynth-tedgemask
 DESCRIPTION=xaa is a many-in-one antialiasing function for VapourSynth
 EAPI=7
 HOMEPAGE=https://github.com/dubhater/vapoursynth-xaa
-IUSE=python_targets_python3_6 python_targets_python3_7 python_single_target_python3_6 python_single_target_python3_7
+IUSE=python_single_target_python3_6 python_single_target_python3_7
 KEYWORDS=~amd64 ~x86
-RDEPEND=media-libs/vapoursynth[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)?,python_single_target_python3_7(+)?,vapoursynth_plugins_removegrain] media-plugins/vapoursynth-eedi2 media-plugins/vapoursynth-eedi3 media-plugins/vapoursynth-znedi3 media-plugins/vapoursynth-nnedi3cl media-plugins/vapoursynth-sangnom media-plugins/vapoursynth-tcanny media-plugins/vapoursynth-tedgemask
+RDEPEND=media-libs/vapoursynth[%PYTHON_USEDEP-HAS-BEEN-REMOVED%,vapoursynth_plugins_removegrain] media-plugins/vapoursynth-eedi2 media-plugins/vapoursynth-eedi3 media-plugins/vapoursynth-znedi3 media-plugins/vapoursynth-nnedi3cl media-plugins/vapoursynth-sangnom media-plugins/vapoursynth-tcanny media-plugins/vapoursynth-tedgemask
 SLOT=0
 SRC_URI=https://github.com/dubhater/vapoursynth-xaa/archive/v3.tar.gz -> vapoursynth-xaa-3.tar.gz
-_eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-single-r1	36ac48e647d2627de28c87aaffb94753	python-utils-r1	611c493a4cfef5254350fabc04b606f5	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-single-r1	fdfdbe462f245e931069310e892a8538	python-utils-r1	611c493a4cfef5254350fabc04b606f5	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
 _md5_=903e10f5f6a9d1558986e71a3b109a9e
