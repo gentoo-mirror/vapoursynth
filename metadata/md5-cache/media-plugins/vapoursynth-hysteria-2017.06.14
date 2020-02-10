@@ -1,12 +1,12 @@
 DEFINED_PHASES=install setup unpack
-DEPEND=media-libs/vapoursynth[%PYTHON_USEDEP-HAS-BEEN-REMOVED%,vapoursynth_plugins_miscfilters] >=dev-vcs/git-1.8.2.1[curl]
+DEPEND=media-libs/vapoursynth[python_single_target_python3_6(-)?,python_single_target_python3_7(-)?,python_single_target_python3_8(-)?,vapoursynth_plugins_miscfilters] >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Line darkening script for VapourSynth
 EAPI=6
 HOMEPAGE=https://github.com/Irrational-Encoding-Wizardry/vapoursynth-Hysteria
-IUSE=python_single_target_python3_6 python_single_target_python3_7
+IUSE=python_single_target_python3_6 python_single_target_python3_7 python_single_target_python3_8
 KEYWORDS=~amd64 ~x86
 PROPERTIES=live
-RDEPEND=media-libs/vapoursynth[%PYTHON_USEDEP-HAS-BEEN-REMOVED%,vapoursynth_plugins_miscfilters]
+RDEPEND=media-libs/vapoursynth[python_single_target_python3_6(-)?,python_single_target_python3_7(-)?,python_single_target_python3_8(-)?,vapoursynth_plugins_miscfilters]
 SLOT=0
 _eclasses_=git-r3	809e27702c573cbba31c08ed00bbad33	multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-single-r1	fdfdbe462f245e931069310e892a8538	python-utils-r1	611c493a4cfef5254350fabc04b606f5	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=522500c2c2fb2446fa38007726ec3b87
+_md5_=a5e0b981c32c846a365b75570a5a5c0b

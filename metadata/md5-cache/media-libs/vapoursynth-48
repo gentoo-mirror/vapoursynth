@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install prepare setup unpack
-DEPEND=python_single_target_python3_6? ( dev-lang/python:3.6[threads(+)] >=dev-lang/python-exec-2:=[python_targets_python3_6] ) python_single_target_python3_7? ( dev-lang/python:3.7[threads(+)] >=dev-lang/python-exec-2:=[python_targets_python3_7] ) vapoursynth_plugins_subtext? ( media-libs/libass virtual/ffmpeg ) vapoursynth_plugins_imagemagick? ( >=media-gfx/imagemagick-7.0[cxx,hdri,-q8(-),-q64(-)] ) >=media-libs/zimg-2.9.2 vapoursynth_plugins_ocr? ( app-text/tesseract ) vapoursynth_plugins_miscfilters? ( !media-plugins/vapoursynth-miscfilters ) >=dev-python/cython-0.29 doc? ( dev-python/sphinx[%PYTHON_USEDEP-HAS-BEEN-REMOVED%] dev-python/sphinxcontrib-websupport[%PYTHON_USEDEP-HAS-BEEN-REMOVED%] ) virtual/pkgconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEPEND=python_single_target_python3_6? ( dev-lang/python:3.6[threads(+)] >=dev-lang/python-exec-2:=[python_targets_python3_6] ) python_single_target_python3_7? ( dev-lang/python:3.7[threads(+)] >=dev-lang/python-exec-2:=[python_targets_python3_7] ) vapoursynth_plugins_subtext? ( media-libs/libass virtual/ffmpeg ) vapoursynth_plugins_imagemagick? ( >=media-gfx/imagemagick-7.0[cxx,hdri,-q8(-),-q64(-)] ) >=media-libs/zimg-2.9.2 vapoursynth_plugins_ocr? ( app-text/tesseract ) vapoursynth_plugins_miscfilters? ( !media-plugins/vapoursynth-miscfilters ) >=dev-python/cython-0.29 doc? ( dev-python/sphinx dev-python/sphinxcontrib-websupport ) virtual/pkgconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
 DESCRIPTION=VapourSynth is an library for video manipulation.
 EAPI=6
 HOMEPAGE=http://www.vapoursynth.com/
@@ -11,4 +11,4 @@ REQUIRED_USE=^^ ( python_single_target_python3_6 python_single_target_python3_7 
 SLOT=0
 SRC_URI=https://github.com/vapoursynth/vapoursynth/archive/R48.tar.gz -> vapoursynth-48.tar.gz
 _eclasses_=autotools	ea7865c8fba1ea8d3639f355fffe1a3c	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-single-r1	fdfdbe462f245e931069310e892a8538	python-utils-r1	611c493a4cfef5254350fabc04b606f5	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
-_md5_=de3beede1a8d2f1c172ac52aa450684e
+_md5_=f2a088dd3fdad63b7ec84e2d3173dd2d

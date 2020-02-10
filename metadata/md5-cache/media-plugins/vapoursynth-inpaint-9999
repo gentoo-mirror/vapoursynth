@@ -1,10 +1,11 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install prepare unpack
-DEPEND=media-libs/vapoursynth media-libs/opencv >=dev-vcs/git-1.8.2.1[curl]
+DEPEND=media-libs/vapoursynth media-libs/opencv
 DESCRIPTION=VapourSynth plugin for image inpaintin
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/invisiblearts/VapourSynth-Inpaint
 PROPERTIES=live
 RDEPEND=media-libs/vapoursynth media-libs/opencv
 SLOT=0
 _eclasses_=git-r3	809e27702c573cbba31c08ed00bbad33	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=6670e1438714afb434930b74294913f7
+_md5_=40bb7b5db81028d5d79593a5e96bec28

@@ -3,11 +3,11 @@ DEPEND=media-libs/vapoursynth sci-libs/fftw:3.0 >=app-portage/elt-patches-201708
 DESCRIPTION=MVTools is a set of filters for motion estimation and compensation
 EAPI=5
 HOMEPAGE=https://github.com/IFeelBloated/vapoursynth-mvtools-sf
-IUSE=python_single_target_python3_6 python_single_target_python3_7
+IUSE=python_single_target_python3_6 python_single_target_python3_7 python_single_target_python3_8
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth sci-libs/fftw:3.0
 SLOT=0
 SRC_URI=https://github.com/IFeelBloated/vapoursynth-mvtools-sf/archive/r9.tar.gz -> vapoursynth-mvtools-sf-9.tar.gz
 _eclasses_=autotools	ea7865c8fba1ea8d3639f355fffe1a3c	autotools-utils	95db0904ad0f62535e18e5ccb67cce5e	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	libtool	f143db5a74ccd9ca28c1234deffede96	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	python-single-r1	fdfdbe462f245e931069310e892a8538	python-utils-r1	611c493a4cfef5254350fabc04b606f5	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
-_md5_=03b85313494e354193a713516f51040e
+_md5_=f57f0c2c3a4b4c06810fc8b7cf18df2f

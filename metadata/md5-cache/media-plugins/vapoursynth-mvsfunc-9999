@@ -1,11 +1,11 @@
 DEFINED_PHASES=install setup unpack
-DEPEND=media-libs/vapoursynth[%PYTHON_USEDEP-HAS-BEEN-REMOVED%] media-plugins/vapoursynth-bm3d media-plugins/vapoursynth-fmtconv >=dev-vcs/git-1.8.2.1[curl]
+DEPEND=media-libs/vapoursynth[python_single_target_python3_6(-)?,python_single_target_python3_7(-)?,python_single_target_python3_8(-)?] media-plugins/vapoursynth-bm3d media-plugins/vapoursynth-fmtconv >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=mawen1250's VapourSynth functions
 EAPI=5
 HOMEPAGE=http://forum.doom9.org/showthread.php?p=1737309
-IUSE=python_single_target_python3_6 python_single_target_python3_7
+IUSE=python_single_target_python3_6 python_single_target_python3_7 python_single_target_python3_8
 PROPERTIES=live
-RDEPEND=media-libs/vapoursynth[%PYTHON_USEDEP-HAS-BEEN-REMOVED%] media-plugins/vapoursynth-bm3d media-plugins/vapoursynth-fmtconv
+RDEPEND=media-libs/vapoursynth[python_single_target_python3_6(-)?,python_single_target_python3_7(-)?,python_single_target_python3_8(-)?] media-plugins/vapoursynth-bm3d media-plugins/vapoursynth-fmtconv
 SLOT=0
 _eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	686eaab303305a908fd57b2fd7617800	eutils	fcb2aa98e1948b835b5ae66ca52868c5	git-r3	809e27702c573cbba31c08ed00bbad33	ltprune	2729691420b6deeda2a90b1f1183fb55	multilib	1d91b03d42ab6308b5f4f6b598ed110e	preserve-libs	ef207dc62baddfddfd39a164d9797648	python-single-r1	fdfdbe462f245e931069310e892a8538	python-utils-r1	611c493a4cfef5254350fabc04b606f5	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
-_md5_=392bc529358ce99469fabd3309ff5751
+_md5_=b761f273fd7311f01f97de6e569fa74b
