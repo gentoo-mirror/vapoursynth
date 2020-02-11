@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86
 PROPERTIES=live
 RDEPEND=media-libs/vapoursynth
 SLOT=0
-_eclasses_=git-r3	809e27702c573cbba31c08ed00bbad33
+_eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422
 _md5_=281a245778344a61964bd67a3490c03f
