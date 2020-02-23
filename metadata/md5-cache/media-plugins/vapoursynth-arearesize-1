@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install unpack
+DEPEND=media-libs/vapoursynth
+DESCRIPTION=AreaResize is an area average downscale resizer plugin for VapourSynth
+EAPI=7
+HOMEPAGE=https://github.com/Kiyamou/VapourSynth-AreaResize
+KEYWORDS=~amd64 ~x86
+LICENSE=ISC
+RDEPEND=media-libs/vapoursynth
+SLOT=0
+SRC_URI=https://github.com/Kiyamou/VapourSynth-AreaResize/archive/r1.tar.gz -> vapoursynth-arearesize-1.tar.gz
+_eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_md5_=decef207faf8dfbc00f13e8b40e397a7
