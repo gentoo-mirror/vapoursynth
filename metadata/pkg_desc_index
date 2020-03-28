@@ -57,7 +57,7 @@ media-plugins/vapoursynth-hqdn3d 0.2017.11.10 9999: A 3-way low-pass filter, whi
 media-plugins/vapoursynth-hysteria 2017.06.14 9999: Line darkening script for VapourSynth
 media-plugins/vapoursynth-inpaint 0.20151023 9999: VapourSynth plugin for image inpaintin
 media-plugins/vapoursynth-it 1.2 9999: Inverse Telecine plugin for VapourSynth
-media-plugins/vapoursynth-kagefunc 2019.07.07 9999: kageru's Vapoursynth functions
+media-plugins/vapoursynth-kagefunc 2020.02.19 9999: kageru's Vapoursynth functions
 media-plugins/vapoursynth-knlmeanscl 0.6.11-r1 0.7.7 1.1.1-r1 9999: An optimized pixelwise OpenCL implementation of the Non-local means denoising algorithm
 media-plugins/vapoursynth-l-smash-works 20200322 99999999: Works based on L-SMASH project
 media-plugins/vapoursynth-lvsfunc 0.20200316 9999: Light's Vapoursynth Functions
