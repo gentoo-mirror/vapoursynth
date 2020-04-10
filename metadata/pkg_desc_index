@@ -3,7 +3,7 @@ media-libs/l-smash 2.14.5 9999: Media library
 media-libs/vapoursynth 49 9999: VapourSynth is an library for video manipulation.
 media-libs/waifu2x-converter-cpp 5.3.3 9999: Image Super-Resolution for anime-style-art using Deep Convolutional Neural Networks implementation in c++ using opencv
 media-libs/zimg 2.9.3: Scaling, colorspace conversion, and dithering library
-media-plugins/acsuite 0.20200102 9999: Frame-based cutting/trimming/splicing of audio files from within VapourSynth
+media-plugins/acsuite 2.2.0 3.0.1 9999: Frame-based cutting/trimming/splicing of audio files from within VapourSynth
 media-plugins/audiocutter 0.20190712 9999: A tool to cut audio and generate associated chapters/qpfiles for vapoursynth
 media-plugins/ocsuite 20200318 99999999: Mastroka ordered chapters automation script
 media-plugins/vapoursynth-addgrain 7 9999: AddGrain generates film like grain or other effects (like rain) by adding random noise to the video
