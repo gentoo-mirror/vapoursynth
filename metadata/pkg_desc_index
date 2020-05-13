@@ -3,7 +3,7 @@ media-libs/l-smash 2.14.5 9999: Media library
 media-libs/vapoursynth 49 50 9999: VapourSynth is an library for video manipulation.
 media-libs/waifu2x-converter-cpp 5.3.3 9999: Image Super-Resolution for anime-style-art using Deep Convolutional Neural Networks implementation in c++ using opencv
 media-libs/zimg 2.9.3: Scaling, colorspace conversion, and dithering library
-media-plugins/acsuite 2.2.0 3.0.1 9999: Frame-based cutting/trimming/splicing of audio files from within VapourSynth
+media-plugins/acsuite 2.2.0 3.0.1 4.0.0 9999: Frame-based cutting/trimming/splicing of audio files from within VapourSynth
 media-plugins/audiocutter 0.20190712 9999: A tool to cut audio and generate associated chapters/qpfiles for vapoursynth
 media-plugins/ocsuite 20200318 99999999: Mastroka ordered chapters automation script
 media-plugins/vapoursynth-addgrain 7 9999: AddGrain generates film like grain or other effects (like rain) by adding random noise to the video
@@ -33,7 +33,7 @@ media-plugins/vapoursynth-dedot 1 9999: Dedot is a temporal cross color (rainbow
 media-plugins/vapoursynth-degrainmedian 1 9999: Spatio-temporal limited median denoiser
 media-plugins/vapoursynth-delogo 0.4 9999: DeLogo Plugin Ported for VapourSynth
 media-plugins/vapoursynth-depan 1: VapourSynth port of DePan
-media-plugins/vapoursynth-descale 2 3 9999: VapourSynth plugin to undo upscaling
+media-plugins/vapoursynth-descale 5 9999: VapourSynth plugin to undo upscaling
 media-plugins/vapoursynth-dfmderainbow 2 9999: A derainbow function for VapourSynth
 media-plugins/vapoursynth-dfttest 6 9999: 2D/3D frequency domain denoiser
 media-plugins/vapoursynth-dotkill 2017.12.28 9999: Spatial dotcrawl remover for VapourSynth
@@ -60,7 +60,7 @@ media-plugins/vapoursynth-it 1.2 9999: Inverse Telecine plugin for VapourSynth
 media-plugins/vapoursynth-kagefunc 2020.02.19 9999: kageru's Vapoursynth functions
 media-plugins/vapoursynth-knlmeanscl 0.6.11-r1 0.7.7 1.1.1-r1 9999: An optimized pixelwise OpenCL implementation of the Non-local means denoising algorithm
 media-plugins/vapoursynth-l-smash-works 20200322 99999999: Works based on L-SMASH project
-media-plugins/vapoursynth-lvsfunc 0.20200316 9999: Light's Vapoursynth Functions
+media-plugins/vapoursynth-lvsfunc 0.0.1.20200316 0.0.6 9999: Light's Vapoursynth Functions
 media-plugins/vapoursynth-matchhistogram 2 9999: MatchHistogram modifies one clip's histogram to match the histogram of another clip
 media-plugins/vapoursynth-median 4 9999: Various median functions on a single/several clips.
 media-plugins/vapoursynth-minideen 1 9999: Spatial denoising filter
@@ -76,7 +76,7 @@ media-plugins/vapoursynth-nnedi3_resample 2016.08.28 9999: A function for scalin
 media-plugins/vapoursynth-nnedi3_rpow2 2017.09.14 9999: 
 media-plugins/vapoursynth-nnedi3cl 8 9999: VapourSynth port of NNEDI3 utilizing OpenCL
 media-plugins/vapoursynth-oyster 6 9999: A top class de-noising filter against compression artifacts
-media-plugins/vapoursynth-plugins-meta 44 45 46 47 48 49 50 51 52: VapourSynth plugins meta package.
+media-plugins/vapoursynth-plugins-meta 44 45 46 47 48 49 50 51 52 53: VapourSynth plugins meta package.
 media-plugins/vapoursynth-plum 2 9999: A sharpening/blind deconvolution suite with certain advanced features like Non-Local error, Block Matching, etc...
 media-plugins/vapoursynth-qrcodesource 1.0.0.0 9999: Plugin to provide a means to embed QR codes in video
 media-plugins/vapoursynth-readmpls 4 9999: Get m2ts clip id from a playlist and return a dict
@@ -125,8 +125,10 @@ media-plugins/vapoursynth-wwxd 1.0 9999: Xvid-like scene change detection for Va
 media-plugins/vapoursynth-xaa 3 9999: xaa is a many-in-one antialiasing function for VapourSynth
 media-plugins/vapoursynth-yadifmod 10.1 9999: Modified version of Fizick's avisynth filter port of yadif from mplayer
 media-plugins/vapoursynth-znedi3 0.2018.10.09 9999: Optimized nnedi3 filter
+media-plugins/vs-placebo 1.2 9999: libplacebo-based debanding, scaling and color mapping plugin for VapourSynth
 media-plugins/vsutil 0.2.0 9999: A collection of general purpose Vapoursynth functions to be reused in modules and scripts
 media-video/d2vwitch 3 9999: Cross-platform D2V creator
+media-video/getnative 2.2.0 9999: Find the native resolution(s) of upscaled material (mostly anime)
 media-video/mpv 0.32.0 9999: Media player based on MPlayer and mplayer2
 media-video/wobbly 4-r1 9999: IVTC assistant for VapourSynth, similar to Yatta
 sci-libs/vmaf 1.3.15 9999: Perceptual video quality assessment based on multi-method fusion.
