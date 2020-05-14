@@ -33,7 +33,7 @@ media-plugins/vapoursynth-dedot 1 9999: Dedot is a temporal cross color (rainbow
 media-plugins/vapoursynth-degrainmedian 1 9999: Spatio-temporal limited median denoiser
 media-plugins/vapoursynth-delogo 0.4 9999: DeLogo Plugin Ported for VapourSynth
 media-plugins/vapoursynth-depan 1: VapourSynth port of DePan
-media-plugins/vapoursynth-descale 5 9999: VapourSynth plugin to undo upscaling
+media-plugins/vapoursynth-descale 6 9999: VapourSynth plugin to undo upscaling
 media-plugins/vapoursynth-dfmderainbow 2 9999: A derainbow function for VapourSynth
 media-plugins/vapoursynth-dfttest 6 9999: 2D/3D frequency domain denoiser
 media-plugins/vapoursynth-dotkill 2017.12.28 9999: Spatial dotcrawl remover for VapourSynth
