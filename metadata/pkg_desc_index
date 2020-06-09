@@ -77,7 +77,7 @@ media-plugins/vapoursynth-nnedi3_resample 2016.08.28 9999: A function for scalin
 media-plugins/vapoursynth-nnedi3_rpow2 2017.09.14 9999: 
 media-plugins/vapoursynth-nnedi3cl 8 9999: VapourSynth port of NNEDI3 utilizing OpenCL
 media-plugins/vapoursynth-oyster 6-r1 9999: A top class de-noising filter against compression artifacts
-media-plugins/vapoursynth-plugins-meta 44 45 46 47 48 49 50 51 52 53: VapourSynth plugins meta package.
+media-plugins/vapoursynth-plugins-meta 44 45 46 47 48 49 50 51 52 53 54: VapourSynth plugins meta package.
 media-plugins/vapoursynth-plum 2 9999: A sharpening/blind deconvolution suite with certain advanced features like Non-Local error, Block Matching, etc...
 media-plugins/vapoursynth-qrcodesource 1.0.0.0 9999: Plugin to provide a means to embed QR codes in video
 media-plugins/vapoursynth-readmpls 4 9999: Get m2ts clip id from a playlist and return a dict
@@ -120,6 +120,7 @@ media-plugins/vapoursynth-vsimagereader 0.2.1 9999: Image reader plugin for Vapo
 media-plugins/vapoursynth-vsrawsource 0.3.3.20191105 9999: Raw format video reader for VapourSynth
 media-plugins/vapoursynth-vstaambk 0.8.0 9999: A ported AA-script from Avisynth
 media-plugins/vapoursynth-w3fdif 1 9999: VapourSynth port of W3FDIF
+media-plugins/vapoursynth-waifu2x-ncnn-vulkan 3 9999: Waifu2x filter for VapourSynth, based on waifu2x-ncnn-vulkan
 media-plugins/vapoursynth-waifu2x-w2xc 8 9999: Image super-resolution/denoise filter for VapourSynth, based on the waifu2x-opt library
 media-plugins/vapoursynth-warpsharpsupport 1 9999: Script versions of support functions from WarpSharp
 media-plugins/vapoursynth-wwxd 1.0 9999: Xvid-like scene change detection for VapourSynth
