@@ -7,7 +7,7 @@ media-libs/zimg 2.9.3-r1: Scaling, colorspace conversion, and dithering library
 media-plugins/acsuite 2.2.0 4.1.1 9999: Frame-based cutting/trimming/splicing of audio files from within VapourSynth
 media-plugins/audiocutter 0.20190712 9999: A tool to cut audio and generate associated chapters/qpfiles for vapoursynth
 media-plugins/ocsuite 20200318 99999999: Mastroka ordered chapters automation script
-media-plugins/vapoursynth-addgrain 7 9999: AddGrain generates film like grain or other effects (like rain) by adding random noise to the video
+media-plugins/vapoursynth-addgrain 7 8 9999: AddGrain generates film like grain or other effects (like rain) by adding random noise to the video
 media-plugins/vapoursynth-adjust 1 9999: This is a very basic port of the built-in Avisynth filter Tweak
 media-plugins/vapoursynth-arearesize 1 9999: AreaResize is an area average downscale resizer plugin for VapourSynth
 media-plugins/vapoursynth-astdr 2 9999: A derainbow function for VapourSynth
@@ -17,6 +17,8 @@ media-plugins/vapoursynth-beziercurve 3 9999: A plugin which adjust the clip via
 media-plugins/vapoursynth-bifrost 2.2 9999: Decrawler plugin for VapourSynth
 media-plugins/vapoursynth-bilateral 3 9999: Bilateral filter for VapourSynth
 media-plugins/vapoursynth-bm3d 6 8 9999: BM3D denoising filter for VapourSynth
+media-plugins/vapoursynth-bwdif 2 9999: Motion adaptive deinterlacing based on yadif with the use of w3fdif and cubic interpolation algorithms
+media-plugins/vapoursynth-cas 1 9999: Contrast Adaptive Sharpening
 media-plugins/vapoursynth-cmedian 0.20160816 9999: Implements the constant time median filter algorithm for Vapoursynth
 media-plugins/vapoursynth-cnr2 1 9999: Chroma noise reducer
 media-plugins/vapoursynth-colorbars 2 9999: ColorBars is a filter for generating test signals
@@ -77,7 +79,7 @@ media-plugins/vapoursynth-nnedi3_resample 2016.08.28 9999: A function for scalin
 media-plugins/vapoursynth-nnedi3_rpow2 2017.09.14 9999: 
 media-plugins/vapoursynth-nnedi3cl 8 9999: VapourSynth port of NNEDI3 utilizing OpenCL
 media-plugins/vapoursynth-oyster 6-r1 9999: A top class de-noising filter against compression artifacts
-media-plugins/vapoursynth-plugins-meta 44 45 46 47 48 49 50 51 52 53 54: VapourSynth plugins meta package.
+media-plugins/vapoursynth-plugins-meta 44 45 46 47 48 49 50 51 52 53 54 55 56: VapourSynth plugins meta package.
 media-plugins/vapoursynth-plum 2 9999: A sharpening/blind deconvolution suite with certain advanced features like Non-Local error, Block Matching, etc...
 media-plugins/vapoursynth-qrcodesource 1.0.0.0 9999: Plugin to provide a means to embed QR codes in video
 media-plugins/vapoursynth-readmpls 4 9999: Get m2ts clip id from a playlist and return a dict
