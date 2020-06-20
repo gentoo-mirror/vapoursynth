@@ -5,20 +5,20 @@ EAPI=7
 
 inherit meson
 
-DESCRIPTION="AddGrain generates film like grain or other effects (like rain) by adding random noise to the video"
-HOMEPAGE="https://github.com/HomeOfVapourSynthEvolution/VapourSynth-AddGrain"
+DESCRIPTION="Motion adaptive deinterlacing based on yadif with the use of w3fdif and cubic interpolation algorithms"
+HOMEPAGE="https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Bwdif"
 
 if [[ ${PV} == *9999* ]]; then
 	inherit git-r3
-	EGIT_REPO_URI="https://github.com/HomeOfVapourSynthEvolution/${PN}.git"
+	EGIT_REPO_URI="https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Bwdif.git"
 	KEYWORDS=""
 else
 	inherit vcs-snapshot
-	SRC_URI="https://github.com/HomeOfVapourSynthEvolution/${PN}/archive/r${PV}.tar.gz -> ${PN}-${PV}.tar.gz"
-	KEYWORDS="~amd64 ~x86"
+	SRC_URI="https://github.com/HomeOfVapourSynthEvolution/VapourSynth-Bwdif/archive/r${PV}.tar.gz -> ${PN}-${PV}.tar.gz"
+	KEYWORDS="~x86 ~amd64"
 fi
 
-LICENSE="GPL-2"
+LICENSE="LGPL-3"
 RESTRICT="mirror"
 SLOT="0"
 IUSE="lto"
