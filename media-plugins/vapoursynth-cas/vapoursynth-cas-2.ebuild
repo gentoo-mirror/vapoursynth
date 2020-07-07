@@ -5,27 +5,26 @@ EAPI=7
 
 inherit meson
 
-DESCRIPTION="2D/3D frequency domain denoiser"
-HOMEPAGE="https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DFTTest"
+DESCRIPTION="Contrast Adaptive Sharpening"
+HOMEPAGE="https://github.com/HomeOfVapourSynthEvolution/VapourSynth-CAS"
 
 if [[ ${PV} == *9999* ]]; then
 	inherit git-r3
-	EGIT_REPO_URI="https://github.com/HomeOfVapourSynthEvolution/${PN}.git"
+	EGIT_REPO_URI="https://github.com/HomeOfVapourSynthEvolution/VapourSynth-CAS.git"
 	KEYWORDS=""
 else
 	inherit vcs-snapshot
-	SRC_URI="https://github.com/HomeOfVapourSynthEvolution/${PN}/archive/r${PV}.tar.gz -> ${PN}-${PV}.tar.gz"
+	SRC_URI="https://github.com/HomeOfVapourSynthEvolution/VapourSynth-CAS/archive/r${PV}.tar.gz -> ${PN}-${PV}.tar.gz"
 	KEYWORDS="~amd64 ~x86"
 fi
 
-LICENSE="GPL-2"
+LICENSE="MIT"
 RESTRICT="mirror"
 SLOT="0"
 IUSE="lto"
 
 RDEPEND+="
 	media-libs/vapoursynth
-	sci-libs/fftw:3.0[threads]
 "
 DEPEND="${RDEPEND}
 "
