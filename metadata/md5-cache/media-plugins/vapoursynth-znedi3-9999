@@ -1,11 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install unpack
-DEPEND=media-libs/vapoursynth >=dev-vcs/git-1.8.2.1[curl]
+DEPEND=media-libs/vapoursynth
 DESCRIPTION=Optimized nnedi3 filter
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/sekrit-twc/znedi3
 LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=media-libs/vapoursynth
 SLOT=0
 _eclasses_=git-r3	8ec5b53812bce105ae7943930e4660f8
-_md5_=639b8140cfdae542fef99d94e93f9ef1
+_md5_=34a94e6fb33c4520406b71013b53223d

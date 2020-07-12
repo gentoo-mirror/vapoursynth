@@ -25,7 +25,7 @@ media-plugins/vapoursynth-cnr2 1 9999: Chroma noise reducer
 media-plugins/vapoursynth-colorbars 2 9999: ColorBars is a filter for generating test signals
 media-plugins/vapoursynth-combmask 0.20130730 9999: CombMask plugin for VapourSynth
 media-plugins/vapoursynth-continuityfixer 6 9999: Continuity Fixer port for Vapoursynth, can help repair damaged borders of frames
-media-plugins/vapoursynth-ctmf 4.1 9999: Median filter for VapourSynth (the same algorithm that MedianBlur2)
+media-plugins/vapoursynth-ctmf 5 9999: Median filter for VapourSynth (the same algorithm that MedianBlur2)
 media-plugins/vapoursynth-curve 2 3 9999: Apply color adjustments using curves
 media-plugins/vapoursynth-d2vsource 1.2 9999: D2V Source plugin for VapourSynth
 media-plugins/vapoursynth-damb 3 9999: Basic audio support for VapourSynth
@@ -130,7 +130,7 @@ media-plugins/vapoursynth-warpsharpsupport 1 9999: Script versions of support fu
 media-plugins/vapoursynth-wwxd 1.0 9999: Xvid-like scene change detection for VapourSynth
 media-plugins/vapoursynth-xaa 3 9999: xaa is a many-in-one antialiasing function for VapourSynth
 media-plugins/vapoursynth-yadifmod 10.1 9999: Modified version of Fizick's avisynth filter port of yadif from mplayer
-media-plugins/vapoursynth-znedi3 0.2018.10.09 9999: Optimized nnedi3 filter
+media-plugins/vapoursynth-znedi3 2 9999: Optimized nnedi3 filter
 media-plugins/vs-placebo 1.2 1.3.1 9999: libplacebo-based debanding, scaling and color mapping plugin for VapourSynth
 media-plugins/vsutil 0.2.0 0.3.0 0.4.0 9999: A collection of general purpose Vapoursynth functions to be reused in modules and scripts
 media-video/d2vwitch 3 4 9999: Cross-platform D2V creator
