@@ -4,14 +4,14 @@ media-libs/l-smash 2.14.5 9999: Media library
 media-libs/vapoursynth 49 50 9999: VapourSynth is an library for video manipulation.
 media-libs/waifu2x-converter-cpp 5.3.3 9999: Image Super-Resolution for anime-style-art using Deep Convolutional Neural Networks implementation in c++ using opencv
 media-libs/zimg 2.9.3-r1: Scaling, colorspace conversion, and dithering library
-media-plugins/acsuite 2.2.0 4.2.0 5.0.0 9999: Frame-based cutting/trimming/splicing of audio files from within VapourSynth
+media-plugins/acsuite 2.2.0 4.2.0 5.0.1 9999: Frame-based cutting/trimming/splicing of audio files from within VapourSynth
 media-plugins/audiocutter 0.20190712 9999: A tool to cut audio and generate associated chapters/qpfiles for vapoursynth
 media-plugins/ocsuite 20200318 99999999: Mastroka ordered chapters automation script
 media-plugins/vapoursynth-addgrain 7 8 9999: AddGrain generates film like grain or other effects (like rain) by adding random noise to the video
 media-plugins/vapoursynth-adjust 1 9999: This is a very basic port of the built-in Avisynth filter Tweak
 media-plugins/vapoursynth-arearesize 1 9999: AreaResize is an area average downscale resizer plugin for VapourSynth
 media-plugins/vapoursynth-asharp 1 9999: ASharp is an adaptive sharpening filter
-media-plugins/vapoursynth-astdr 2 9999: A derainbow function for VapourSynth
+media-plugins/vapoursynth-astdr 2 3 9999: A derainbow function for VapourSynth
 media-plugins/vapoursynth-autocrop 0.1 9999: AutoCrop for Vapoursynth
 media-plugins/vapoursynth-awarpsharp2 4 9999: Sharpens by wrapping
 media-plugins/vapoursynth-beziercurve 3 9999: A plugin which adjust the clip via bezier curve
