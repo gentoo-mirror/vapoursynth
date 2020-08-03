@@ -3,7 +3,7 @@ dev-cpp/vsfilterscript 0.20200519 0.20200731 9999: C++ wrapper for VSAPI to help
 media-libs/l-smash 2.14.5 9999: Media library
 media-libs/vapoursynth 49 50 51 9999: VapourSynth is an library for video manipulation.
 media-libs/waifu2x-converter-cpp 5.3.3 9999: Image Super-Resolution for anime-style-art using Deep Convolutional Neural Networks implementation in c++ using opencv
-media-libs/zimg 2.9.3-r1: Scaling, colorspace conversion, and dithering library
+media-libs/zimg 2.9.3-r2 3.0: Scaling, colorspace conversion, and dithering library
 media-plugins/acsuite 2.2.0 4.2.0 5.0.1 5.1.0 9999: Frame-based cutting/trimming/splicing of audio files from within VapourSynth
 media-plugins/audiocutter 0.20190712 9999: A tool to cut audio and generate associated chapters/qpfiles for vapoursynth
 media-plugins/ocsuite 20200318 99999999: Mastroka ordered chapters automation script
