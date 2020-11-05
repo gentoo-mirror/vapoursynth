@@ -1,12 +1,13 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install unpack
 DEPEND=media-libs/vapoursynth
-DESCRIPTION=Spatial dotcrawl remover for VapourSynth
+DESCRIPTION=Rapid, Detail-Preserving Image Downscaler for VapourSynth
 EAPI=7
-HOMEPAGE=https://github.com/myrsloik/DotKill
-LICENSE=MIT
+HOMEPAGE=https://github.com/WolframRhodium/VapourSynth-dpid
+LICENSE=BSD-3
 PROPERTIES=live
 RDEPEND=media-libs/vapoursynth
+RESTRICT=mirror
 SLOT=0
 _eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	multilib	98584e405e2b0264d37e8f728327fed1	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
-_md5_=3c06207621b9da3ebea450d4118c018b
+_md5_=991f7d217af1eb27d04d01d3c7349732
