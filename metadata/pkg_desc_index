@@ -79,7 +79,7 @@ media-plugins/vapoursynth-mvtools 21 22 23 9999: MVTools is a set of filters for
 media-plugins/vapoursynth-mvtools-sf 9 9999: MVTools is a set of filters for motion estimation and compensation with float precision
 media-plugins/vapoursynth-nnedi3 12 9999: nnedi3 is an intra-field only deinterlacer
 media-plugins/vapoursynth-nnedi3_resample 2016.08.28 9999: A function for scaling, color space conversion, etc.
-media-plugins/vapoursynth-nnedi3_rpow2 2017.09.14 9999: 
+media-plugins/vapoursynth-nnedi3_rpow2 1.1.0 9999: 
 media-plugins/vapoursynth-nnedi3cl 8 9999: VapourSynth port of NNEDI3 utilizing OpenCL
 media-plugins/vapoursynth-oyster 6-r1 9999: A top class de-noising filter against compression artifacts
 media-plugins/vapoursynth-plugins-meta 60-r1: VapourSynth plugins meta package.
@@ -131,7 +131,7 @@ media-plugins/vapoursynth-warpsharpsupport 1 9999: Script versions of support fu
 media-plugins/vapoursynth-wwxd 1.0 9999: Xvid-like scene change detection for VapourSynth
 media-plugins/vapoursynth-xaa 3 9999: xaa is a many-in-one antialiasing function for VapourSynth
 media-plugins/vapoursynth-yadifmod 10.1 9999: Modified version of Fizick's avisynth filter port of yadif from mplayer
-media-plugins/vapoursynth-znedi3 2 9999: Optimized nnedi3 filter
+media-plugins/vapoursynth-znedi3 2-r1 9999: Optimized nnedi3 filter
 media-plugins/vs-placebo 1.3.1-r2 9999: libplacebo-based debanding, scaling and color mapping plugin for VapourSynth
 media-plugins/vsutil 0.2.0 0.3.0 0.4.0 0.5.0 9999: A collection of general purpose Vapoursynth functions to be reused in modules and scripts
 media-video/d2vwitch 3 4 9999: Cross-platform D2V creator
