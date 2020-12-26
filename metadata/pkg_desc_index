@@ -1,4 +1,3 @@
-app-editors/vapoursynth-editor 19 9999: VapourSynth Editor
 dev-cpp/vsfilterscript 1.20201008 9999: C++ wrapper for VSAPI to help you sketch your filter in the fastest possible way
 media-libs/l-smash 2.14.5 9999: Media library
 media-libs/vapoursynth 52 9999: VapourSynth is an library for video manipulation.
