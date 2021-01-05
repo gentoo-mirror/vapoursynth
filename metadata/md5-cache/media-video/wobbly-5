@@ -8,5 +8,5 @@ LICENSE=ISC
 RDEPEND=media-libs/vapoursynth dev-qt/qtwidgets media-plugins/vapoursynth-d2vsource media-plugins/vapoursynth-fieldhint media-plugins/vapoursynth-scxvid
 SLOT=0
 SRC_URI=https://github.com/dubhater/wobbly/archive/v5.tar.gz -> wobbly-5.tar.gz
-_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	1a94dc06d324bd0dab754e11abe6d27e	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=5c71c785ff2e93ba30ab8e4317528b88
