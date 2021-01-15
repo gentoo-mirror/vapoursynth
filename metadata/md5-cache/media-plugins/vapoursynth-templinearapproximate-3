@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile install prepare setup unpack
-DEPEND=media-libs/vapoursynth[python_single_target_python3_6(-)?,python_single_target_python3_7(-)?,python_single_target_python3_8(-)?]
+DEPEND=media-libs/vapoursynth[python_single_target_python3_7(-)?,python_single_target_python3_8(-)?]
 DESCRIPTION=Takes several frames and for each pixel calculates linear approximation of its values through time
 EAPI=5
 HOMEPAGE=https://bitbucket.org/mystery_keeper/templinearapproximate-vapoursynth
-IUSE=python_single_target_python3_6 python_single_target_python3_7 python_single_target_python3_8
+IUSE=python_single_target_python3_7 python_single_target_python3_8
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-RDEPEND=media-libs/vapoursynth[python_single_target_python3_6(-)?,python_single_target_python3_7(-)?,python_single_target_python3_8(-)?]
+RDEPEND=media-libs/vapoursynth[python_single_target_python3_7(-)?,python_single_target_python3_8(-)?]
 SLOT=0
 SRC_URI=https://bitbucket.org/mystery_keeper/templinearapproximate-vapoursynth/get/r3.tar.bz2 -> vapoursynth-templinearapproximate-3.tar.bz2
-_eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8	edos2unix	33e347e171066657f91f8b0c72ec8773	epatch	e8f1ec13660dc2f44b32775765d85e42	estack	055c42df72f76a4f45ec92b35e83cd56	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	ltprune	4f3f2db5ce3ccbeeacdf3f94954043aa	multilib	d410501a125f99ffb560b0c523cd3d1e	preserve-libs	ef207dc62baddfddfd39a164d9797648	python-single-r1	d3100de905f978df912135806cf27188	python-utils-r1	e41e32d357e5bdd388b5be2ce24f3883	toolchain-funcs	1a94dc06d324bd0dab754e11abe6d27e	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8	edos2unix	33e347e171066657f91f8b0c72ec8773	epatch	e8f1ec13660dc2f44b32775765d85e42	estack	055c42df72f76a4f45ec92b35e83cd56	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	ltprune	4f3f2db5ce3ccbeeacdf3f94954043aa	multilib	d410501a125f99ffb560b0c523cd3d1e	preserve-libs	ef207dc62baddfddfd39a164d9797648	python-single-r1	d3100de905f978df912135806cf27188	python-utils-r1	65bb60d137e5a51f58ada69bf3f366da	toolchain-funcs	1a94dc06d324bd0dab754e11abe6d27e	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd	wrapper	4251d4c84c25f59094fd557e0063a974
 _md5_=b62f989553f3171a929e7697c72966a3
