@@ -108,7 +108,7 @@ media-plugins/vapoursynth-temporalmedian 1 9999: TemporalMedian is a temporal de
 media-plugins/vapoursynth-temporalsoften 1.0 9999: TemporalSoften plugin for VapourSynth
 media-plugins/vapoursynth-temporalsoften2 1 9999: TemporalSoften filter for VapourSynth
 media-plugins/vapoursynth-timecube 2 9999: A plugin to load and apply 3D luts to a video
-media-plugins/vapoursynth-tivtc 1 9999: TFM and TDecimate functions for field matching and decimation
+media-plugins/vapoursynth-tivtc 2 9999: TFM and TDecimate functions for field matching and decimation
 media-plugins/vapoursynth-tnlmeans 2015.02.25 9999: VapourSynth port of TNLMeans
 media-plugins/vapoursynth-tonemap 2 9999: A filter for converting high dynamic range (HDR) video to standard dynamic range (SDR)
 media-plugins/vapoursynth-ttempsmooth 3.1 9999: TTempSmooth is a motion adaptive temporal smoothing filter
