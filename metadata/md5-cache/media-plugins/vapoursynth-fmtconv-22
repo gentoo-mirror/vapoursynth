@@ -3,6 +3,7 @@ DEPEND=media-libs/vapoursynth
 DESCRIPTION=A format-conversion plug-in for the Vapoursynth video processing engine
 EAPI=7
 HOMEPAGE=http://forum.doom9.org/showthread.php?t=166504
+INHERIT=vcs-snapshot
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth

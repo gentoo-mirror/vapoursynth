@@ -3,10 +3,11 @@ DEPEND=media-libs/vapoursynth
 DESCRIPTION=A plugin which operate on pixel values and modify it as per some criteria. Useful for denoising
 EAPI=6
 HOMEPAGE=http://forum.doom9.org/showthread.php?t=171412
+INHERIT=toolchain-funcs
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 RDEPEND=media-libs/vapoursynth
 SLOT=0
 SRC_URI=https://www.dropbox.com/s/it6gx663d3hevss/vapoursynth-vcmod-2017.10.17.tar.bz2
-_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e
 _md5_=8e6d59f2e24a8d8de6fd6e208315b401

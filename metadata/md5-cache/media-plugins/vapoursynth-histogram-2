@@ -3,6 +3,7 @@ DEPEND=media-libs/vapoursynth
 DESCRIPTION=Histogram plugin for VapourSynth
 EAPI=6
 HOMEPAGE=https://github.com/dubhater/vapoursynth-histogram
+INHERIT=vcs-snapshot
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth

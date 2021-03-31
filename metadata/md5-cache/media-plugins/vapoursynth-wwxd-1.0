@@ -3,6 +3,7 @@ DEPEND=media-libs/vapoursynth
 DESCRIPTION=Xvid-like scene change detection for VapourSynth
 EAPI=5
 HOMEPAGE=https://github.com/dubhater/vapoursynth-wwxd
+INHERIT=multilib vcs-snapshot
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth

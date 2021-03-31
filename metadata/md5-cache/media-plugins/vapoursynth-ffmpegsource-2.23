@@ -3,6 +3,7 @@ DEPEND==media-libs/ffmpegsource-2.23 media-libs/vapoursynth
 DESCRIPTION=A libav/ffmpeg based source library for easy frame accurate access
 EAPI=5
 HOMEPAGE=https://github.com/FFMS/ffms2
+INHERIT=multilib
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND==media-libs/ffmpegsource-2.23 media-libs/vapoursynth

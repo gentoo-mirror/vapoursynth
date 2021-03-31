@@ -3,6 +3,7 @@ DEPEND=media-libs/vapoursynth
 DESCRIPTION=Spatio-temporal limited median denoiser
 EAPI=6
 HOMEPAGE=https://github.com/dubhater/vapoursynth-degrainmedian
+INHERIT=vcs-snapshot
 IUSE=doc
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2

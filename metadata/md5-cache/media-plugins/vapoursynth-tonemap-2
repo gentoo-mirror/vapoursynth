@@ -3,6 +3,7 @@ DEPEND=media-libs/vapoursynth
 DESCRIPTION=A filter for converting high dynamic range (HDR) video to standard dynamic range (SDR)
 EAPI=7
 HOMEPAGE=https://github.com/ifb/vapoursynth-tonemap
+INHERIT=vcs-snapshot
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth
