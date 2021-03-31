@@ -3,10 +3,11 @@ DEPEND=media-libs/vapoursynth >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=VapourSynth port of ReduceFlicker
 EAPI=6
 HOMEPAGE=https://github.com/VFR-maniac/VapourSynth-ReduceFlicker http://home.arcor.de/kassandro/ReduceFlicker/ReduceFlicker.htm
+INHERIT=toolchain-funcs git-r3
 KEYWORDS=~x86 ~amd64
 LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=media-libs/vapoursynth
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=9c7ca3bd8baeccc910e1e4dff797a0f4

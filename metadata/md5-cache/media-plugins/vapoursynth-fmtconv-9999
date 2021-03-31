@@ -4,9 +4,10 @@ DEPEND=media-libs/vapoursynth
 DESCRIPTION=A format-conversion plug-in for the Vapoursynth video processing engine
 EAPI=7
 HOMEPAGE=http://forum.doom9.org/showthread.php?t=166504
+INHERIT=git-r3
 LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=media-libs/vapoursynth
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=341a2bd498ed9570dd639f65dc8ad408

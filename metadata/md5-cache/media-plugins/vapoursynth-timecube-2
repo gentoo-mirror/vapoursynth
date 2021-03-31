@@ -3,9 +3,10 @@ DEPEND=media-libs/vapoursynth >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=A plugin to load and apply 3D luts to a video
 EAPI=6
 HOMEPAGE=https://github.com/sekrit-twc/timecube
+INHERIT=git-r3
 KEYWORDS=~amd64 ~x86
 PROPERTIES=live
 RDEPEND=media-libs/vapoursynth
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=281a245778344a61964bd67a3490c03f
