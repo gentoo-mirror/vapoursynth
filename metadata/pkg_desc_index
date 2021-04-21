@@ -2,7 +2,7 @@ app-editors/vapoursynth-editor 19-r1 9999-r1: VapourSynth Editor
 dev-cpp/vsfilterscript 1.20201008 9999: C++ wrapper for VSAPI to help you sketch your filter in the fastest possible way
 dev-libs/ncnn 20210322: A high-performance neural network inference framework
 media-libs/l-smash 2.14.5 9999: Media library
-media-libs/vapoursynth 52 9999: VapourSynth is an library for video manipulation.
+media-libs/vapoursynth 53 9999: VapourSynth is an library for video manipulation.
 media-libs/waifu2x-converter-cpp 5.3.3 9999: Super-Resolution for anime-style-art using opencv
 media-libs/zimg 3.0.1: Scaling, colorspace conversion, and dithering library
 media-plugins/acsuite 2.2.0 4.2.0 5.4.1 6.0.0 9999: Frame-based cutting/trimming/splicing of audio files from within VapourSynth
@@ -66,7 +66,7 @@ media-plugins/vapoursynth-inpaint 0.20151023 9999: VapourSynth plugin for image 
 media-plugins/vapoursynth-it 1.2 9999: Inverse Telecine plugin for VapourSynth
 media-plugins/vapoursynth-kagefunc 2020.02.19 9999: kageru's Vapoursynth functions
 media-plugins/vapoursynth-knlmeanscl 0.6.11-r1 0.7.7 1.1.1-r1 9999: An optimized pixelwise OpenCL implementation of the Non-local means denoising algorithm
-media-plugins/vapoursynth-l-smash-works 20200728 99999999: Works based on L-SMASH project
+media-plugins/vapoursynth-l-smash-works 20210421 99999999: Works based on L-SMASH project
 media-plugins/vapoursynth-lghost 1 9999: Ghost reduction filter that can remove luminance ghost or edge ghost (ringing)
 media-plugins/vapoursynth-lvsfunc 0.0.1.20200316 0.0.7 9999: Light's Vapoursynth Functions
 media-plugins/vapoursynth-matchhistogram 2 9999: MatchHistogram modifies one clip's histogram to match the histogram of another clip
