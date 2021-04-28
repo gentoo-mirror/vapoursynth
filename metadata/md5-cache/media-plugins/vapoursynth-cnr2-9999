@@ -1,0 +1,15 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure install prepare unpack
+DEPEND=media-libs/vapoursynth
+DESCRIPTION=Chroma noise reducer
+EAPI=7
+HOMEPAGE=https://github.com/dubhater/vapoursynth-cnr2
+INHERIT=git-r3
+IUSE=doc
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=media-libs/vapoursynth
+RESTRICT=mirror
+SLOT=0
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_md5_=7035756b2a8f416c35c3c770ae16156b

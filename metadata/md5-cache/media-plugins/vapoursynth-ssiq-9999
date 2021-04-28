@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure prepare unpack
+DEPEND=media-libs/vapoursynth
+DESCRIPTION=SSIQ plugin for VapourSynth
+EAPI=7
+HOMEPAGE=https://github.com/dubhater/vapoursynth-ssiq
+INHERIT=git-r3
+PROPERTIES=live
+RDEPEND=media-libs/vapoursynth
+RESTRICT=mirror
+SLOT=0
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_md5_=a587f49840185967269a3ac11ce0f859

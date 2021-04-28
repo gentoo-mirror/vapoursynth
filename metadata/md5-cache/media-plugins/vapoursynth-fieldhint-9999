@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure prepare unpack
+DEPEND=media-libs/vapoursynth
+DESCRIPTION=Fieldhint plugin for VapourSynth
+EAPI=7
+HOMEPAGE=https://github.com/dubhater/vapoursynth-fieldhint
+INHERIT=git-r3
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=media-libs/vapoursynth
+RESTRICT=mirror
+SLOT=0
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_md5_=83e777d752e7e3c4f9df20781deb882f

@@ -1,0 +1,11 @@
+DEFINED_PHASES=configure prepare
+DEPEND=media-libs/libsndfile media-libs/vapoursynth
+DESCRIPTION=Basic audio support for VapourSynth
+EAPI=7
+HOMEPAGE=https://github.com/dubhater/vapoursynth-damb
+KEYWORDS=~amd64
+RDEPEND=media-libs/libsndfile media-libs/vapoursynth
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/dubhater/vapoursynth-damb/archive/v3.tar.gz -> vapoursynth-damb-3.tar.gz
+_md5_=c01d723c01ca1fc8a415618a83e52108

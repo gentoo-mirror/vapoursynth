@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure prepare unpack
+DEPEND=media-libs/vapoursynth
+DESCRIPTION=MSmooth is a spatial smoother that doesn't touch edges, MSharpen tries to sharpen only edges
+EAPI=7
+HOMEPAGE=https://github.com/dubhater/vapoursynth-msmoosh
+INHERIT=git-r3
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=media-libs/vapoursynth
+RESTRICT=mirror
+SLOT=0
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_md5_=f7ac95d19cb8669e50444ca8e89e2809

@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure prepare unpack
+DEPEND=media-libs/libsndfile media-libs/vapoursynth
+DESCRIPTION=Basic audio support for VapourSynth
+EAPI=7
+HOMEPAGE=https://github.com/dubhater/vapoursynth-damb
+INHERIT=git-r3
+PROPERTIES=live
+RDEPEND=media-libs/libsndfile media-libs/vapoursynth
+RESTRICT=mirror
+SLOT=0
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_md5_=c01d723c01ca1fc8a415618a83e52108

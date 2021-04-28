@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=media-libs/vapoursynth
+DESCRIPTION=Chroma noise reducer
+EAPI=7
+HOMEPAGE=https://github.com/dubhater/vapoursynth-cnr2
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=media-libs/vapoursynth
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/dubhater/vapoursynth-cnr2/archive/v1.tar.gz -> vapoursynth-cnr2-1.tar.gz
+_md5_=7035756b2a8f416c35c3c770ae16156b

@@ -1,0 +1,11 @@
+DEFINED_PHASES=configure prepare
+DEPEND=media-libs/vapoursynth
+DESCRIPTION=SSIQ plugin for VapourSynth
+EAPI=7
+HOMEPAGE=https://github.com/dubhater/vapoursynth-ssiq
+KEYWORDS=~amd64
+RDEPEND=media-libs/vapoursynth
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/dubhater/vapoursynth-ssiq/archive/v1.0.tar.gz -> vapoursynth-ssiq-1.0.tar.gz
+_md5_=a587f49840185967269a3ac11ce0f859

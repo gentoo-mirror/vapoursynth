@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure prepare unpack
+DEPEND=media-libs/vapoursynth media-libs/xvid
+DESCRIPTION=Scene change detection plugin for VapourSynth, using XviD
+EAPI=7
+HOMEPAGE=https://github.com/dubhater/vapoursynth-scxvid
+INHERIT=git-r3
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=media-libs/vapoursynth media-libs/xvid
+RESTRICT=mirror
+SLOT=0
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_md5_=aaff81a00759e305549e1cb5e1aeecb5
