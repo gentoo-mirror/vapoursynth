@@ -10,7 +10,7 @@ media-plugins/audiocutter 0.20190712 9999: A tool to cut audio and generate asso
 media-plugins/ocsuite 20200318 20200803 99999999: Mastroka ordered chapters automation script
 media-plugins/vapoursynth-addgrain 7 8 9999: AddGrain generates film like grain or other effects (like rain) by adding random noise to the video
 media-plugins/vapoursynth-adjust 1 9999: This is a very basic port of the built-in Avisynth filter Tweak
-media-plugins/vapoursynth-arearesize 1 9999: AreaResize is an area average downscale resizer plugin for VapourSynth
+media-plugins/vapoursynth-arearesize 2 9999: AreaResize is an area average downscale resizer plugin for VapourSynth
 media-plugins/vapoursynth-asharp 1 9999: ASharp is an adaptive sharpening filter
 media-plugins/vapoursynth-astdr 2 3 9999: A derainbow function for VapourSynth
 media-plugins/vapoursynth-autocrop 0.1 9999: AutoCrop for Vapoursynth
