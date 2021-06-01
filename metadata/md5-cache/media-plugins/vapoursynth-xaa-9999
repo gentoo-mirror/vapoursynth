@@ -1,13 +1,13 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install setup unpack
-DEPEND=media-libs/vapoursynth[python_single_target_python3_7(-)?,python_single_target_python3_8(-)?,vapoursynth_plugins_removegrain] media-plugins/vapoursynth-eedi2 media-plugins/vapoursynth-eedi3 media-plugins/vapoursynth-znedi3 media-plugins/vapoursynth-nnedi3cl media-plugins/vapoursynth-sangnom media-plugins/vapoursynth-tcanny media-plugins/vapoursynth-tedgemask
+DEPEND=media-libs/vapoursynth[python_single_target_python3_8(-)?,vapoursynth_plugins_removegrain] media-plugins/vapoursynth-eedi2 media-plugins/vapoursynth-eedi3 media-plugins/vapoursynth-znedi3 media-plugins/vapoursynth-nnedi3cl media-plugins/vapoursynth-sangnom media-plugins/vapoursynth-tcanny media-plugins/vapoursynth-tedgemask
 DESCRIPTION=xaa is a many-in-one antialiasing function for VapourSynth
 EAPI=7
 HOMEPAGE=https://github.com/dubhater/vapoursynth-xaa
 INHERIT=python-single-r1 git-r3
-IUSE=python_single_target_python3_7 python_single_target_python3_8
+IUSE=+python_single_target_python3_8
 PROPERTIES=live
-RDEPEND=media-libs/vapoursynth[python_single_target_python3_7(-)?,python_single_target_python3_8(-)?,vapoursynth_plugins_removegrain] media-plugins/vapoursynth-eedi2 media-plugins/vapoursynth-eedi3 media-plugins/vapoursynth-znedi3 media-plugins/vapoursynth-nnedi3cl media-plugins/vapoursynth-sangnom media-plugins/vapoursynth-tcanny media-plugins/vapoursynth-tedgemask
+RDEPEND=media-libs/vapoursynth[python_single_target_python3_8(-)?,vapoursynth_plugins_removegrain] media-plugins/vapoursynth-eedi2 media-plugins/vapoursynth-eedi3 media-plugins/vapoursynth-znedi3 media-plugins/vapoursynth-nnedi3cl media-plugins/vapoursynth-sangnom media-plugins/vapoursynth-tcanny media-plugins/vapoursynth-tedgemask
 SLOT=0
-_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	d273d56dc725880edbeb1f6389faf5f1	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	6e84b7d3d8d0bb1ee12774f4a66909e2	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=1e82bfb53b64af2247c505f554698d95

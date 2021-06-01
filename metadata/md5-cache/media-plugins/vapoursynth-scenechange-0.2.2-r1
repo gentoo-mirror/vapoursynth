@@ -1,14 +1,14 @@
 DEFINED_PHASES=compile install setup
-DEPEND=media-libs/vapoursynth[python_single_target_python3_7(-)?,python_single_target_python3_8(-)?]
+DEPEND=media-libs/vapoursynth[python_single_target_python3_8(-)?]
 DESCRIPTION=A scene change detection plugin for VapourSynth plus temporalsoften2 that makes use of it
 EAPI=6
 HOMEPAGE=http://forum.doom9.org/showthread.php?t=166769
 INHERIT=python-single-r1
-IUSE=python_single_target_python3_7 python_single_target_python3_8
+IUSE=+python_single_target_python3_8
 KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2.1
-RDEPEND=media-libs/vapoursynth[python_single_target_python3_7(-)?,python_single_target_python3_8(-)?]
+RDEPEND=media-libs/vapoursynth[python_single_target_python3_8(-)?]
 SLOT=0
 SRC_URI=https://www.dropbox.com/s/ga3r71xgh76f16r/vapoursynth-scenechange-0.2.2.tar.bz2
-_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	d273d56dc725880edbeb1f6389faf5f1	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	6e84b7d3d8d0bb1ee12774f4a66909e2	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a
 _md5_=080f13f0aa8cb0bb8682c209952fe419
