@@ -9,5 +9,5 @@ KEYWORDS=~amd64 ~x86
 RDEPEND=media-libs/vapoursynth[python_single_target_python3_8(-)?,vapoursynth_plugins_removegrain,vapoursynth_plugins_miscfilters] media-plugins/vapoursynth-awarpsharp2 media-plugins/vapoursynth-eedi2 media-plugins/vapoursynth-fmtconv media-plugins/vapoursynth-havsfunc media-plugins/vapoursynth-mvsfunc media-plugins/vapoursynth-mvtools media-plugins/vapoursynth-nnedi3 media-plugins/vapoursynth-sangnom media-plugins/vapoursynth-znedi3 opencl? ( media-plugins/vapoursynth-eedi3[opencl] media-plugins/vapoursynth-nnedi3cl media-plugins/vapoursynth-tcanny[opencl] ) !opencl? ( media-plugins/vapoursynth-eedi3 media-plugins/vapoursynth-tcanny )
 SLOT=0
 SRC_URI=https://github.com/HomeOfVapourSynthEvolution/vsTAAmbk/archive/v0.8.0.tar.gz -> vapoursynth-vstaambk-0.8.0.tar.gz
-_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	6e84b7d3d8d0bb1ee12774f4a66909e2	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	ebdbaed22e873a5abe6205f41349b479	python-utils-r1	6e84b7d3d8d0bb1ee12774f4a66909e2	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=e2cbab055e5130d052eca586be42fe89

@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth sci-libs/fftw:3.0
 SLOT=0
 SRC_URI=https://www.dropbox.com/s/d72bougsis2se58/vapoursynth-depan-1.tar.gz -> vapoursynth-depan-1.tar.gz
-_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	ebdbaed22e873a5abe6205f41349b479	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=792b45cc44461aa1b7a720ce7c07459d
