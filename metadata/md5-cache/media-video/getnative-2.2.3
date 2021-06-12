@@ -1,16 +1,16 @@
-BDEPEND=python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8] ) python_single_target_python3_8? ( >=dev-python/setuptools-42.0.2[python_targets_python3_8(-)] )
+BDEPEND=python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8] ) python_single_target_python3_9? ( dev-lang/python:3.9 >=dev-lang/python-exec-2:=[python_targets_python3_9] ) python_single_target_python3_10? ( dev-lang/python:3.10 >=dev-lang/python-exec-2:=[python_targets_python3_10] ) python_single_target_python3_8? ( >=dev-python/setuptools-42.0.2[python_targets_python3_8(-)] ) python_single_target_python3_9? ( >=dev-python/setuptools-42.0.2[python_targets_python3_9(-)] ) python_single_target_python3_10? ( >=dev-python/setuptools-42.0.2[python_targets_python3_10(-)] )
 DEFINED_PHASES=compile configure install prepare setup test
-DEPEND=dev-python/matplotlib media-libs/vapoursynth[python_single_target_python3_8(-)?] media-plugins/vapoursynth-descale || ( media-plugins/vapoursynth-ffmpegsource media-plugins/vapoursynth-l-smash-works media-libs/vapoursynth[imagemagick] )
+DEPEND=dev-python/matplotlib media-libs/vapoursynth[python_single_target_python3_8(-)?,python_single_target_python3_9(-)?,python_single_target_python3_10(-)?] media-plugins/vapoursynth-descale || ( media-plugins/vapoursynth-ffmpegsource media-plugins/vapoursynth-l-smash-works media-libs/vapoursynth[imagemagick] )
 DESCRIPTION=Find the native resolution(s) of upscaled material (mostly anime)
 EAPI=7
 HOMEPAGE=https://github.com/Infiziert90/getnative
 INHERIT=distutils-r1
-IUSE=+python_single_target_python3_8
+IUSE=python_single_target_python3_8 python_single_target_python3_9 python_single_target_python3_10
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-RDEPEND=dev-python/matplotlib media-libs/vapoursynth[python_single_target_python3_8(-)?] media-plugins/vapoursynth-descale || ( media-plugins/vapoursynth-ffmpegsource media-plugins/vapoursynth-l-smash-works media-libs/vapoursynth[imagemagick] ) python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8] )
-REQUIRED_USE=^^ ( python_single_target_python3_8 )
+RDEPEND=dev-python/matplotlib media-libs/vapoursynth[python_single_target_python3_8(-)?,python_single_target_python3_9(-)?,python_single_target_python3_10(-)?] media-plugins/vapoursynth-descale || ( media-plugins/vapoursynth-ffmpegsource media-plugins/vapoursynth-l-smash-works media-libs/vapoursynth[imagemagick] ) python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8] ) python_single_target_python3_9? ( dev-lang/python:3.9 >=dev-lang/python-exec-2:=[python_targets_python3_9] ) python_single_target_python3_10? ( dev-lang/python:3.10 >=dev-lang/python-exec-2:=[python_targets_python3_10] )
+REQUIRED_USE=^^ ( python_single_target_python3_8 python_single_target_python3_9 python_single_target_python3_10 )
 SLOT=0
 SRC_URI=https://github.com/Infiziert90/getnative/archive/2.2.3.tar.gz -> getnative-2.2.3.tar.gz
 _eclasses_=multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	ebdbaed22e873a5abe6205f41349b479	python-utils-r1	6e84b7d3d8d0bb1ee12774f4a66909e2	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a	distutils-r1	c21cf58c1e3c67e0ea53c96a7b37eddd
-_md5_=f53e5b462310f6b86e0cdac5fdeb247a
+_md5_=81f4ba433ffa89e5c9c6651a6cb90fe9

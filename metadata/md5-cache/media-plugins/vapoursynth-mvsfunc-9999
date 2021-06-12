@@ -1,13 +1,13 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install setup unpack
-DEPEND=media-libs/vapoursynth[python_single_target_python3_8(-)?] media-plugins/vapoursynth-bm3d media-plugins/vapoursynth-fmtconv
+DEPEND=media-libs/vapoursynth[python_single_target_python3_8(-)?,python_single_target_python3_9(-)?,python_single_target_python3_10(-)?] media-plugins/vapoursynth-bm3d media-plugins/vapoursynth-fmtconv
 DESCRIPTION=mawen1250's VapourSynth functions
 EAPI=7
 HOMEPAGE=http://forum.doom9.org/showthread.php?p=1737309
 INHERIT=python-single-r1 git-r3
-IUSE=+python_single_target_python3_8
+IUSE=python_single_target_python3_8 python_single_target_python3_9 python_single_target_python3_10
 PROPERTIES=live
-RDEPEND=media-libs/vapoursynth[python_single_target_python3_8(-)?] media-plugins/vapoursynth-bm3d media-plugins/vapoursynth-fmtconv
+RDEPEND=media-libs/vapoursynth[python_single_target_python3_8(-)?,python_single_target_python3_9(-)?,python_single_target_python3_10(-)?] media-plugins/vapoursynth-bm3d media-plugins/vapoursynth-fmtconv
 SLOT=0
 _eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	ebdbaed22e873a5abe6205f41349b479	python-utils-r1	6e84b7d3d8d0bb1ee12774f4a66909e2	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
-_md5_=99f93af36c4f6ecc03f894ba3c0c1853
+_md5_=aa7a0fb269ae4ac2fbaf5a09b336bdb9

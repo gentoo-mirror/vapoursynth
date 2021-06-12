@@ -1,14 +1,14 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install setup unpack
-DEPEND=media-libs/vapoursynth[python_single_target_python3_8(-)?]
+DEPEND=media-libs/vapoursynth[python_single_target_python3_8(-)?,python_single_target_python3_9(-)?,python_single_target_python3_10(-)?]
 DESCRIPTION=Auto interlace detection and deinterlace vapoursynth python script
 EAPI=7
 HOMEPAGE=https://github.com/gnaggnoyil/VAutoDeint
 INHERIT=python-single-r1 toolchain-funcs multilib git-r3
-IUSE=+python_single_target_python3_8
+IUSE=python_single_target_python3_8 python_single_target_python3_9 python_single_target_python3_10
 LICENSE=GPL-3
 PROPERTIES=live
-RDEPEND=media-libs/vapoursynth[python_single_target_python3_8(-)?]
+RDEPEND=media-libs/vapoursynth[python_single_target_python3_8(-)?,python_single_target_python3_9(-)?,python_single_target_python3_10(-)?]
 SLOT=0
 _eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	ebdbaed22e873a5abe6205f41349b479	python-utils-r1	6e84b7d3d8d0bb1ee12774f4a66909e2	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
-_md5_=8b51166caed0466e65d5f58067631f5c
+_md5_=4c4f040be9f7d33aa10099b23538ecd4

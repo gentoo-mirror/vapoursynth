@@ -1,15 +1,15 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install setup unpack
-DEPEND=media-libs/vapoursynth[python_single_target_python3_8(-)?] media-plugins/vapoursynth-continuityfixer media-plugins/vapoursynth-fvsfunc media-plugins/vapoursynth-havsfunc media-plugins/vapoursynth-kagefunc media-plugins/vapoursynth-mvsfunc media-plugins/vapoursynth-nnedi3_rpow2 media-plugins/vapoursynth-vstaambk media-plugins/vsutil
+DEPEND=media-libs/vapoursynth[python_single_target_python3_8(-)?,python_single_target_python3_9(-)?,python_single_target_python3_10(-)?] media-plugins/vapoursynth-continuityfixer media-plugins/vapoursynth-fvsfunc media-plugins/vapoursynth-havsfunc media-plugins/vapoursynth-kagefunc media-plugins/vapoursynth-mvsfunc media-plugins/vapoursynth-nnedi3_rpow2 media-plugins/vapoursynth-vstaambk media-plugins/vsutil
 DESCRIPTION=Light's Vapoursynth Functions
 EAPI=7
 HOMEPAGE=https://github.com/Irrational-Encoding-Wizardry/lvsfunc
 INHERIT=python-single-r1 git-r3
-IUSE=+python_single_target_python3_8
+IUSE=python_single_target_python3_8 python_single_target_python3_9 python_single_target_python3_10
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=media-libs/vapoursynth[python_single_target_python3_8(-)?] media-plugins/vapoursynth-continuityfixer media-plugins/vapoursynth-fvsfunc media-plugins/vapoursynth-havsfunc media-plugins/vapoursynth-kagefunc media-plugins/vapoursynth-mvsfunc media-plugins/vapoursynth-nnedi3_rpow2 media-plugins/vapoursynth-vstaambk media-plugins/vsutil
+RDEPEND=media-libs/vapoursynth[python_single_target_python3_8(-)?,python_single_target_python3_9(-)?,python_single_target_python3_10(-)?] media-plugins/vapoursynth-continuityfixer media-plugins/vapoursynth-fvsfunc media-plugins/vapoursynth-havsfunc media-plugins/vapoursynth-kagefunc media-plugins/vapoursynth-mvsfunc media-plugins/vapoursynth-nnedi3_rpow2 media-plugins/vapoursynth-vstaambk media-plugins/vsutil
 SLOT=0
 _eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	ebdbaed22e873a5abe6205f41349b479	python-utils-r1	6e84b7d3d8d0bb1ee12774f4a66909e2	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
-_md5_=f27c571d55e4721f3862799c99e0a19b
+_md5_=b55c4055e950ad52a0645a2a3dcee807
