@@ -9,5 +9,5 @@ LICENSE=ISC
 RDEPEND=media-libs/vapoursynth
 SLOT=0
 SRC_URI=https://github.com/Kiyamou/VapourSynth-AreaResize/archive/r2.tar.gz -> vapoursynth-arearesize-2.tar.gz
-_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	ebdbaed22e873a5abe6205f41349b479	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=toolchain-funcs	2545dc6f0aaecb2dea61424911e82674	multilib	ba7da83f763a749a2870c28785c6dc0b	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=decef207faf8dfbc00f13e8b40e397a7
