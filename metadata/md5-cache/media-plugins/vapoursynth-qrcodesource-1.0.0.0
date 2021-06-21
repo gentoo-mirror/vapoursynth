@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth media-libs/libpng
 SLOT=0
 SRC_URI=https://github.com/jeremypoulter/QRCodeSource/archive/Release_1.0.0.0.tar.gz -> vapoursynth-qrcodesource-1.0.0.0.tar.gz https://github.com/fukuchi/libqrencode/archive/ca465caa9f497beab26dd17dc45cd08c76634820.zip -> LibQREncode-2014.09.23.zip
-_eclasses_=toolchain-funcs	7a9551c9a6680454019664620505375a	multilib	6f710a580aea2e8c7f5be70f8912ad43	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=toolchain-funcs	e867df3870e8ff04a5b94f925be8b06a	multilib	f8d35c2432bb32c4f1e779c4287b31ec	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=cbfcb84d6a4d2c9cb29b1dc504c16321
