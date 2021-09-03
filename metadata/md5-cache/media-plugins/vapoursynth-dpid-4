@@ -10,5 +10,5 @@ RDEPEND=media-libs/vapoursynth
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/WolframRhodium/VapourSynth-dpid/archive/r4.tar.gz -> vapoursynth-dpid-4.tar.gz
-_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=991f7d217af1eb27d04d01d3c7349732

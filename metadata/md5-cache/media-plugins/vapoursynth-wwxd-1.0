@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth
 SLOT=0
 SRC_URI=https://github.com/dubhater/vapoursynth-wwxd/archive/v1.0.tar.gz -> vapoursynth-wwxd-1.0.tar.gz
-_eclasses_=multilib	97566c1a256d07b00848aa767e38a352	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=multilib	4b66d835ec72e021e359bb81eacfe988	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=f68f9e2ef5b4c3f8b83d1980524b72b8
