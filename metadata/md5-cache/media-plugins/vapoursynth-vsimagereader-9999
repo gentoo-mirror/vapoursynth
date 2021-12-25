@@ -8,5 +8,5 @@ LICENSE=LGPL-2.1
 PROPERTIES=live
 RDEPEND=media-libs/vapoursynth media-libs/libpng:0 media-libs/libjpeg-turbo sys-libs/zlib
 SLOT=0
-_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4b66d835ec72e021e359bb81eacfe988	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	8a0248f83ae77f945d376ff4a7953257	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
 _md5_=194e49c6103b24daec9001e75a593c59
