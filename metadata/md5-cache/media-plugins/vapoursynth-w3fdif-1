@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install unpack
+DEPEND=media-libs/vapoursynth
+DESCRIPTION=VapourSynth port of W3FDIF
+EAPI=7
+HOMEPAGE=https://github.com/HomeOfVapourSynthEvolution/VapourSynth-W3FDIF
+INHERIT=toolchain-funcs multilib vcs-snapshot
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-3
+RDEPEND=media-libs/vapoursynth
+SLOT=0
+SRC_URI=https://github.com/HomeOfVapourSynthEvolution/vapoursynth-w3fdif/archive/r1.tar.gz -> vapoursynth-w3fdif-1.tar.gz
+_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	vcs-snapshot	19dc666868420457132a7514d4621476
+_md5_=d4ba4e2421afb514d1195cd4cb147e6b

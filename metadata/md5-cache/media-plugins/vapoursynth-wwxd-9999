@@ -1,7 +1,8 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install unpack
-DEPEND=media-libs/vapoursynth >=dev-vcs/git-1.8.2.1[curl]
+DEPEND=media-libs/vapoursynth
 DESCRIPTION=Xvid-like scene change detection for VapourSynth
-EAPI=5
+EAPI=7
 HOMEPAGE=https://github.com/dubhater/vapoursynth-wwxd
 INHERIT=multilib git-r3
 LICENSE=GPL-2
@@ -9,4 +10,4 @@ PROPERTIES=live
 RDEPEND=media-libs/vapoursynth
 SLOT=0
 _eclasses_=multilib	de4beb52bfa93c4c5d96792a6b5e1784	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=96bb37aa5104bdfc67b2e09e7743320e
+_md5_=441420e7d167ebdafa1c0e16d067becc

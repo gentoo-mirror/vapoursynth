@@ -1,7 +1,8 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install unpack
-DEPEND=media-libs/vapoursynth >=dev-vcs/git-1.8.2.1[curl]
+DEPEND=media-libs/vapoursynth
 DESCRIPTION=Port of RemoveDirt to VapourSynth
-EAPI=5
+EAPI=7
 HOMEPAGE=https://github.com/handaimaoh/removedirtvs
 INHERIT=toolchain-funcs multilib git-r3
 KEYWORDS=~x86 ~amd64
@@ -10,4 +11,4 @@ PROPERTIES=live
 RDEPEND=media-libs/vapoursynth
 SLOT=0
 _eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=0b6a7cf37ca374316911d46ff3537531
+_md5_=0bf630d1a2990ad32b1d71bbfe8e4ece

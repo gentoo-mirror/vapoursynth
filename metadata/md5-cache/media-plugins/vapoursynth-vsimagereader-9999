@@ -1,7 +1,8 @@
-DEFINED_PHASES=configure install unpack
-DEPEND=media-libs/vapoursynth media-libs/libpng:0 media-libs/libjpeg-turbo sys-libs/zlib >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure install prepare unpack
+DEPEND=media-libs/vapoursynth media-libs/libpng:0 media-libs/libjpeg-turbo sys-libs/zlib
 DESCRIPTION=Image reader plugin for VapourSynth
-EAPI=5
+EAPI=7
 HOMEPAGE=https://github.com/chikuzen/vsimagereader
 INHERIT=toolchain-funcs multilib git-r3
 LICENSE=LGPL-2.1
@@ -9,4 +10,4 @@ PROPERTIES=live
 RDEPEND=media-libs/vapoursynth media-libs/libpng:0 media-libs/libjpeg-turbo sys-libs/zlib
 SLOT=0
 _eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=194e49c6103b24daec9001e75a593c59
+_md5_=d236425e9ab8ee0462fcb322b64a7139

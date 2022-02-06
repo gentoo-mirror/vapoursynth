@@ -1,11 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install unpack
-DEPEND=media-libs/vapoursynth >=dev-vcs/git-1.8.2.1[curl]
+DEPEND=media-libs/vapoursynth
 DESCRIPTION=Continuity Fixer port for Vapoursynth, can help repair damaged borders of frames
-EAPI=5
+EAPI=7
 HOMEPAGE=https://github.com/MonoS/VS-ContinuityFixer
 INHERIT=toolchain-funcs multilib git-r3
 PROPERTIES=live
 RDEPEND=media-libs/vapoursynth
 SLOT=0
 _eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
-_md5_=eb6628971ae0312f889a415dfa8ba80e
+_md5_=5714e752c6953c83569fd0c417f3de58
