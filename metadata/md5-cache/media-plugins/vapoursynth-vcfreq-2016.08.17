@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=media-libs/vapoursynth sci-libs/fftw:3.0
 SLOT=0
 SRC_URI=https://www.dropbox.com/s/fyid7xne75zs9kl/vapoursynth-vcfreq-2016.08.17.tar.bz2
-_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4a33c9008e5ee30cb8840a3fdc24df2b
+_eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85
 _md5_=e398ab0d1178a20936d7771071ecd451
