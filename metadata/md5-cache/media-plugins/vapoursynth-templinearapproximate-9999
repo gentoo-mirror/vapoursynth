@@ -1,14 +1,14 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install prepare setup unpack
-DEPEND=media-libs/vapoursynth[python_single_target_python3_8(-)?,python_single_target_python3_9(-)?,python_single_target_python3_10(-)?]
+DEPEND=media-libs/vapoursynth[python_single_target_python3_9(-)?,python_single_target_python3_10(-)?,python_single_target_python3_11(-)?]
 DESCRIPTION=Takes several frames and for each pixel calculates linear approximation of its values through time
 EAPI=8
 HOMEPAGE=https://bitbucket.org/mystery_keeper/templinearapproximate-vapoursynth
 INHERIT=python-single-r1 toolchain-funcs multilib git-r3
-IUSE=python_single_target_python3_8 python_single_target_python3_9 python_single_target_python3_10
+IUSE=python_single_target_python3_9 python_single_target_python3_10 python_single_target_python3_11
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=media-libs/vapoursynth[python_single_target_python3_8(-)?,python_single_target_python3_9(-)?,python_single_target_python3_10(-)?]
+RDEPEND=media-libs/vapoursynth[python_single_target_python3_9(-)?,python_single_target_python3_10(-)?,python_single_target_python3_11(-)?]
 SLOT=0
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	python-utils-r1	5dc84801daa87406aafaf535cb947a64	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=9577e898f33e9a0a4e40e6ff351b3109
+_md5_=e333e98b2e953ff88085e57e1f14b421

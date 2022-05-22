@@ -1,13 +1,13 @@
 DEFINED_PHASES=install setup unpack
-DEPEND=media-libs/vapoursynth[python_single_target_python3_8(-)?,python_single_target_python3_9(-)?,python_single_target_python3_10(-)?] media-plugins/vapoursynth-fmtconv media-plugins/vapoursynth-mvsfunc media-plugins/vapoursynth-nnedi3 media-plugins/vapoursynth-znedi3 opencl? ( media-plugins/vapoursynth-nnedi3cl )
+DEPEND=media-libs/vapoursynth[python_single_target_python3_9(-)?,python_single_target_python3_10(-)?,python_single_target_python3_11(-)?] media-plugins/vapoursynth-fmtconv media-plugins/vapoursynth-mvsfunc media-plugins/vapoursynth-nnedi3 media-plugins/vapoursynth-znedi3 opencl? ( media-plugins/vapoursynth-nnedi3cl )
 DESCRIPTION=A function for scaling, color space conversion, etc.
 EAPI=8
 HOMEPAGE=https://github.com/HomeOfVapourSynthEvolution/nnedi3_resample
 INHERIT=python-single-r1 vcs-snapshot
-IUSE=opencl python_single_target_python3_8 python_single_target_python3_9 python_single_target_python3_10
+IUSE=opencl python_single_target_python3_9 python_single_target_python3_10 python_single_target_python3_11
 KEYWORDS=~amd64 ~x86
-RDEPEND=media-libs/vapoursynth[python_single_target_python3_8(-)?,python_single_target_python3_9(-)?,python_single_target_python3_10(-)?] media-plugins/vapoursynth-fmtconv media-plugins/vapoursynth-mvsfunc media-plugins/vapoursynth-nnedi3 media-plugins/vapoursynth-znedi3 opencl? ( media-plugins/vapoursynth-nnedi3cl )
+RDEPEND=media-libs/vapoursynth[python_single_target_python3_9(-)?,python_single_target_python3_10(-)?,python_single_target_python3_11(-)?] media-plugins/vapoursynth-fmtconv media-plugins/vapoursynth-mvsfunc media-plugins/vapoursynth-nnedi3 media-plugins/vapoursynth-znedi3 opencl? ( media-plugins/vapoursynth-nnedi3cl )
 SLOT=0
 SRC_URI=https://github.com/HomeOfVapourSynthEvolution/nnedi3_resample/archive/r1.tar.gz -> vapoursynth-nnedi3_resample-1.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	python-utils-r1	5dc84801daa87406aafaf535cb947a64	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8	vcs-snapshot	19dc666868420457132a7514d4621476
-_md5_=30d646a6c1778eef40673c68609eef66
+_md5_=10cac37cbf9eb6cafd9366519690535c
