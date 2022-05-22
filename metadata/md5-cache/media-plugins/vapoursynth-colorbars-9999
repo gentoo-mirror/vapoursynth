@@ -1,12 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=configure prepare unpack
-DEPEND=media-libs/vapoursynth >=dev-vcs/git-1.8.2.1[curl]
+DEPEND=media-libs/vapoursynth:0/4
 DESCRIPTION=ColorBars is a filter for generating test signals
-EAPI=6
+EAPI=8
 HOMEPAGE=https://github.com/ifb/vapoursynth-colorbars
 INHERIT=git-r3
 LICENSE=GPL-2
 PROPERTIES=live
-RDEPEND=media-libs/vapoursynth
+RDEPEND=media-libs/vapoursynth:0/4
 SLOT=0
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=be3807d76160813805d1c9a1e7201c80
+_md5_=1da47fe170a446362895b0ddb39502cc

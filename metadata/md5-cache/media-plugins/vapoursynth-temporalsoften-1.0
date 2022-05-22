@@ -1,11 +1,11 @@
 DEFINED_PHASES=configure prepare
 DEPEND=media-libs/vapoursynth
 DESCRIPTION=TemporalSoften plugin for VapourSynth
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/dubhater/vapoursynth-temporalsoften
 KEYWORDS=~amd64
 RDEPEND=media-libs/vapoursynth
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dubhater/vapoursynth-temporalsoften/archive/v1.0.tar.gz -> vapoursynth-temporalsoften-1.0.tar.gz
-_md5_=c150a7486fab4c69d864683a348de47f
+_md5_=8692826df4d8528cb762149a512dbb17

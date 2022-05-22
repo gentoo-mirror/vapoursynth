@@ -1,11 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install unpack
-DEPEND=media-libs/vapoursynth >=dev-vcs/git-1.8.2.1[curl]
+DEPEND=media-libs/vapoursynth
 DESCRIPTION=AutoCrop for Vapoursynth
-EAPI=6
+EAPI=8
 HOMEPAGE=https://github.com/Infiziert90/vapoursynth-autocrop
 INHERIT=toolchain-funcs git-r3
 PROPERTIES=live
 RDEPEND=media-libs/vapoursynth
 SLOT=0
 _eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=24cf2c342ab3be5dbe78db2d5b0e3cad
+_md5_=f1e9c34d7fbd868d28f8b87977ba853b

@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure install prepare unpack
+DEPEND=media-libs/vapoursynth
+DESCRIPTION=CombMask plugin for VapourSynth
+EAPI=8
+HOMEPAGE=https://github.com/chikuzen/CombMask
+INHERIT=multilib git-r3
+LICENSE=LGPL-2.1
+PROPERTIES=live
+RDEPEND=media-libs/vapoursynth
+SLOT=0
+_eclasses_=multilib	4fbbbc98f236f1b43acd99476bc3cd85	toolchain-funcs	fd9cde67030b26e479eeadaced488253	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_md5_=c14439d2cfa74c15f3566c94c68ab88c

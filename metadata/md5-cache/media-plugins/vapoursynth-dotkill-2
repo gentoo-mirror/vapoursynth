@@ -1,7 +1,7 @@
 DEFINED_PHASES=compile install unpack
 DEPEND=media-libs/vapoursynth
 DESCRIPTION=Spatial dotcrawl remover for VapourSynth
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/myrsloik/DotKill
 INHERIT=toolchain-funcs vcs-snapshot
 KEYWORDS=~amd64 ~x86
@@ -10,4 +10,4 @@ RDEPEND=media-libs/vapoursynth
 SLOT=0
 SRC_URI=https://github.com/myrsloik/DotKill/archive/R2.tar.gz -> vapoursynth-dotkill-2.tar.gz
 _eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	vcs-snapshot	19dc666868420457132a7514d4621476
-_md5_=3c06207621b9da3ebea450d4118c018b
+_md5_=cd9e8c7a78b6dcc777a17ff76197021a

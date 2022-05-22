@@ -2,7 +2,7 @@ BDEPEND=>=dev-util/meson-0.59.4 >=dev-util/ninja-1.8.2 dev-util/meson-format-arr
 DEFINED_PHASES=compile configure install test
 DEPEND=media-libs/vapoursynth
 DESCRIPTION=VapourSynth filter that fills the borders of a clip, without changing the clip's dimensions.
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/dubhater/vapoursynth-fillborders
 INHERIT=meson
 KEYWORDS=~amd64 ~x86
@@ -11,5 +11,5 @@ RDEPEND=media-libs/vapoursynth
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dubhater/vapoursynth-fillborders/archive/v2.tar.gz -> vapoursynth-fillborders-2.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	python-utils-r1	5dc84801daa87406aafaf535cb947a64	meson	8f48ffde53174aba67239f0da61ac9d3
-_md5_=251c6e00307f6f0d214c8d544a0c837f
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	python-utils-r1	5dc84801daa87406aafaf535cb947a64	meson	8f48ffde53174aba67239f0da61ac9d3
+_md5_=a4b162480a89e503fa0a4f433343e769

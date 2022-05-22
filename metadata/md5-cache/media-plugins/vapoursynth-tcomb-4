@@ -1,7 +1,7 @@
 DEFINED_PHASES=configure prepare
 DEPEND=media-libs/vapoursynth
 DESCRIPTION=TComb is a temporal comb filter
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/dubhater/vapoursynth-tcomb
 KEYWORDS=~amd64
 LICENSE=GPL-2
@@ -9,4 +9,4 @@ RDEPEND=media-libs/vapoursynth
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dubhater/vapoursynth-tcomb/archive/v4.tar.gz -> vapoursynth-tcomb-4.tar.gz
-_md5_=d456b88f220acae70c3004162d89a06e
+_md5_=81640908cff21741ea3b10f7f7bf062a

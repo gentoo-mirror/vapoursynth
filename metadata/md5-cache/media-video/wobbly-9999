@@ -1,7 +1,8 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=configure prepare unpack
-DEPEND=media-libs/vapoursynth dev-qt/qtwidgets media-plugins/vapoursynth-d2vsource media-plugins/vapoursynth-fieldhint media-plugins/vapoursynth-scxvid >=dev-vcs/git-1.8.2.1[curl]
+DEPEND=media-libs/vapoursynth dev-qt/qtwidgets media-plugins/vapoursynth-d2vsource media-plugins/vapoursynth-fieldhint media-plugins/vapoursynth-scxvid
 DESCRIPTION=IVTC assistant for VapourSynth, similar to Yatta
-EAPI=6
+EAPI=8
 HOMEPAGE=https://github.com/dubhater/Wobbly
 INHERIT=toolchain-funcs git-r3
 LICENSE=ISC
@@ -9,4 +10,4 @@ PROPERTIES=live
 RDEPEND=media-libs/vapoursynth dev-qt/qtwidgets media-plugins/vapoursynth-d2vsource media-plugins/vapoursynth-fieldhint media-plugins/vapoursynth-scxvid
 SLOT=0
 _eclasses_=toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=5c71c785ff2e93ba30ab8e4317528b88
+_md5_=b62c10b3cdd55b320792fa7b386b7b99

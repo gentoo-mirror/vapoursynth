@@ -1,7 +1,8 @@
+BDEPEND=>=dev-util/meson-0.59.4 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
 DEFINED_PHASES=compile configure install test unpack
-DEPEND=media-libs/vapoursynth sci-libs/fftw:3.0[threads] >=dev-util/meson-0.59.4 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
+DEPEND=media-libs/vapoursynth sci-libs/fftw:3.0[threads]
 DESCRIPTION=Performs DCT on 8x8 blocks, applies modification to it, then performs IDCT
-EAPI=6
+EAPI=8
 HOMEPAGE=https://github.com/HomeOfVapourSynthEvolution/VapourSynth-DCTFilter
 INHERIT=meson vcs-snapshot
 IUSE=lto
@@ -10,5 +11,5 @@ LICENSE=MIT
 RDEPEND=media-libs/vapoursynth sci-libs/fftw:3.0[threads]
 SLOT=0
 SRC_URI=https://github.com/HomeOfVapourSynthEvolution/DCTFilter/archive/r2.1.tar.gz -> vapoursynth-dctfilter-2.1.tar.gz
-_eclasses_=eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	python-utils-r1	5dc84801daa87406aafaf535cb947a64	meson	8f48ffde53174aba67239f0da61ac9d3	vcs-snapshot	19dc666868420457132a7514d4621476
-_md5_=bc794c4fdaa91142f0f240b5e8330246
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	python-utils-r1	5dc84801daa87406aafaf535cb947a64	meson	8f48ffde53174aba67239f0da61ac9d3	vcs-snapshot	19dc666868420457132a7514d4621476
+_md5_=45b513d9bc4b11f31deef9184f2825de

@@ -1,7 +1,8 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=configure prepare unpack
-DEPEND=media-libs/vapoursynth >=dev-vcs/git-1.8.2.1[curl]
+DEPEND=media-libs/vapoursynth
 DESCRIPTION=Histogram plugin for VapourSynth
-EAPI=6
+EAPI=8
 HOMEPAGE=https://github.com/dubhater/vapoursynth-histogram
 INHERIT=git-r3
 LICENSE=GPL-2
@@ -9,4 +10,4 @@ PROPERTIES=live
 RDEPEND=media-libs/vapoursynth
 SLOT=0
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=24f95762d8b32a9ca06fdbb7bc7576f6
+_md5_=e5dc50b4178c2f845aa8ab3b26061772

@@ -1,14 +1,12 @@
-DEFINED_PHASES=configure prepare unpack
+DEFINED_PHASES=configure prepare
 DEPEND=media-libs/vapoursynth
 DESCRIPTION=Spatio-temporal limited median denoiser
-EAPI=6
+EAPI=8
 HOMEPAGE=https://github.com/dubhater/vapoursynth-degrainmedian
-INHERIT=vcs-snapshot
 IUSE=doc
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth
 SLOT=0
 SRC_URI=https://github.com/dubhater/vapoursynth-degrainmedian/archive/v1.tar.gz -> vapoursynth-degrainmedian-1.tar.gz
-_eclasses_=vcs-snapshot	19dc666868420457132a7514d4621476
-_md5_=3264d85b9f1bac9deb01c511f20653f2
+_md5_=c0d10c6ae0e59a6ccec0d9bcabfb45cf

@@ -2,10 +2,6 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-media-libs/libplacebo:glslang - Use dev-util/glslang to compile GLSL
-media-libs/libplacebo:lcms - Add support for color management via media-libs/lcms
-media-libs/libplacebo:shaderc - Use media-libs/shaderc to compile GLSL
-media-libs/libplacebo:vulkan - Add support for the vulkan graphics API
 media-libs/vapoursynth:debug - Enable compilation options required for debugging
 media-libs/vapoursynth:doc - Install project documentation
 media-libs/vapoursynth:guard - Adds 32 bytes on the left and the right sides of each frame, fills them with a certain value, and checks their integrity after each filter. It can be used to detect buggy filters that write a little outside the frame

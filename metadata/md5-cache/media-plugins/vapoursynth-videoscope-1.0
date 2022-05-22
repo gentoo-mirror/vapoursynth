@@ -1,7 +1,7 @@
 DEFINED_PHASES=configure prepare
 DEPEND=media-libs/vapoursynth
 DESCRIPTION=Videoscope plugin for VapourSynth
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/dubhater/vapoursynth-videoscope
 KEYWORDS=~amd64
 LICENSE=WTFPL-2
@@ -9,4 +9,4 @@ RDEPEND=media-libs/vapoursynth
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dubhater/vapoursynth-videoscope/archive/v1.0.tar.gz -> vapoursynth-videoscope-1.0.tar.gz
-_md5_=415e71d2360af28fd1c68dd9d74e9f5c
+_md5_=d4172f24e104f58d0e76168343b4ac67
