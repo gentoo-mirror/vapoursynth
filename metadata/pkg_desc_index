@@ -29,7 +29,7 @@ media-plugins/vapoursynth-cmedian 1-r1 9999: Constant time median filter algorit
 media-plugins/vapoursynth-cnr2 1 9999: Chroma noise reducer
 media-plugins/vapoursynth-colorbars 3 9999: ColorBars is a filter for generating test signals
 media-plugins/vapoursynth-combmask 20130730 99999999: CombMask plugin for VapourSynth
-media-plugins/vapoursynth-continuityfixer 6-r1 9999: Continuity Fixer port for Vapoursynth, can help repair damaged borders of frames
+media-plugins/vapoursynth-continuityfixer 7 9999: Continuity Fixer port for Vapoursynth, can help repair damaged borders of frames
 media-plugins/vapoursynth-ctmf 5 9999: Median filter for VapourSynth (the same algorithm that MedianBlur2)
 media-plugins/vapoursynth-curve 3 9999: Apply color adjustments using curves
 media-plugins/vapoursynth-d2vsource 1.3_pre20211103 9999: D2V Source plugin for VapourSynth
@@ -100,7 +100,7 @@ media-plugins/vapoursynth-retinex 4 9999: Retinex plugin for VapourSynth
 media-plugins/vapoursynth-sangnom 42 9999: A rewrite version of AVISynth SangNom2
 media-plugins/vapoursynth-scenechange 0.2.2-r2: A scene change detection plugin and script for VapourSynth
 media-plugins/vapoursynth-scxvid 1 9999: Scene change detection plugin for VapourSynth, using XviD
-media-plugins/vapoursynth-smoothuv 2-r1 9999: Spatial derainbow filter
+media-plugins/vapoursynth-smoothuv 3 9999: Spatial derainbow filter
 media-plugins/vapoursynth-ssiq 1.0 9999: SSIQ plugin for VapourSynth
 media-plugins/vapoursynth-surfaceblur 0 9999: Surface Blur
 media-plugins/vapoursynth-tbilateral 4 9999: A spatial smoothing filter that uses the bilateral filtering algorithm
