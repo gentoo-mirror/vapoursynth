@@ -132,7 +132,7 @@ media-plugins/vapoursynth-vsimagereader 0.2.1 9999: Image reader plugin for Vapo
 media-plugins/vapoursynth-vsrawsource 20191105 99999999: Raw format video reader for VapourSynth
 media-plugins/vapoursynth-vstaambk 0.8.1 9999: A ported AA-script from Avisynth
 media-plugins/vapoursynth-w3fdif 1 9999: VapourSynth port of W3FDIF
-media-plugins/vapoursynth-waifu2x-ncnn-vulkan 4 4.1 9999: Waifu2x filter for VapourSynth, based on waifu2x-ncnn-vulkan
+media-plugins/vapoursynth-waifu2x-ncnn-vulkan 5 9999: Waifu2x filter for VapourSynth, based on waifu2x-ncnn-vulkan
 media-plugins/vapoursynth-waifu2x-w2xc 8 9999: Image super-resolution/denoise filter for VapourSynth, based on the waifu2x-opt library
 media-plugins/vapoursynth-warpsharpsupport 1 9999: Script versions of support functions from WarpSharp
 media-plugins/vapoursynth-wwxd 1.0 9999: Xvid-like scene change detection for VapourSynth
