@@ -1,4 +1,4 @@
-app-editors/vapoursynth-editor 5.2 9999: VapourSynth Editor
+app-editors/vapoursynth-editor 5.3 9999: VapourSynth Editor
 dev-cpp/vapoursynth-plusplus 20210601 99999999: C++ wrapper for VSAPI to help you sketch your filter in the fastest possible way
 media-libs/ffmpegsource 2.40: A libav/ffmpeg based source library for easy frame accurate access
 media-libs/l-smash 2.14.5 9999: Media library
