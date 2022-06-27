@@ -12,5 +12,5 @@ RDEPEND=media-libs/vapoursynth:0/4 media-libs/libass media-video/ffmpeg
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/vapoursynth/subtext/archive/R3.tar.gz -> subtext-3.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	python-utils-r1	648fe6a039e87233d7f48da72cadb76f	meson	8f48ffde53174aba67239f0da61ac9d3	vcs-snapshot	19dc666868420457132a7514d4621476
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	toolchain-funcs	e9da88162e7a3c60376e80c2c2adcdfb	multilib	4fbbbc98f236f1b43acd99476bc3cd85	python-utils-r1	648fe6a039e87233d7f48da72cadb76f	meson	8f48ffde53174aba67239f0da61ac9d3	vcs-snapshot	19dc666868420457132a7514d4621476
 _md5_=f93c591e76b82e25badade0cabc56821
