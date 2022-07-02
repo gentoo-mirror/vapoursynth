@@ -11,5 +11,5 @@ LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth dev-libs/boost virtual/opencl dev-libs/ocl-icd
 SLOT=0
 SRC_URI=https://github.com/HomeOfVapourSynthEvolution/vapoursynth-nnedi3cl/archive/r8.tar.gz -> vapoursynth-nnedi3cl-8.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	toolchain-funcs	e9da88162e7a3c60376e80c2c2adcdfb	multilib	4fbbbc98f236f1b43acd99476bc3cd85	python-utils-r1	32313e7e2fbfba8f62a99ef923fc923c	meson	8f48ffde53174aba67239f0da61ac9d3	vcs-snapshot	19dc666868420457132a7514d4621476
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	toolchain-funcs	e9da88162e7a3c60376e80c2c2adcdfb	multilib	4fbbbc98f236f1b43acd99476bc3cd85	python-utils-r1	32313e7e2fbfba8f62a99ef923fc923c	meson	2cc95670908abda0d67e9e16a6b4341e	vcs-snapshot	19dc666868420457132a7514d4621476
 _md5_=eac8463c358f51fd3bee8560234a362f
