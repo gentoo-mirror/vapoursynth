@@ -60,6 +60,7 @@ media-plugins/vapoursynth-fix-telecined-fades 6_pre20170224 9999: Fix Telecined 
 media-plugins/vapoursynth-flash3kyuu_deband 2.0.0.20180808 9999: A deband library and filter for VapourSynth
 media-plugins/vapoursynth-fluxsmooth 2 9999: A filter for smoothing of fluctuations
 media-plugins/vapoursynth-fmtconv 29 9999: A format-conversion plug-in for the Vapoursynth video processing engine
+media-plugins/vapoursynth-frfun7 2 9999: Frfun7 is a spatial fractal denoising plugin
 media-plugins/vapoursynth-fvsfunc 20220412 99999999: Frechdachs's Vapoursynth functions
 media-plugins/vapoursynth-genericfilters 20150505 99999999: Common image-processing filters for vapoursynth
 media-plugins/vapoursynth-havsfunc 33 9999: HolyWu's ported AviSynth scripts for VapourSynth
@@ -89,7 +90,7 @@ media-plugins/vapoursynth-nnedi3_resample 1 9999: A function for scaling, color 
 media-plugins/vapoursynth-nnedi3_rpow2 1.1.0 9999: nnedi3 rpow2 wrapper
 media-plugins/vapoursynth-nnedi3cl 8 9999: VapourSynth port of NNEDI3 utilizing OpenCL
 media-plugins/vapoursynth-oyster 6-r1 9999: A top class de-noising filter against compression artifacts
-media-plugins/vapoursynth-plugins-meta 63 64: VapourSynth plugins meta package.
+media-plugins/vapoursynth-plugins-meta 63 64 65: VapourSynth plugins meta package.
 media-plugins/vapoursynth-plum 2 9999: A sharpening/blind deconvolution suite with certain advanced features like Non-Local error, Block Matching, etc...
 media-plugins/vapoursynth-qrcodesource 1.0.0.0 9999: Plugin to provide a means to embed QR codes in video
 media-plugins/vapoursynth-readmpls 5 9999: Get m2ts clip id from a playlist and return a dict
@@ -141,7 +142,7 @@ media-plugins/vapoursynth-yadifmod 10.1 9999: Modified version of Fizick's avisy
 media-plugins/vapoursynth-znedi3 2.1 9999: Optimized nnedi3 filter
 media-plugins/vivtc 1 9999: Field matcher and decimation filter for VapourSynth similar to TIVTC
 media-plugins/vs-ccd 0.3.1-r1 9999: 
-media-plugins/vs-imwri 2_pre20211023 9999: Image reader and writer for VapourSynth using the ImageMagick library
+media-plugins/vs-imwri 2 9999: Image reader and writer for VapourSynth using the ImageMagick library
 media-plugins/vs-ocr 1 9999: OCR plugin for VapourSynth
 media-plugins/vs-placebo 1.4.2 9999: libplacebo-based debanding, scaling and color mapping plugin for VapourSynth
 media-plugins/vs-removegrain 1 9999: VapourSynth port of RemoveGrain and Repair plugins from Avisynth

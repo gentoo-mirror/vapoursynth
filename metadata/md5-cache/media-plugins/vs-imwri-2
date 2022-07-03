@@ -1,16 +1,16 @@
-BDEPEND=>=dev-util/meson-0.59.4 >=dev-util/ninja-1.8.2 dev-util/meson-format-array >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=>=dev-util/meson-0.59.4 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
 DEFINED_PHASES=compile configure install test unpack
 DEPEND=media-libs/vapoursynth:0/4 heif? ( media-libs/libheif ) jxl? ( media-libs/libjxl ) tiff? ( media-libs/tiff ) media-gfx/imagemagick[cxx,hdri,heif,tiff,-q8(-),-q64(-)]
 DESCRIPTION=Image reader and writer for VapourSynth using the ImageMagick library
 EAPI=8
 HOMEPAGE=https://github.com/vapoursynth/vs-imwri
-INHERIT=meson git-r3
+INHERIT=meson vcs-snapshot
 IUSE=lto heif jxl tiff
 KEYWORDS=~x86 ~amd64
 LICENSE=LGPL-2.1
-PROPERTIES=live
 RDEPEND=media-libs/vapoursynth:0/4 heif? ( media-libs/libheif ) jxl? ( media-libs/libjxl ) tiff? ( media-libs/tiff ) media-gfx/imagemagick[cxx,hdri,heif,tiff,-q8(-),-q64(-)]
 RESTRICT=mirror
 SLOT=0
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	toolchain-funcs	e9da88162e7a3c60376e80c2c2adcdfb	multilib	4fbbbc98f236f1b43acd99476bc3cd85	python-utils-r1	32313e7e2fbfba8f62a99ef923fc923c	meson	2cc95670908abda0d67e9e16a6b4341e	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=9dc2eada45af15fbfa5ef01685b084d9
+SRC_URI=https://github.com/vapoursynth/vs-imwri/archive/R2.tar.gz -> vs-imwri-2.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	toolchain-funcs	e9da88162e7a3c60376e80c2c2adcdfb	multilib	4fbbbc98f236f1b43acd99476bc3cd85	python-utils-r1	32313e7e2fbfba8f62a99ef923fc923c	meson	2cc95670908abda0d67e9e16a6b4341e	vcs-snapshot	19dc666868420457132a7514d4621476
+_md5_=8c754a45b0cda3e74dd25ce12189d3cb
