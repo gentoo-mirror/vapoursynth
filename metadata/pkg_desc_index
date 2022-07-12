@@ -22,7 +22,7 @@ media-plugins/vapoursynth-bifrost 2.2 9999: Decrawler plugin for VapourSynth
 media-plugins/vapoursynth-bilateral 3 9999: Bilateral filter for VapourSynth
 media-plugins/vapoursynth-bilateralgpu 8 9999: Bilateral filter for VapourSynth based on the OpenCV-CUDA library
 media-plugins/vapoursynth-bm3d 9 9999: BM3D denoising filter for VapourSynth
-media-plugins/vapoursynth-bm3dcuda 2.7 2.8 9999: BM3D denoising filter for VapourSynth, implemented in CUDA
+media-plugins/vapoursynth-bm3dcuda 2.9 9999: BM3D denoising filter for VapourSynth, implemented in CUDA
 media-plugins/vapoursynth-bwdif 4.1 9999: Motion adaptive deinterlacing based on yadif with the use of w3fdif and cubic interpolation algorithms
 media-plugins/vapoursynth-cas 2 9999: Contrast Adaptive Sharpening
 media-plugins/vapoursynth-cmedian 1-r1 9999: Constant time median filter algorithm for VapourSynth
