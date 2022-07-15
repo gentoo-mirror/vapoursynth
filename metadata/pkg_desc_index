@@ -14,7 +14,7 @@ media-plugins/vapoursynth-addgrain 10 9999: AddGrain generates film like grain o
 media-plugins/vapoursynth-adjust 1-r1 9999: This is a very basic port of the built-in Avisynth filter Tweak
 media-plugins/vapoursynth-arearesize 2 9999: AreaResize is an area average downscale resizer plugin for VapourSynth
 media-plugins/vapoursynth-asharp 1 9999: ASharp is an adaptive sharpening filter
-media-plugins/vapoursynth-astdr 3 9999: A derainbow function for VapourSynth
+media-plugins/vapoursynth-astdr 4 9999: A derainbow function for VapourSynth
 media-plugins/vapoursynth-autocrop 0.1 9999: AutoCrop for Vapoursynth
 media-plugins/vapoursynth-awarpsharp2 4 9999: Sharpens by wrapping
 media-plugins/vapoursynth-beziercurve 3 9999: A plugin which adjust the clip via bezier curve
@@ -22,7 +22,7 @@ media-plugins/vapoursynth-bifrost 2.2 9999: Decrawler plugin for VapourSynth
 media-plugins/vapoursynth-bilateral 3 9999: Bilateral filter for VapourSynth
 media-plugins/vapoursynth-bilateralgpu 8 9999: Bilateral filter for VapourSynth based on the OpenCV-CUDA library
 media-plugins/vapoursynth-bm3d 9 9999: BM3D denoising filter for VapourSynth
-media-plugins/vapoursynth-bm3dcuda 2.9 9999: BM3D denoising filter for VapourSynth, implemented in CUDA
+media-plugins/vapoursynth-bm3dcuda 2.10 9999: BM3D denoising filter for VapourSynth, implemented in CUDA
 media-plugins/vapoursynth-bwdif 4.1 9999: Motion adaptive deinterlacing based on yadif with the use of w3fdif and cubic interpolation algorithms
 media-plugins/vapoursynth-cas 2 9999: Contrast Adaptive Sharpening
 media-plugins/vapoursynth-cmedian 1-r1 9999: Constant time median filter algorithm for VapourSynth
