@@ -57,7 +57,7 @@ media-plugins/vapoursynth-fieldhint 3 9999: Fieldhint plugin for VapourSynth
 media-plugins/vapoursynth-fillborders 2 9999: VapourSynth filter that fills the borders of a clip, without changing the clip's dimensions.
 media-plugins/vapoursynth-finesharp 20201103 99999999: Small and relatively fast realtime-sharpening function for VapourSynth
 media-plugins/vapoursynth-fix-telecined-fades 6_pre20170224 9999: Fix Telecined Fades
-media-plugins/vapoursynth-flash3kyuu_deband 2.0.0.20180808 9999: A deband library and filter for VapourSynth
+media-plugins/vapoursynth-flash3kyuu_deband 2.0.0.20180808-r1 9999: A deband library and filter for VapourSynth
 media-plugins/vapoursynth-fluxsmooth 2 9999: A filter for smoothing of fluctuations
 media-plugins/vapoursynth-fmtconv 29 9999: A format-conversion plug-in for the Vapoursynth video processing engine
 media-plugins/vapoursynth-frfun7 2 9999: Frfun7 is a spatial fractal denoising plugin
