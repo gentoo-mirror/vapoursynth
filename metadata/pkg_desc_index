@@ -63,7 +63,7 @@ media-plugins/vapoursynth-fmtconv 29 9999: A format-conversion plug-in for the V
 media-plugins/vapoursynth-frfun7 2 9999: Frfun7 is a spatial fractal denoising plugin
 media-plugins/vapoursynth-fvsfunc 20220412 99999999: Frechdachs's Vapoursynth functions
 media-plugins/vapoursynth-genericfilters 20150505 99999999: Common image-processing filters for vapoursynth
-media-plugins/vapoursynth-havsfunc 33 9999: HolyWu's ported AviSynth scripts for VapourSynth
+media-plugins/vapoursynth-havsfunc 33.20220706 9999: HolyWu's ported AviSynth scripts for VapourSynth
 media-plugins/vapoursynth-histogram 2-r1 9999: Histogram plugin for VapourSynth
 media-plugins/vapoursynth-hqdn3d 20180329 99999999: A 3-way low-pass filter, which can completely remove high-frequency noise while minimizing blending artifacts
 media-plugins/vapoursynth-hysteria 20170614 99999999: Line darkening script for VapourSynth
@@ -146,7 +146,7 @@ media-plugins/vs-imwri 2 9999: Image reader and writer for VapourSynth using the
 media-plugins/vs-ocr 1 9999: OCR plugin for VapourSynth
 media-plugins/vs-placebo 1.4.2 9999: libplacebo-based debanding, scaling and color mapping plugin for VapourSynth
 media-plugins/vs-removegrain 1 9999: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
-media-plugins/vsutil 0.6.0 9999: A collection of general purpose Vapoursynth functions to be reused in modules and scripts
+media-plugins/vsutil 0.7.0 9999: A collection of general purpose Vapoursynth functions to be reused in modules and scripts
 media-video/d2vwitch 5-r1 9999: Cross-platform D2V creator
 media-video/getnative 3.2.0 9999: Find the native resolution(s) of upscaled material (mostly anime)
 media-video/mpv 0.34.1-r101 9999-r1: Media player based on MPlayer and mplayer2
