@@ -1,0 +1,14 @@
+BDEPEND=dev-util/ninja >=dev-util/meson-0.62.2 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
+DEFINED_PHASES=compile configure install test
+DEPEND=dev-libs/ncnn dev-util/glslang dev-util/vulkan-headers dev-util/vulkan-tools media-libs/vapoursynth media-libs/vulkan-loader media-libs/zimg
+DESCRIPTION=Real-Time Intermediate Flow Estimation for Video Frame Interpolation, based on rife-ncnn-vulkan
+EAPI=8
+HOMEPAGE=https://github.com/HomeOfVapourSynthEvolution/VapourSynth-RIFE-ncnn-Vulkan
+INHERIT=meson
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-libs/ncnn dev-util/glslang dev-util/vulkan-headers dev-util/vulkan-tools media-libs/vapoursynth media-libs/vulkan-loader media-libs/zimg
+SLOT=0
+SRC_URI=https://github.com/HomeOfVapourSynthEvolution/VapourSynth-RIFE-ncnn-Vulkan/archive/r9.tar.gz -> vapoursynth-rife-ncnn-vulkan-9.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	dd5e1098e305ad508d21f496e9e37046	meson	1994a5aef5d4f5798b92f64d6f9a6003
+_md5_=3f1a58fbca51e1b1e3c6cadfccd9d1e2
