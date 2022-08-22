@@ -73,7 +73,7 @@ media-plugins/vapoursynth-kagefunc 0.1.0 9999: kageru's Vapoursynth functions
 media-plugins/vapoursynth-knlmeanscl 1.1.1-r2 9999-r1: An optimized pixelwise OpenCL implementation of the Non-local means denoising algorithm
 media-plugins/vapoursynth-l-smash-works 20220505 99999999: Works based on L-SMASH project
 media-plugins/vapoursynth-lghost 1 9999: Ghost reduction filter that can remove luminance ghost or edge ghost (ringing)
-media-plugins/vapoursynth-lvsfunc 0.4.2 9999: Light's Vapoursynth Functions
+media-plugins/vapoursynth-lvsfunc 0.4.4 9999: Light's Vapoursynth Functions
 media-plugins/vapoursynth-matchhistogram 2 9999: MatchHistogram modifies one clip's histogram to match the histogram of another clip
 media-plugins/vapoursynth-median 4 9999: Various median functions on a single/several clips.
 media-plugins/vapoursynth-minideen 2 9999: Spatial denoising filter
