@@ -2,7 +2,7 @@ app-editors/vapoursynth-editor 5.3 9999: VapourSynth Editor
 dev-cpp/vapoursynth-plusplus 20210601 99999999: C++ wrapper for VSAPI to help you sketch your filter in the fastest possible way
 media-libs/ffmpegsource 2.40: A libav/ffmpeg based source library for easy frame accurate access
 media-libs/l-smash 2.14.5 9999: Media library
-media-libs/vapoursynth 59 9999: VapourSynth is an library for video manipulation.
+media-libs/vapoursynth 60 9999: VapourSynth is an library for video manipulation.
 media-libs/waifu2x-converter-cpp 5.3.4 9999: Super-Resolution for anime-style-art using opencv
 media-libs/zimg 3.0.4: Scaling, colorspace conversion, and dithering library
 media-plugins/acsuite 6.0.0 9999: Frame-based cutting/trimming/splicing of audio files from within VapourSynth
@@ -59,7 +59,7 @@ media-plugins/vapoursynth-finesharp 20201103 99999999: Small and relatively fast
 media-plugins/vapoursynth-fix-telecined-fades 6_pre20170224 9999: Fix Telecined Fades
 media-plugins/vapoursynth-flash3kyuu_deband 2.0.0.20180808-r1 9999: A deband library and filter for VapourSynth
 media-plugins/vapoursynth-fluxsmooth 2 9999: A filter for smoothing of fluctuations
-media-plugins/vapoursynth-fmtconv 29 9999: A format-conversion plug-in for the Vapoursynth video processing engine
+media-plugins/vapoursynth-fmtconv 30 9999: A format-conversion plug-in for the Vapoursynth video processing engine
 media-plugins/vapoursynth-frfun7 2 9999: Frfun7 is a spatial fractal denoising plugin
 media-plugins/vapoursynth-fvsfunc 20220412 99999999: Frechdachs's Vapoursynth functions
 media-plugins/vapoursynth-genericfilters 20150505 99999999: Common image-processing filters for vapoursynth
@@ -129,7 +129,7 @@ media-plugins/vapoursynth-vfx 20211031: A plugin for special effects
 media-plugins/vapoursynth-videoscope 1.0 9999: Videoscope plugin for VapourSynth
 media-plugins/vapoursynth-vine 20200712 99999999: A collection of a non-local error based de-halo filter and a set of morphological filters
 media-plugins/vapoursynth-vmaf 10 9999: VMAF is a perceptual video quality assessment algorithm developed by Netflix.
-media-plugins/vapoursynth-vs-maskdetail 20151220 99999999: A function to use invks/debilinear
+media-plugins/vapoursynth-vs-maskdetail 3.0 9999: A function to use invks/debilinear
 media-plugins/vapoursynth-vsimagereader 0.2.1 9999: Image reader plugin for VapourSynth
 media-plugins/vapoursynth-vsrawsource 20191105 99999999: Raw format video reader for VapourSynth
 media-plugins/vapoursynth-vstaambk 0.8.1 9999: A ported AA-script from Avisynth
