@@ -9,4 +9,4 @@ LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth
 SLOT=0
 SRC_URI=https://github.com/dubhater/vapoursynth-degrainmedian/archive/v1.tar.gz -> vapoursynth-degrainmedian-1.tar.gz
-_md5_=c0d10c6ae0e59a6ccec0d9bcabfb45cf
+_md5_=11e9ee83ace8acb8239c7be49c228fc8

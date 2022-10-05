@@ -1,12 +1,12 @@
 DEFINED_PHASES=configure prepare
-DEPEND=media-libs/vapoursynth
+DEPEND=dev-lang/yasm media-libs/vapoursynth
 DESCRIPTION=nnedi3 is an intra-field only deinterlacer
 EAPI=8
 HOMEPAGE=https://github.com/dubhater/vapoursynth-nnedi3
 KEYWORDS=~amd64
 LICENSE=GPL-2
-RDEPEND=media-libs/vapoursynth
+RDEPEND=dev-lang/yasm media-libs/vapoursynth
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dubhater/vapoursynth-nnedi3/archive/v12.tar.gz -> vapoursynth-nnedi3-12.tar.gz
-_md5_=dea5d12fc0a9fe32cc5bf76bb005f042
+_md5_=aad4d125212a6fed566e506bf7bfefc2

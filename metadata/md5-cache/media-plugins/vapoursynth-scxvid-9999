@@ -11,4 +11,4 @@ RDEPEND=media-libs/vapoursynth media-libs/xvid
 RESTRICT=mirror
 SLOT=0
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=874a39e0cd8c537aa814acf070a424c4
+_md5_=fbc35691d1c914e9a887b9c523942c1c

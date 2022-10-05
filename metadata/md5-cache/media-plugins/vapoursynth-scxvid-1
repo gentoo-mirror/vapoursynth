@@ -9,4 +9,4 @@ RDEPEND=media-libs/vapoursynth media-libs/xvid
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dubhater/vapoursynth-scxvid/archive/v1.tar.gz -> vapoursynth-scxvid-1.tar.gz
-_md5_=874a39e0cd8c537aa814acf070a424c4
+_md5_=fbc35691d1c914e9a887b9c523942c1c

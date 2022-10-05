@@ -1,14 +1,14 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=configure prepare unpack
-DEPEND=media-libs/vapoursynth
+DEPEND=dev-lang/yasm media-libs/vapoursynth
 DESCRIPTION=nnedi3 is an intra-field only deinterlacer
 EAPI=8
 HOMEPAGE=https://github.com/dubhater/vapoursynth-nnedi3
 INHERIT=git-r3
 LICENSE=GPL-2
 PROPERTIES=live
-RDEPEND=media-libs/vapoursynth
+RDEPEND=dev-lang/yasm media-libs/vapoursynth
 RESTRICT=mirror
 SLOT=0
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=dea5d12fc0a9fe32cc5bf76bb005f042
+_md5_=aad4d125212a6fed566e506bf7bfefc2

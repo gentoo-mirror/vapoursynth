@@ -8,4 +8,4 @@ RDEPEND=media-libs/vapoursynth
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dubhater/vapoursynth-fluxsmooth/archive/v2.tar.gz -> vapoursynth-fluxsmooth-2.tar.gz
-_md5_=367f87242b6d9fabe6f9182d280de144
+_md5_=80a4b3bef7e81adfe2188710b3c90131

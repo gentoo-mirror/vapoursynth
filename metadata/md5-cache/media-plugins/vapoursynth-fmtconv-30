@@ -10,4 +10,4 @@ RDEPEND=media-libs/vapoursynth:0/4
 SLOT=0
 SRC_URI=https://github.com/EleonoreMizo/fmtconv/archive/r30.tar.gz -> vapoursynth-fmtconv-30.tar.gz
 _eclasses_=vcs-snapshot	eab6d8533446763c2e9777d8bbd1594e
-_md5_=c02f77649e12d15777071a6ab9b41e62
+_md5_=05afe77c5cfb473592b122f9fe14eab8

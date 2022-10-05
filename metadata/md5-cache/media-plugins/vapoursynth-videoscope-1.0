@@ -9,4 +9,4 @@ RDEPEND=media-libs/vapoursynth
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dubhater/vapoursynth-videoscope/archive/v1.0.tar.gz -> vapoursynth-videoscope-1.0.tar.gz
-_md5_=d4172f24e104f58d0e76168343b4ac67
+_md5_=066aef60401396db6309d89599ec619a

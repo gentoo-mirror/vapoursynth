@@ -11,4 +11,4 @@ PROPERTIES=live
 RDEPEND=media-video/ffmpeg
 SLOT=0
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=c0caa721de043d0b64579efd16d4a386
+_md5_=db8595ecc763629d30ee62801d4639ff

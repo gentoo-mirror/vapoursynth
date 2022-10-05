@@ -8,4 +8,4 @@ RDEPEND=media-libs/vapoursynth
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dubhater/vapoursynth-temporalsoften/archive/v1.0.tar.gz -> vapoursynth-temporalsoften-1.0.tar.gz
-_md5_=8692826df4d8528cb762149a512dbb17
+_md5_=ea22695a3bf65d76fb12baccd9b86082
