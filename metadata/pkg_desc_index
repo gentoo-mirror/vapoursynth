@@ -150,6 +150,6 @@ media-plugins/vs-removegrain 1 9999: VapourSynth port of RemoveGrain and Repair 
 media-plugins/vsutil 0.7.0 0.8.0 9999: A collection of general purpose Vapoursynth functions to be reused in modules and scripts
 media-video/d2vwitch 5-r1 9999: Cross-platform D2V creator
 media-video/getnative 3.2.1 9999: Find the native resolution(s) of upscaled material (mostly anime)
-media-video/mpv 0.34.1-r101 9999-r1: Media player based on MPlayer and mplayer2
+media-video/mpv 0.34.1-r102 9999-r1: Media player based on MPlayer and mplayer2
 media-video/wobbly 5 9999: IVTC assistant for VapourSynth, similar to Yatta
 sci-libs/vmaf 2.3.1 9999: Perceptual video quality assessment based on multi-method fusion.
