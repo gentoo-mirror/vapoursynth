@@ -1,5 +1,6 @@
 app-editors/vapoursynth-editor 5.3 9999: VapourSynth Editor
 dev-cpp/vapoursynth-plusplus 20210601 99999999: C++ wrapper for VSAPI to help you sketch your filter in the fastest possible way
+dev-python/pyparsedvd 0.0.3 9999: Parse and extract binary data from dvd files
 media-libs/ffmpegsource 2.40: A libav/ffmpeg based source library for easy frame accurate access
 media-libs/l-smash 2.14.5 9999: Media library
 media-libs/vapoursynth 60 9999: VapourSynth is an library for video manipulation.
@@ -20,14 +21,14 @@ media-plugins/vapoursynth-awarpsharp2 4 9999: Sharpens by wrapping
 media-plugins/vapoursynth-beziercurve 3 9999: A plugin which adjust the clip via bezier curve
 media-plugins/vapoursynth-bifrost 2.2 9999: Decrawler plugin for VapourSynth
 media-plugins/vapoursynth-bilateral 3 9999: Bilateral filter for VapourSynth
-media-plugins/vapoursynth-bilateralgpu 8 9999: Bilateral filter for VapourSynth based on the OpenCV-CUDA library
+media-plugins/vapoursynth-bilateralgpu 8 9 9999: Bilateral filter for VapourSynth based on the OpenCV-CUDA library
 media-plugins/vapoursynth-bm3d 9 9999: BM3D denoising filter for VapourSynth
 media-plugins/vapoursynth-bm3dcuda 2.10 9999: BM3D denoising filter for VapourSynth, implemented in CUDA
 media-plugins/vapoursynth-bwdif 4.1 9999: Motion adaptive deinterlacing based on yadif with the use of w3fdif and cubic interpolation algorithms
 media-plugins/vapoursynth-cas 2 9999: Contrast Adaptive Sharpening
 media-plugins/vapoursynth-cmedian 1-r1 9999: Constant time median filter algorithm for VapourSynth
 media-plugins/vapoursynth-cnr2 1 9999: Chroma noise reducer
-media-plugins/vapoursynth-colorbars 3 9999: ColorBars is a filter for generating test signals
+media-plugins/vapoursynth-colorbars 3_p20221117 9999: ColorBars is a filter for generating test signals
 media-plugins/vapoursynth-combmask 20130730 99999999: CombMask plugin for VapourSynth
 media-plugins/vapoursynth-continuityfixer 7 9999: Continuity Fixer port for Vapoursynth, can help repair damaged borders of frames
 media-plugins/vapoursynth-ctmf 5 9999: Median filter for VapourSynth (the same algorithm that MedianBlur2)
@@ -73,7 +74,7 @@ media-plugins/vapoursynth-kagefunc 0.1.0 9999: kageru's Vapoursynth functions
 media-plugins/vapoursynth-knlmeanscl 1.1.1-r2 9999-r1: An optimized pixelwise OpenCL implementation of the Non-local means denoising algorithm
 media-plugins/vapoursynth-l-smash-works 20220505 99999999: Works based on L-SMASH project
 media-plugins/vapoursynth-lghost 1 9999: Ghost reduction filter that can remove luminance ghost or edge ghost (ringing)
-media-plugins/vapoursynth-lvsfunc 0.4.4 9999: Light's Vapoursynth Functions
+media-plugins/vapoursynth-lvsfunc 0.5.0 9999: Light's Vapoursynth Functions
 media-plugins/vapoursynth-matchhistogram 2 9999: MatchHistogram modifies one clip's histogram to match the histogram of another clip
 media-plugins/vapoursynth-median 4 9999: Various median functions on a single/several clips.
 media-plugins/vapoursynth-minideen 2 9999: Spatial denoising filter
@@ -145,6 +146,7 @@ media-plugins/vivtc 1 9999: Field matcher and decimation filter for VapourSynth 
 media-plugins/vs-ccd 0.3.1-r1 9999: 
 media-plugins/vs-imwri 2 9999: Image reader and writer for VapourSynth using the ImageMagick library
 media-plugins/vs-ocr 1 9999: OCR plugin for VapourSynth
+media-plugins/vs-parsedvd 0.1.0 9999: A wrapper for DVD file structure and ISO files
 media-plugins/vs-placebo 1.4.3 9999: libplacebo-based debanding, scaling and color mapping plugin for VapourSynth
 media-plugins/vs-removegrain 1 9999: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
 media-plugins/vsutil 0.7.0 0.8.0 9999: A collection of general purpose Vapoursynth functions to be reused in modules and scripts
