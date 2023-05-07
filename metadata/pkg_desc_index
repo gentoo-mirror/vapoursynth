@@ -9,6 +9,7 @@ media-libs/zimg 3.0.4: Scaling, colorspace conversion, and dithering library
 media-plugins/acsuite 6.0.0 9999: Frame-based cutting/trimming/splicing of audio files from within VapourSynth
 media-plugins/audiocutter 20190712 99999999: A tool to cut audio and generate associated chapters/qpfiles for vapoursynth
 media-plugins/bestaudiosource 1 9999: Audio source plugin for Vapoursynth
+media-plugins/bestsource 0.20230419 9999: Sample/frame accurate access to audio and video source plugin for VaporSynth
 media-plugins/ocsuite 20200803 99999999: Mastroka ordered chapters automation script
 media-plugins/subtext 3 9999: Subtitle plugin for VapourSynth based on libass
 media-plugins/vapoursynth-addgrain 10 9999: AddGrain generates film like grain or other effects (like rain) by adding random noise to the video
@@ -91,7 +92,7 @@ media-plugins/vapoursynth-nnedi3_resample 1 9999: A function for scaling, color 
 media-plugins/vapoursynth-nnedi3_rpow2 1.1.0 9999: nnedi3 rpow2 wrapper
 media-plugins/vapoursynth-nnedi3cl 8 9999: VapourSynth port of NNEDI3 utilizing OpenCL
 media-plugins/vapoursynth-oyster 6-r1 9999: A top class de-noising filter against compression artifacts
-media-plugins/vapoursynth-plugins-meta 63 64 65 66: VapourSynth plugins meta package.
+media-plugins/vapoursynth-plugins-meta 63 64 65 66 67: VapourSynth plugins meta package.
 media-plugins/vapoursynth-plum 2 9999: A sharpening/blind deconvolution suite with certain advanced features like Non-Local error, Block Matching, etc...
 media-plugins/vapoursynth-qrcodesource 1.0.0.0 9999: Plugin to provide a means to embed QR codes in video
 media-plugins/vapoursynth-readmpls 5 9999: Get m2ts clip id from a playlist and return a dict
