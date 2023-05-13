@@ -25,7 +25,7 @@ media-plugins/vapoursynth-bifrost 2.2 9999: Decrawler plugin for VapourSynth
 media-plugins/vapoursynth-bilateral 3 9999: Bilateral filter for VapourSynth
 media-plugins/vapoursynth-bilateralgpu 8 9 9999: Bilateral filter for VapourSynth based on the OpenCV-CUDA library
 media-plugins/vapoursynth-bm3d 9 9999: BM3D denoising filter for VapourSynth
-media-plugins/vapoursynth-bm3dcuda 2.10 9999: BM3D denoising filter for VapourSynth, implemented in CUDA
+media-plugins/vapoursynth-bm3dcuda 2.12 9999: BM3D denoising filter for VapourSynth, implemented in CUDA
 media-plugins/vapoursynth-bwdif 4.1 9999: Motion adaptive deinterlacing based on yadif with the use of w3fdif and cubic interpolation algorithms
 media-plugins/vapoursynth-cas 2 9999: Contrast Adaptive Sharpening
 media-plugins/vapoursynth-cmedian 1-r1 9999: Constant time median filter algorithm for VapourSynth
@@ -48,7 +48,7 @@ media-plugins/vapoursynth-descale 8 9999: VapourSynth plugin to undo upscaling
 media-plugins/vapoursynth-dfmderainbow 2-r1 9999: A derainbow function for VapourSynth
 media-plugins/vapoursynth-dfttest 7 9999: 2D/3D frequency domain denoiser
 media-plugins/vapoursynth-dotkill 2 9999: Spatial dotcrawl remover for VapourSynth
-media-plugins/vapoursynth-dpid 6 9999: Rapid, Detail-Preserving Image Downscaler for VapourSynth
+media-plugins/vapoursynth-dpid 6-r1 9999-r1: Rapid, Detail-Preserving Image Downscaler for VapourSynth
 media-plugins/vapoursynth-edgefixer 2 9999: EdgeFixer repairs bright and dark line artifacts near the border of an image
 media-plugins/vapoursynth-edi_rpow2 29 9999: Helpers for x2 upsizing using edi filters.
 media-plugins/vapoursynth-eedi2 7.1 9999: EEDI2 is an vertical resizer intended for edge-directed interpolation for deinterlacing
