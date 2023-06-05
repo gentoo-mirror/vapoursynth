@@ -15,6 +15,7 @@ media-plugins/ocsuite 20200803 99999999: Mastroka ordered chapters automation sc
 media-plugins/subtext 3 9999: Subtitle plugin for VapourSynth based on libass
 media-plugins/vapoursynth-addgrain 10 9999: AddGrain generates film like grain or other effects (like rain) by adding random noise to the video
 media-plugins/vapoursynth-adjust 1-r1 9999: This is a very basic port of the built-in Avisynth filter Tweak
+media-plugins/vapoursynth-akarin 0.96f 9999: Akarin's experimental VapourSynth plugin
 media-plugins/vapoursynth-arearesize 2 9999: AreaResize is an area average downscale resizer plugin for VapourSynth
 media-plugins/vapoursynth-asharp 1 9999: ASharp is an adaptive sharpening filter
 media-plugins/vapoursynth-astdr 4 9999: A derainbow function for VapourSynth
@@ -26,6 +27,7 @@ media-plugins/vapoursynth-bilateral 3 9999: Bilateral filter for VapourSynth
 media-plugins/vapoursynth-bilateralgpu 8 9 9999: Bilateral filter for VapourSynth based on the OpenCV-CUDA library
 media-plugins/vapoursynth-bm3d 9 9999: BM3D denoising filter for VapourSynth
 media-plugins/vapoursynth-bm3dcuda 2.12 9999: BM3D denoising filter for VapourSynth, implemented in CUDA
+media-plugins/vapoursynth-bmdegrain 2 9999: development prototype for block-matching-based denoising
 media-plugins/vapoursynth-bwdif 4.1 9999: Motion adaptive deinterlacing based on yadif with the use of w3fdif and cubic interpolation algorithms
 media-plugins/vapoursynth-cas 2 9999: Contrast Adaptive Sharpening
 media-plugins/vapoursynth-cmedian 1-r1 9999: Constant time median filter algorithm for VapourSynth
@@ -82,12 +84,14 @@ media-plugins/vapoursynth-median 4 9999: Various median functions on a single/se
 media-plugins/vapoursynth-minideen 2 9999: Spatial denoising filter
 media-plugins/vapoursynth-minsrp 4-r4 9999: simple blurring/sharpening filter for vaporsynth
 media-plugins/vapoursynth-miscfilters-obsolete 2 9999: Miscellaneous Filters is a random collection of filters that mostly are useful for Avisynth compatibility
+media-plugins/vapoursynth-mlrt-ncnn 13.1 9999: NCNN-based GPU (Vulkan) backend for vs-mlrt
 media-plugins/vapoursynth-motionmask 2 9999: Creates a mask of moving pixels. Every output pixel will be set to the absolute difference between the current frame and the previous frame
 media-plugins/vapoursynth-msmoosh 1.1 9999: MSmooth is a spatial smoother that doesn't touch edges, MSharpen tries to sharpen only edges
 media-plugins/vapoursynth-muvsfunc 0.4.0 9999: Muonium's VapourSynth functions
 media-plugins/vapoursynth-mvsfunc 10 9999: mawen1250's VapourSynth functions
 media-plugins/vapoursynth-mvtools 23 9999: MVTools is a set of filters for motion estimation and compensation
 media-plugins/vapoursynth-mvtools-sf 9 9999: MVTools is a set of filters for motion estimation and compensation with float precision
+media-plugins/vapoursynth-neo_f3kdb 9 9999: A fork of flash3kyuu_deband
 media-plugins/vapoursynth-nnedi3 12 9999: nnedi3 is an intra-field only deinterlacer
 media-plugins/vapoursynth-nnedi3_resample 1 9999: A function for scaling, color space conversion, etc.
 media-plugins/vapoursynth-nnedi3_rpow2 1.1.0 9999: nnedi3 rpow2 wrapper
@@ -101,6 +105,7 @@ media-plugins/vapoursynth-reduceflicker 20150225 99999999: VapourSynth port of R
 media-plugins/vapoursynth-remapframes 1.1 9999: Allows easy remapping of frames in a clip through the use of a text file or an input string
 media-plugins/vapoursynth-removedirt 20131120 99999999: Port of RemoveDirt to VapourSynth
 media-plugins/vapoursynth-retinex 4 9999: Retinex plugin for VapourSynth
+media-plugins/vapoursynth-rgsf 5 9999: RemoveGrain Single Precision
 media-plugins/vapoursynth-rife-ncnn-vulkan 9 9999: Real-Time Intermediate Flow Estimation for Video Frame Interpolation, based on rife-ncnn-vulkan
 media-plugins/vapoursynth-sangnom 42 9999: A rewrite version of AVISynth SangNom2
 media-plugins/vapoursynth-scenechange 0.2.2-r2: A scene change detection plugin and script for VapourSynth
@@ -140,20 +145,32 @@ media-plugins/vapoursynth-w3fdif 1 9999: VapourSynth port of W3FDIF
 media-plugins/vapoursynth-waifu2x-ncnn-vulkan 5 9999: Waifu2x filter for VapourSynth, based on waifu2x-ncnn-vulkan
 media-plugins/vapoursynth-waifu2x-w2xc 8 9999: Image super-resolution/denoise filter for VapourSynth, based on the waifu2x-opt library
 media-plugins/vapoursynth-warpsharpsupport 1 9999: Script versions of support functions from WarpSharp
+media-plugins/vapoursynth-wnnm 1 9999: Weighted Nuclear Norm Minimization Denoiser for VapourSynth
 media-plugins/vapoursynth-wwxd 1.0 9999: Xvid-like scene change detection for VapourSynth
 media-plugins/vapoursynth-xaa 3-r1 9999: xaa is a many-in-one antialiasing function for VapourSynth
 media-plugins/vapoursynth-yadifmod 10.1 9999: Modified version of Fizick's avisynth filter port of yadif from mplayer
 media-plugins/vapoursynth-znedi3 2.1 9999: Optimized nnedi3 filter
 media-plugins/vivtc 1 9999: Field matcher and decimation filter for VapourSynth similar to TIVTC
+media-plugins/vs-aa 1.7.0 9999: VapourSynth anti aliasing and scaling functions
 media-plugins/vs-ccd 0.3.1-r1 9999: 
+media-plugins/vs-denoise 2.2.0 9999: VapourSynth denoising, regression, and motion compensation functions
+media-plugins/vs-exprtools 1.4.4 9999: VapourSynth functions and helpers for writing RPN expressions
 media-plugins/vs-imwri 2 9999: Image reader and writer for VapourSynth using the ImageMagick library
+media-plugins/vs-kernels 2.4.0 9999: Kernel objects for scaling and format conversion within VapourSynth
+media-plugins/vs-masktools 1.0.0 9999: Various masking tools for VapourSynth
+media-plugins/vs-mlrt 13.1 9999: Efficient CPU/GPU/Vulkan ML Runtimes for VapourSynth
 media-plugins/vs-ocr 1 9999: OCR plugin for VapourSynth
 media-plugins/vs-placebo 1.4.3 9999: libplacebo-based debanding, scaling and color mapping plugin for VapourSynth
+media-plugins/vs-pyplugin 1.3.2 9999: Package for simplifying writing VapourSynth plugins in python
 media-plugins/vs-removegrain 1 9999: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
+media-plugins/vs-rgtools 1.4.4 9999: Functions and utils related to VapourSynth
+media-plugins/vs-scale 1.8.0 9999: VapourSynth anti aliasing and scaling functions
 media-plugins/vs-source 0.1.0 9999: A wrapper for DVD file structure and ISO files
+media-plugins/vs-tools 2.1.0 9999: Functions and utils related to VapourSynth
 media-plugins/vsutil 0.7.0 0.8.0 9999: A collection of general purpose Vapoursynth functions to be reused in modules and scripts
 media-video/d2vwitch 5-r1 9999: Cross-platform D2V creator
 media-video/getnative 3.2.1 9999: Find the native resolution(s) of upscaled material (mostly anime)
 media-video/mpv 0.35.1-r100 9999: Media player for the command line
 media-video/wobbly 5 9999: IVTC assistant for VapourSynth, similar to Yatta
+sci-libs/vectorclass 2.02.00 9999: Vector class library
 sci-libs/vmaf 2.3.1 9999: Perceptual video quality assessment based on multi-method fusion.

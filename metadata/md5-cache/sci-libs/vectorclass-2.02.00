@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=Vector class library
+EAPI=8
+HOMEPAGE=https://github.com/vectorclass/version2
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+SLOT=0
+SRC_URI=https://github.com/vectorclass/version2/archive/v2.02.00.tar.gz -> vectorclass-2.02.00.tar.gz
+_md5_=88f2fb3c81cde27a856e195463090fe4
