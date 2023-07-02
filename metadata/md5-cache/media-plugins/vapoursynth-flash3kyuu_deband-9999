@@ -1,6 +1,6 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install prepare setup unpack
-DEPEND=|| ( >=dev-lang/python-3.11.3:3.11[threads(+)] >=dev-lang/python-3.10.11:3.10[threads(+)] ) media-libs/vapoursynth doc? ( dev-python/sphinx ) virtual/pkgconfig
+DEPEND=|| ( >=dev-lang/python-3.11.4:3.11[threads(+)] >=dev-lang/python-3.10.12:3.10[threads(+)] ) media-libs/vapoursynth doc? ( dev-python/sphinx ) virtual/pkgconfig
 DESCRIPTION=A deband library and filter for VapourSynth
 EAPI=7
 HOMEPAGE=https://github.com/SAPikachu/flash3kyuu_deband
@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=media-libs/vapoursynth
 SLOT=0
 SRC_URI=https://waf.io/waf-2.0.22
-_eclasses_=eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	a34d5f83235297b76d71eaf8deb53768	python-any-r1	d2955aaac8daaaa69fcc6dc93ed19f29	waf-utils	be1df8dc616c09387b18633b4155fcb5	git-r3	27e13c09a4c7e4c78ac812f74727e676
+_eclasses_=eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	a013e16d5d896b3d8be68dd2a0e846ea	python-any-r1	d2955aaac8daaaa69fcc6dc93ed19f29	waf-utils	be1df8dc616c09387b18633b4155fcb5	git-r3	27e13c09a4c7e4c78ac812f74727e676
 _md5_=6ce7d31f3e55131ec879cd98d83d0921
