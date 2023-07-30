@@ -7,5 +7,5 @@ INHERIT=multilib
 LICENSE=MIT
 RDEPEND==media-libs/ffmpegsource-9999 media-libs/vapoursynth
 SLOT=0
-_eclasses_=multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	e356bb9aa600fd4b0dc539d33513bba7
+_eclasses_=multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	0c8a0b0d318eb5d5180d114bd3f6592b
 _md5_=4bf63135d1c0c2945ff03bc1c5e79dca
