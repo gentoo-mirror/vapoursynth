@@ -12,7 +12,7 @@ media-plugins/bestaudiosource 1 9999: Audio source plugin for Vapoursynth
 media-plugins/bestsource 0.20230712-r1 9999: Sample/frame accurate access to audio and video source plugin for VaporSynth
 media-plugins/dmetrics 1 9999: Vapoursynth plugin that attaches the match metrics calculated by Telecide to frames as properties
 media-plugins/ocsuite 20200803 99999999: Mastroka ordered chapters automation script
-media-plugins/subtext 3 4 9999: Subtitle plugin for VapourSynth based on libass
+media-plugins/subtext 5 9999: Subtitle plugin for VapourSynth based on libass
 media-plugins/vapoursynth-addgrain 10 9999: AddGrain generates film like grain or other effects (like rain) by adding random noise to the video
 media-plugins/vapoursynth-adjust 1-r1 9999: This is a very basic port of the built-in Avisynth filter Tweak
 media-plugins/vapoursynth-akarin 0.96f 9999: Akarin's experimental VapourSynth plugin
@@ -159,7 +159,7 @@ media-plugins/vs-imwri 2 9999: Image reader and writer for VapourSynth using the
 media-plugins/vs-kernels 2.4.0 9999: Kernel objects for scaling and format conversion within VapourSynth
 media-plugins/vs-masktools 1.0.0 9999: Various masking tools for VapourSynth
 media-plugins/vs-mlrt 13.1 9999: Efficient CPU/GPU/Vulkan ML Runtimes for VapourSynth
-media-plugins/vs-ocr 1 2 9999: OCR plugin for VapourSynth
+media-plugins/vs-ocr 3 9999: OCR plugin for VapourSynth
 media-plugins/vs-placebo 1.4.3 1.4.4_p20230311 9999: libplacebo-based debanding, scaling and color mapping plugin for VapourSynth
 media-plugins/vs-pyplugin 1.3.2 9999: Package for simplifying writing VapourSynth plugins in python
 media-plugins/vs-removegrain 1 9999: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
