@@ -12,7 +12,7 @@ media-plugins/bestaudiosource 1 9999: Audio source plugin for Vapoursynth
 media-plugins/bestsource 0.20230712-r1 9999: Sample/frame accurate access to audio and video source plugin for VaporSynth
 media-plugins/dmetrics 1 9999: Vapoursynth plugin that attaches the match metrics calculated by Telecide to frames as properties
 media-plugins/ocsuite 20200803 99999999: Mastroka ordered chapters automation script
-media-plugins/subtext 5 9999: Subtitle plugin for VapourSynth based on libass
+media-plugins/subtext 4 5-r1 9999: Subtitle plugin for VapourSynth based on libass
 media-plugins/vapoursynth-addgrain 10 9999: AddGrain generates film like grain or other effects (like rain) by adding random noise to the video
 media-plugins/vapoursynth-adjust 1-r1 9999: This is a very basic port of the built-in Avisynth filter Tweak
 media-plugins/vapoursynth-akarin 0.96f 9999: Akarin's experimental VapourSynth plugin
