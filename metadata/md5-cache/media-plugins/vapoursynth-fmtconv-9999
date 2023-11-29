@@ -3,11 +3,11 @@ DEFINED_PHASES=configure prepare unpack
 DEPEND=media-libs/vapoursynth:0/4
 DESCRIPTION=A format-conversion plug-in for the Vapoursynth video processing engine
 EAPI=8
-HOMEPAGE=http://forum.doom9.org/showthread.php?t=166504
+HOMEPAGE=http://forum.doom9.org/showthread.php?t=166504 https://gitlab.com/EleonoreMizo/fmtconv
 INHERIT=git-r3
 LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=media-libs/vapoursynth:0/4
 SLOT=0
 _eclasses_=git-r3	5133e393e8717a3a093660f990801dc1
-_md5_=05afe77c5cfb473592b122f9fe14eab8
+_md5_=237dc79345c0fe1edcda31b81708e971
