@@ -10,5 +10,5 @@ PROPERTIES=live
 RDEPEND=media-libs/vapoursynth
 RESTRICT=mirror
 SLOT=0
-_eclasses_=git-r3	5133e393e8717a3a093660f990801dc1
+_eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
 _md5_=f58d27e5a9a6cd456e6dccdf3d26e1ac

@@ -10,5 +10,5 @@ LICENSE=ISC
 PROPERTIES=live
 RDEPEND=media-video/ffmpeg
 SLOT=0
-_eclasses_=git-r3	5133e393e8717a3a093660f990801dc1
+_eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
 _md5_=db8595ecc763629d30ee62801d4639ff
