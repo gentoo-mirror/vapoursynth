@@ -154,6 +154,7 @@ media-plugins/vapoursynth-znedi3 2.1 9999: Optimized nnedi3 filter
 media-plugins/vivtc 1 9999: Field matcher and decimation filter for VapourSynth similar to TIVTC
 media-plugins/vs-aa 1.7.0 9999: VapourSynth anti aliasing and scaling functions
 media-plugins/vs-ccd 0.3.1-r1 9999: 
+media-plugins/vs-dehalo 1.8.1 9999: VapourSynth dehaloing functions
 media-plugins/vs-denoise 2.4.0 9999: VapourSynth denoising, regression, and motion compensation functions
 media-plugins/vs-exprtools 1.4.4 9999: VapourSynth functions and helpers for writing RPN expressions
 media-plugins/vs-imwri 2 9999: Image reader and writer for VapourSynth using the ImageMagick library
