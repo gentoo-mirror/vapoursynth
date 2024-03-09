@@ -1,16 +1,15 @@
 BDEPEND=>=dev-build/meson-1.2.1 app-alternatives/ninja dev-build/meson-format-array >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install test unpack
-DEPEND=dev-libs/jansson media-libs/vapoursynth:0/4 >=media-video/ffmpeg-5.1
-DESCRIPTION=Sample/frame accurate access to audio and video source plugin for VaporSynth
+DEPEND=>=media-video/ffmpeg-6.0 dev-qt/qtwidgets media-libs/vapoursynth
+DESCRIPTION=Cross-platform D2V creator
 EAPI=8
-HOMEPAGE=https://github.com/vapoursynth/bestsource
+HOMEPAGE=https://github.com/dubhater/D2VWitch
 INHERIT=meson git-r3
 IUSE=lto
-KEYWORDS=~x86 ~amd64
-LICENSE=MIT
+KEYWORDS=~amd64 ~x86
+LICENSE=ISC LGPL-2.1
 PROPERTIES=live
-RDEPEND=dev-libs/jansson media-libs/vapoursynth:0/4 >=media-video/ffmpeg-5.1
-RESTRICT=mirror
+RDEPEND=>=media-video/ffmpeg-6.0
 SLOT=0
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	24c947ff5f858625cf0b33c15eed4425	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	8904b60325f22500b0c3ad4b68a42448	meson	bd1d5eaa305de6645e939caa7a352e3c	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
-_md5_=f291d3b127204b37f0895b91845a26f3
+_md5_=cee4677532125b9cd238bd651874a865
