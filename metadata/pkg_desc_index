@@ -3,13 +3,13 @@ dev-cpp/vapoursynth-plusplus 20210601 99999999: C++ wrapper for VSAPI to help yo
 dev-python/pyparsedvd 0.0.3 9999: Parse and extract binary data from dvd files
 media-libs/ffmpegsource 2.40: A libav/ffmpeg based source library for easy frame accurate access
 media-libs/l-smash 2.14.5 9999: Media library
-media-libs/vapoursynth 65 66 9999: VapourSynth is an library for video manipulation.
+media-libs/vapoursynth 68 9999: VapourSynth is an library for video manipulation.
 media-libs/waifu2x-converter-cpp 5.3.4-r1 9999-r1: Super-Resolution for anime-style-art using opencv
 media-libs/zimg 3.0.5: Scaling, colorspace conversion, and dithering library
 media-plugins/acsuite 6.0.0 9999: Frame-based cutting/trimming/splicing of audio files from within VapourSynth
 media-plugins/audiocutter 20190712 99999999: A tool to cut audio and generate associated chapters/qpfiles for vapoursynth
 media-plugins/bestaudiosource 1 9999: Audio source plugin for Vapoursynth
-media-plugins/bestsource 1 3 9999: Sample/frame accurate access to audio and video source plugin for VaporSynth
+media-plugins/bestsource 4 9999: Sample/frame accurate access to audio and video source plugin for VaporSynth
 media-plugins/dmetrics 1 9999: Vapoursynth plugin that attaches the match metrics calculated by Telecide to frames as properties
 media-plugins/ocsuite 20200803 99999999: Mastroka ordered chapters automation script
 media-plugins/subtext 4 5-r1 9999: Subtitle plugin for VapourSynth based on libass
@@ -22,7 +22,7 @@ media-plugins/vapoursynth-astdr 4 9999: A derainbow function for VapourSynth
 media-plugins/vapoursynth-autocrop 0.1 9999: AutoCrop for Vapoursynth
 media-plugins/vapoursynth-awarpsharp2 4 9999: Sharpens by wrapping
 media-plugins/vapoursynth-beziercurve 3 9999: A plugin which adjust the clip via bezier curve
-media-plugins/vapoursynth-bifrost 2.2 9999: Decrawler plugin for VapourSynth
+media-plugins/vapoursynth-bifrost 3.0 9999: Decrawler plugin for VapourSynth
 media-plugins/vapoursynth-bilateral 3 9999: Bilateral filter for VapourSynth
 media-plugins/vapoursynth-bilateralgpu 8 9 9999: Bilateral filter for VapourSynth based on the OpenCV-CUDA library
 media-plugins/vapoursynth-bm3d 9 9999: BM3D denoising filter for VapourSynth
