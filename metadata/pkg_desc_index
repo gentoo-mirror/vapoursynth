@@ -169,7 +169,7 @@ media-plugins/vs-removegrain 1 9999: VapourSynth port of RemoveGrain and Repair 
 media-plugins/vs-rgtools 1.5.1 9999: Functions and utils related to VapourSynth
 media-plugins/vs-scale 1.9.1 9999: VapourSynth anti aliasing and scaling functions
 media-plugins/vs-source 0.1.0 9999: A wrapper for DVD file structure and ISO files
-media-plugins/vs-tools 2.3.0 3.1.0 9999: Functions and utils related to VapourSynth
+media-plugins/vs-tools 3.1.0 9999: Functions and utils related to VapourSynth
 media-plugins/vsutil 0.7.0 0.8.0 9999: A collection of general purpose Vapoursynth functions to be reused in modules and scripts
 media-video/d2vwitch 5-r2 9999: Cross-platform D2V creator
 media-video/getnative 3.2.1 9999: Find the native resolution(s) of upscaled material (mostly anime)
