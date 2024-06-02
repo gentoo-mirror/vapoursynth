@@ -1,14 +1,14 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install setup unpack
-DEPEND=media-libs/vapoursynth[python_single_target_python3_10(-)?,python_single_target_python3_11(-)?] ncnn? ( media-plugins/vapoursynth-mlrt-ncnn )
+DEPEND=media-libs/vapoursynth[python_single_target_python3_10(-)?,python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?] ncnn? ( media-plugins/vapoursynth-mlrt-ncnn )
 DESCRIPTION=Efficient CPU/GPU/Vulkan ML Runtimes for VapourSynth
 EAPI=8
 HOMEPAGE=https://github.com/AmusementClub/vs-mlrt
 INHERIT=python-single-r1 git-r3
-IUSE=+ncnn python_single_target_python3_10 python_single_target_python3_11
+IUSE=+ncnn python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=media-libs/vapoursynth[python_single_target_python3_10(-)?,python_single_target_python3_11(-)?] ncnn? ( media-plugins/vapoursynth-mlrt-ncnn )
+RDEPEND=media-libs/vapoursynth[python_single_target_python3_10(-)?,python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?] ncnn? ( media-plugins/vapoursynth-mlrt-ncnn )
 SLOT=0
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	8b220bbce5c119fb1d4d5c2f5588f3ea	python-single-r1	75118e916668a74c660a13b0ecb22562	git-r3	fbb2889c81f3a05910c1524db69425c1
-_md5_=364f3a36f7f13fe99c8227770a77eb04
+_md5_=ada8d334293264e2ba618dda0b8341c4

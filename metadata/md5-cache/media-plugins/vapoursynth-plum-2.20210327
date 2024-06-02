@@ -1,15 +1,15 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install setup unpack
-DEPEND=media-libs/vapoursynth[python_single_target_python3_10(-)?,python_single_target_python3_11(-)?] media-plugins/vapoursynth-bm3d media-plugins/vapoursynth-dfttest media-plugins/vapoursynth-vcm media-plugins/vapoursynth-mvtools-sf media-plugins/vapoursynth-knlmeanscl media-plugins/vapoursynth-fmtconv media-plugins/vapoursynth-nnedi3
+DEPEND=media-libs/vapoursynth[python_single_target_python3_10(-)?,python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?] media-plugins/vapoursynth-bm3d media-plugins/vapoursynth-dfttest media-plugins/vapoursynth-vcm media-plugins/vapoursynth-mvtools-sf media-plugins/vapoursynth-knlmeanscl media-plugins/vapoursynth-fmtconv media-plugins/vapoursynth-nnedi3
 DESCRIPTION=A sharpening/blind deconvolution suite with certain advanced features like Non-Local error, Block Matching, etc...
 EAPI=8
 HOMEPAGE=https://github.com/IFeelBloated/Plum
 INHERIT=python-single-r1 git-r3
-IUSE=doc python_single_target_python3_10 python_single_target_python3_11
+IUSE=doc python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13
 KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-3
 PROPERTIES=live
-RDEPEND=media-libs/vapoursynth[python_single_target_python3_10(-)?,python_single_target_python3_11(-)?] media-plugins/vapoursynth-bm3d media-plugins/vapoursynth-dfttest media-plugins/vapoursynth-vcm media-plugins/vapoursynth-mvtools-sf media-plugins/vapoursynth-knlmeanscl media-plugins/vapoursynth-fmtconv media-plugins/vapoursynth-nnedi3
+RDEPEND=media-libs/vapoursynth[python_single_target_python3_10(-)?,python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?] media-plugins/vapoursynth-bm3d media-plugins/vapoursynth-dfttest media-plugins/vapoursynth-vcm media-plugins/vapoursynth-mvtools-sf media-plugins/vapoursynth-knlmeanscl media-plugins/vapoursynth-fmtconv media-plugins/vapoursynth-nnedi3
 SLOT=0
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	8b220bbce5c119fb1d4d5c2f5588f3ea	python-single-r1	75118e916668a74c660a13b0ecb22562	git-r3	fbb2889c81f3a05910c1524db69425c1
-_md5_=a824d87112e4f871d97bf2d4db081bb7
+_md5_=f844f5742ee2447c5532958068871db8

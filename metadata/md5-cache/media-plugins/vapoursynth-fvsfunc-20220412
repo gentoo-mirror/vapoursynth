@@ -1,14 +1,14 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install setup unpack
-DEPEND=media-libs/vapoursynth[python_single_target_python3_10(-)?,python_single_target_python3_11(-)?] media-plugins/vs-removegrain media-plugins/vapoursynth-bilateral media-plugins/vapoursynth-descale media-plugins/vapoursynth-dfttest media-plugins/vapoursynth-ffmpegsource media-plugins/vapoursynth-fft3dfilter media-plugins/vapoursynth-fmtconv media-plugins/vapoursynth-fft3dfilter media-plugins/vapoursynth-havsfunc media-plugins/vapoursynth-muvsfunc media-plugins/vapoursynth-mvsfunc media-plugins/vapoursynth-mvtools media-plugins/vapoursynth-nnedi3_rpow2 media-plugins/vapoursynth-sangnom media-plugins/vapoursynth-yadifmod cuda? ( media-plugins/vapoursynth-bilateralgpu　)
+DEPEND=media-libs/vapoursynth[python_single_target_python3_10(-)?,python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?] media-plugins/vs-removegrain media-plugins/vapoursynth-bilateral media-plugins/vapoursynth-descale media-plugins/vapoursynth-dfttest media-plugins/vapoursynth-ffmpegsource media-plugins/vapoursynth-fft3dfilter media-plugins/vapoursynth-fmtconv media-plugins/vapoursynth-fft3dfilter media-plugins/vapoursynth-havsfunc media-plugins/vapoursynth-muvsfunc media-plugins/vapoursynth-mvsfunc media-plugins/vapoursynth-mvtools media-plugins/vapoursynth-nnedi3_rpow2 media-plugins/vapoursynth-sangnom media-plugins/vapoursynth-yadifmod cuda? ( media-plugins/vapoursynth-bilateralgpu　)
 DESCRIPTION=Frechdachs's Vapoursynth functions
 EAPI=8
 HOMEPAGE=https://github.com/Irrational-Encoding-Wizardry/fvsfunc
 INHERIT=python-single-r1 git-r3
-IUSE=cuda python_single_target_python3_10 python_single_target_python3_11
+IUSE=cuda python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13
 KEYWORDS=~amd64 ~x86
 PROPERTIES=live
-RDEPEND=media-libs/vapoursynth[python_single_target_python3_10(-)?,python_single_target_python3_11(-)?] media-plugins/vs-removegrain media-plugins/vapoursynth-bilateral media-plugins/vapoursynth-descale media-plugins/vapoursynth-dfttest media-plugins/vapoursynth-ffmpegsource media-plugins/vapoursynth-fft3dfilter media-plugins/vapoursynth-fmtconv media-plugins/vapoursynth-fft3dfilter media-plugins/vapoursynth-havsfunc media-plugins/vapoursynth-muvsfunc media-plugins/vapoursynth-mvsfunc media-plugins/vapoursynth-mvtools media-plugins/vapoursynth-nnedi3_rpow2 media-plugins/vapoursynth-sangnom media-plugins/vapoursynth-yadifmod cuda? ( media-plugins/vapoursynth-bilateralgpu　)
+RDEPEND=media-libs/vapoursynth[python_single_target_python3_10(-)?,python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?] media-plugins/vs-removegrain media-plugins/vapoursynth-bilateral media-plugins/vapoursynth-descale media-plugins/vapoursynth-dfttest media-plugins/vapoursynth-ffmpegsource media-plugins/vapoursynth-fft3dfilter media-plugins/vapoursynth-fmtconv media-plugins/vapoursynth-fft3dfilter media-plugins/vapoursynth-havsfunc media-plugins/vapoursynth-muvsfunc media-plugins/vapoursynth-mvsfunc media-plugins/vapoursynth-mvtools media-plugins/vapoursynth-nnedi3_rpow2 media-plugins/vapoursynth-sangnom media-plugins/vapoursynth-yadifmod cuda? ( media-plugins/vapoursynth-bilateralgpu　)
 SLOT=0
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	8b220bbce5c119fb1d4d5c2f5588f3ea	python-single-r1	75118e916668a74c660a13b0ecb22562	git-r3	fbb2889c81f3a05910c1524db69425c1
-_md5_=abf87af7e36e475db4b8a6d1e4612550
+_md5_=783f07e554c18925eaf16e46895b5694
