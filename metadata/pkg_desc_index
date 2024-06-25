@@ -86,7 +86,7 @@ media-plugins/vapoursynth-median 4 9999: Various median functions on a single/se
 media-plugins/vapoursynth-minideen 2 9999: Spatial denoising filter
 media-plugins/vapoursynth-minsrp 4-r4 9999: simple blurring/sharpening filter for vaporsynth
 media-plugins/vapoursynth-miscfilters-obsolete 2 9999: Miscellaneous Filters is a random collection of filters that mostly are useful for Avisynth compatibility
-media-plugins/vapoursynth-mlrt-ncnn 13.1 9999: NCNN-based GPU (Vulkan) backend for vs-mlrt
+media-plugins/vapoursynth-mlrt-ncnn 15 9999: NCNN-based GPU (Vulkan) backend for vs-mlrt
 media-plugins/vapoursynth-motionmask 2 9999: Creates a mask of moving pixels. Every output pixel will be set to the absolute difference between the current frame and the previous frame
 media-plugins/vapoursynth-msmoosh 1.1 9999: MSmooth is a spatial smoother that doesn't touch edges, MSharpen tries to sharpen only edges
 media-plugins/vapoursynth-muvsfunc 0.4.0 9999: Muonium's VapourSynth functions
