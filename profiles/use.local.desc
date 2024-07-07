@@ -22,22 +22,19 @@ media-libs/waifu2x-converter-cpp:models - Install models to use in the standalon
 media-libs/waifu2x-converter-cpp:opencl - Compiles with OpenCL support.
 media-video/mpv:archive - Enable support for various archive formats via app-arch/libarchive
 media-video/mpv:bluray - Enable playback of Blu-ray filesystems
-media-video/mpv:cli - Build mpv CLI player
-media-video/mpv:cplugins - Enable C plugins support
-media-video/mpv:cuda - Enable hardware video decoding via Nvidia CUDA
-media-video/mpv:drm - Enable Kernel Mode Setting / Direct Rendering Manager based video output
-media-video/mpv:egl - Enable support for various EGL-based video outputs / backends
+media-video/mpv:cli - Enable the command-line player
+media-video/mpv:drm - Enable Kernel Mode Setting / Direct Rendering Manager based video outputs
 media-video/mpv:gamepad - Enable gamepad input support
-media-video/mpv:gbm - Enable Graphics Buffer Manager based EGL video backend
-media-video/mpv:jpeg - Enable support for saving screenshots in JPEG format
-media-video/mpv:libmpv - Build mpv shared library
-media-video/mpv:lua - Enable Lua scripting, OSC (On Screen Controller) GUI and net-misc/youtube-dl hook-script
-media-video/mpv:opengl - Enable support for various OpenGL-based video backends
-media-video/mpv:raspberry-pi - Enable support for the Raspberry Pi
+media-video/mpv:libmpv - Enable the shared library and headers (used by frontends / plugins)
+media-video/mpv:lua - Enable Lua scripting, OSC (On Screen Controller) GUI, and net-misc/yt-dlp support
+media-video/mpv:opengl - Enable support for OpenGL-based video backends (Note: deprecated for X11, USE=egl provides the newer support for -gpu-api=opengl)
+media-video/mpv:pipewire - Enable sound support via native PipeWire backend
 media-video/mpv:rubberband - Enable high quality pitch correction via media-libs/rubberband
 media-video/mpv:sdl - Enable media-libs/libsdl2 based video and audio outputs (Note: these outputs exist for compatibility reasons only, avoid if possible)
+media-video/mpv:sixel - Enable support for the sixel video backend using media-libs/libsixel
+media-video/mpv:sndio - Enable sound support via media-sound/sndio
+media-video/mpv:soc - Use additional media-video/ffmpeg patches for efficient playback on some SoCs (e.g. ARM, RISC-V)
 media-video/mpv:tools - Install extra tools: mpv_identify.sh, mpv_idet.sh, and umpv
 media-video/mpv:uchardet - Enable subtitles charset discovery via app-i18n/uchardet
 media-video/mpv:vapoursynth - Enable vapoursynth scripting via media-libs/vapoursynth
-media-video/mpv:vulkan - Enable support for various Vulkan-based video backends
 media-video/mpv:zimg - Enable libzimg support (for vf_fingerprint)
