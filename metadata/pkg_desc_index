@@ -1,4 +1,4 @@
-app-editors/vapoursynth-editor 5.7 6.7 9999: VapourSynth Editor
+app-editors/vapoursynth-editor 5.7 6.8 9999: VapourSynth Editor
 dev-cpp/vapoursynth-plusplus 20210601 99999999: C++ wrapper for VSAPI to help you sketch your filter in the fastest possible way
 dev-python/pyparsedvd 0.0.3 9999: Parse and extract binary data from dvd files
 dev-python/stgpytools 1.0.5: Collection of stuff that's useful in general python programming.
