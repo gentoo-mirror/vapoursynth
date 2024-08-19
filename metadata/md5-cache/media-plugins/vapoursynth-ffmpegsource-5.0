@@ -8,5 +8,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=~media-libs/ffmpegsource-5.0 media-libs/vapoursynth
 SLOT=0
-_eclasses_=multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	5f8f1dc0c94e007fa08af4e98a19d0e5
+_eclasses_=multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd
 _md5_=de3b071b8bc8a9fbcfc52ffdb9c10ee3
