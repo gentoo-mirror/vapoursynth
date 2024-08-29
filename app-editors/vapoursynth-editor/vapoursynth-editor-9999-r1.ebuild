@@ -11,6 +11,7 @@ HOMEPAGE="https://github.com/YomikoR/VapourSynth-Editor"
 if [[ ${PV} == *9999* ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/YomikoR/VapourSynth-Editor.git"
+	EGIT_BRANCH="vs-api4"
 	KEYWORDS=""
 else
 	inherit vcs-snapshot
