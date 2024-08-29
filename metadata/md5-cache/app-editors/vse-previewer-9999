@@ -1,13 +1,13 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile configure install postinst postrm prepare unpack
-DEPEND=media-libs/vapoursynth dev-qt/qt5compat dev-qt/qtbase dev-qt/qtwebsockets:6 virtual/pkgconfig
-DESCRIPTION=VapourSynth Editor
+DEFINED_PHASES=compile configure install unpack
+DEPEND=media-libs/vapoursynth dev-qt/qtbase[widgets] dev-qt/qtmultimedia:6 virtual/pkgconfig
+DESCRIPTION=VapourSynth standalone previewer
 EAPI=8
 HOMEPAGE=https://github.com/YomikoR/VapourSynth-Editor
 INHERIT=qmake-utils xdg-utils desktop git-r3
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=media-libs/vapoursynth dev-qt/qt5compat dev-qt/qtbase dev-qt/qtwebsockets:6
+RDEPEND=media-libs/vapoursynth dev-qt/qtbase[widgets] dev-qt/qtmultimedia:6
 SLOT=0
 _eclasses_=toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81	xdg-utils	baea6080dd821f5562d715887954c9d3	desktop	021728fdc1b03b36357dbc89489e0f0d	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=36ce7b1a46dc82b8077da46f7bbdd008
+_md5_=8441628db87290c0443c2fdb1c660330

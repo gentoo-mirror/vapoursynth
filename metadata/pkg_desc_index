@@ -1,7 +1,8 @@
-app-editors/vapoursynth-editor 5.7 6.8 9999: VapourSynth Editor
+app-editors/vapoursynth-editor 5.7 6.8 9999-r1: VapourSynth Editor
+app-editors/vse-previewer 5 9999: VapourSynth standalone previewer
 dev-cpp/vapoursynth-plusplus 20210601 99999999: C++ wrapper for VSAPI to help you sketch your filter in the fastest possible way
 dev-python/pyparsedvd 0.0.3 9999: Parse and extract binary data from dvd files
-dev-python/stgpytools 1.0.5: Collection of stuff that's useful in general python programming.
+dev-python/stgpytools 1.0.5 1.1.1: Collection of stuff that's useful in general python programming.
 media-libs/ffmpegsource 2.40 5.0: A libav/ffmpeg based source library for easy frame accurate access
 media-libs/l-smash 2.14.5 9999: Media library
 media-libs/vapoursynth 68 69 9999: VapourSynth is an library for video manipulation.
@@ -99,7 +100,7 @@ media-plugins/vapoursynth-nnedi3_resample 1 9999: A function for scaling, color 
 media-plugins/vapoursynth-nnedi3_rpow2 1.1.0 9999: nnedi3 rpow2 wrapper
 media-plugins/vapoursynth-nnedi3cl 8 9999: VapourSynth port of NNEDI3 utilizing OpenCL
 media-plugins/vapoursynth-oyster 6-r1 9999: A top class de-noising filter against compression artifacts
-media-plugins/vapoursynth-plugins-meta 63 64 65 66 67 68 69: VapourSynth plugins meta package.
+media-plugins/vapoursynth-plugins-meta 63 64 65 66 67 68 69 70: VapourSynth plugins meta package.
 media-plugins/vapoursynth-plum 2.20210327 9999-r1: A sharpening/blind deconvolution suite with certain advanced features like Non-Local error, Block Matching, etc...
 media-plugins/vapoursynth-qrcodesource 1.0.0.0 9999: Plugin to provide a means to embed QR codes in video
 media-plugins/vapoursynth-readmpls 5 9999: Get m2ts clip id from a playlist and return a dict
@@ -169,7 +170,7 @@ media-plugins/vs-removegrain 1 9999: VapourSynth port of RemoveGrain and Repair 
 media-plugins/vs-rgtools 1.5.1 9999: Functions and utils related to VapourSynth
 media-plugins/vs-scale 1.9.1 9999: VapourSynth anti aliasing and scaling functions
 media-plugins/vs-source 0.1.0 9999: A wrapper for DVD file structure and ISO files
-media-plugins/vs-tools 3.1.0 9999: Functions and utils related to VapourSynth
+media-plugins/vs-tools 3.1.0 3.2.0 9999: Functions and utils related to VapourSynth
 media-plugins/vsutil 0.7.0 0.8.0 9999: A collection of general purpose Vapoursynth functions to be reused in modules and scripts
 media-video/d2vwitch 5-r2 9999: Cross-platform D2V creator
 media-video/getnative 3.2.1 9999: Find the native resolution(s) of upscaled material (mostly anime)

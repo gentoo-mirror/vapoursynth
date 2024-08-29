@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install unpack
+DEPEND=media-libs/vapoursynth dev-qt/qtbase[widgets] dev-qt/qtmultimedia:6 virtual/pkgconfig
+DESCRIPTION=VapourSynth standalone previewer
+EAPI=8
+HOMEPAGE=https://github.com/YomikoR/VapourSynth-Editor
+INHERIT=qmake-utils xdg-utils desktop vcs-snapshot
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=media-libs/vapoursynth dev-qt/qtbase[widgets] dev-qt/qtmultimedia:6
+SLOT=0
+SRC_URI=https://github.com/YomikoR/VapourSynth-Editor/archive/refs/tags/VSE-Previewer-R5.tar.gz -> vse-previewer-5.tar.gz
+_eclasses_=toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81	xdg-utils	baea6080dd821f5562d715887954c9d3	desktop	021728fdc1b03b36357dbc89489e0f0d	vcs-snapshot	3d327d546f76e4c2054573ff0d78fad2
+_md5_=8441628db87290c0443c2fdb1c660330
