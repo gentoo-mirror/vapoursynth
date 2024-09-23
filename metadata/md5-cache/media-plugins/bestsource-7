@@ -1,0 +1,16 @@
+BDEPEND=>=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install test unpack
+DEPEND=dev-libs/jansson dev-libs/xxhash media-libs/vapoursynth:0/4 >=media-video/ffmpeg-6.1
+DESCRIPTION=Sample/frame accurate access to audio and video source plugin for VaporSynth
+EAPI=8
+HOMEPAGE=https://github.com/vapoursynth/bestsource
+INHERIT=meson git-r3
+IUSE=lto
+KEYWORDS=~x86 ~amd64
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-libs/jansson dev-libs/xxhash media-libs/vapoursynth:0/4 >=media-video/ffmpeg-6.1
+RESTRICT=mirror
+SLOT=0
+_eclasses_=toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	flag-o-matic	fa33e3696fe4689dda7e9affe92e2c94	multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	6881b056477c23167d9a6b33e146374e	meson	99466844dd8d4fcfb07578a76f5a9922	git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=d8b6f72a4be9016664cc2644076f6a0d
