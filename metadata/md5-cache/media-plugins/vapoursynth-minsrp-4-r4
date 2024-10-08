@@ -10,5 +10,5 @@ RDEPEND=media-libs/vapoursynth
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/IFeelBloated/minsrp/archive/r4.tar.gz -> vapoursynth-minsrp-4.tar.gz
-_eclasses_=vcs-snapshot	3d327d546f76e4c2054573ff0d78fad2
+_eclasses_=vcs-snapshot	bd69bf57fd2c34e99964a03b1d968177
 _md5_=4de5ba62ed0d9f41fe20fd847dd66073
