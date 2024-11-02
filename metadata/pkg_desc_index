@@ -109,7 +109,7 @@ media-plugins/vapoursynth-remapframes 1.1 9999: Allows easy remapping of frames 
 media-plugins/vapoursynth-removedirt 20131120 99999999: Port of RemoveDirt to VapourSynth
 media-plugins/vapoursynth-retinex 4 9999: Retinex plugin for VapourSynth
 media-plugins/vapoursynth-rgsf 5 9999: RemoveGrain Single Precision
-media-plugins/vapoursynth-rife-ncnn-vulkan 9 9999: Real-Time Intermediate Flow Estimation for Video Frame Interpolation, based on rife-ncnn-vulkan
+media-plugins/vapoursynth-rife-ncnn-vulkan 9_p30 9999: Real-Time Intermediate Flow Estimation for Video Frame Interpolation, based on rife-ncnn-vulkan
 media-plugins/vapoursynth-sangnom 42 9999: A rewrite version of AVISynth SangNom2
 media-plugins/vapoursynth-scenechange 0.2.2-r2: A scene change detection plugin and script for VapourSynth
 media-plugins/vapoursynth-scxvid 1 9999: Scene change detection plugin for VapourSynth, using XviD
