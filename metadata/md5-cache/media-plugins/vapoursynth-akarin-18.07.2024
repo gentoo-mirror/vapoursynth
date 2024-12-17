@@ -6,6 +6,7 @@ EAPI=8
 HOMEPAGE=https://github.com/AkarinVS/vapoursynth-plugin
 INHERIT=git-r3 meson llvm-r1
 IUSE=+llvm_slot_18 llvm_slot_15 llvm_slot_16 llvm_slot_17
+KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-3
 PROPERTIES=live
 RDEPEND=media-libs/vapoursynth
