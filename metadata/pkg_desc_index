@@ -164,7 +164,7 @@ media-plugins/vs-kernels 2.4.0 9999: Kernel objects for scaling and format conve
 media-plugins/vs-masktools 1.0.0 9999: Various masking tools for VapourSynth
 media-plugins/vs-mlrt 13.1 9999: Efficient CPU/GPU/Vulkan ML Runtimes for VapourSynth
 media-plugins/vs-ocr 3 9999: OCR plugin for VapourSynth
-media-plugins/vs-placebo 1.4.3 1.4.4_p20230311 9999: libplacebo-based debanding, scaling and color mapping plugin for VapourSynth
+media-plugins/vs-placebo 1.4.3-r1 1.4.4_p20241011 9999: libplacebo-based debanding, scaling and color mapping plugin for VapourSynth
 media-plugins/vs-pyplugin 1.3.2 9999: Package for simplifying writing VapourSynth plugins in python
 media-plugins/vs-removegrain 1 9999: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
 media-plugins/vs-rgtools 1.5.1 9999: Functions and utils related to VapourSynth
