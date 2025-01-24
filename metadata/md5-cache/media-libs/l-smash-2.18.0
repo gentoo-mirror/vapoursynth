@@ -1,14 +1,12 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=configure unpack
+DEFINED_PHASES=configure
 DEPEND=media-video/ffmpeg media-libs/obuparse virtual/pkgconfig
 DESCRIPTION=Media library
 EAPI=8
 HOMEPAGE=https://github.com/vimeo/l-smash
-INHERIT=git-r3
 IUSE=-static-libs -debug
+KEYWORDS=~amd64 ~x86
 LICENSE=ISC
-PROPERTIES=live
 RDEPEND=media-video/ffmpeg media-libs/obuparse
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+SRC_URI=https://github.com/vimeo/l-smash/archive/v2.18.0.tar.gz -> l-smash-2.18.0.tar.gz
 _md5_=ed10ca59e444bb7e3fa1f247d9c846bd

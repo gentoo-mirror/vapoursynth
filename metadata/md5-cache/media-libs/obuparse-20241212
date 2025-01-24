@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=A simple and portable single file AV1 OBU parser.
+EAPI=8
+HOMEPAGE=https://github.com/dwbuiten/obuparse
+KEYWORDS=~amd64 ~x86
+LICENSE=ISC
+SLOT=0
+SRC_URI=https://github.com/dwbuiten/obuparse/archive/918524abdc19b6582d853c03373d8e2e0b9f11ee.tar.gz -> obuparse-20241212.tar.gz
+_md5_=3f11a49c4a74992d4e2c315444d3dca1

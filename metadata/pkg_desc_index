@@ -4,7 +4,8 @@ dev-cpp/vapoursynth-plusplus 20210601 99999999: C++ wrapper for VSAPI to help yo
 dev-python/pyparsedvd 0.0.3 9999: Parse and extract binary data from dvd files
 dev-python/stgpytools 1.0.5 1.1.1: Collection of stuff that's useful in general python programming.
 media-libs/ffmpegsource 2.40 5.0: A libav/ffmpeg based source library for easy frame accurate access
-media-libs/l-smash 2.14.5 9999: Media library
+media-libs/l-smash 2.14.5 2.18.0 9999: Media library
+media-libs/obuparse 20241212: A simple and portable single file AV1 OBU parser.
 media-libs/vapoursynth 69 70 9999: VapourSynth is an library for video manipulation.
 media-libs/waifu2x-converter-cpp 5.3.4-r1 9999-r1: Super-Resolution for anime-style-art using opencv
 media-libs/zimg 3.0.5: Scaling, colorspace conversion, and dithering library
@@ -79,7 +80,7 @@ media-plugins/vapoursynth-it 1.2 9999: Inverse Telecine plugin for VapourSynth
 media-plugins/vapoursynth-jincresize 7.2 9999: Jinc (EWA Lanczos) Resampler Plugin for VapourSynth
 media-plugins/vapoursynth-kagefunc 0.1.0 9999: kageru's Vapoursynth functions
 media-plugins/vapoursynth-knlmeanscl 1.1.1-r2 9999-r1: An optimized pixelwise OpenCL implementation of the Non-local means denoising algorithm
-media-plugins/vapoursynth-l-smash-works 20220505 99999999: Works based on L-SMASH project
+media-plugins/vapoursynth-l-smash-works 1194.0.0.0 99999999: Works based on L-SMASH project
 media-plugins/vapoursynth-lghost 1 9999: Ghost reduction filter that can remove luminance ghost or edge ghost (ringing)
 media-plugins/vapoursynth-lvsfunc 0.8.1 9999: Light's Vapoursynth Functions
 media-plugins/vapoursynth-matchhistogram 2 9999: MatchHistogram modifies one clip's histogram to match the histogram of another clip
