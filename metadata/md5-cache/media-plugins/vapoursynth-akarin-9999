@@ -1,15 +1,15 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array
 DEFINED_PHASES=compile configure install setup test unpack
-DEPEND=media-libs/vapoursynth llvm_slot_15? ( llvm-core/llvm:15= ) llvm_slot_16? ( llvm-core/llvm:16= ) llvm_slot_17? ( llvm-core/llvm:17= ) llvm_slot_18? ( llvm-core/llvm:18= )
+DEPEND=media-libs/vapoursynth llvm_slot_15? ( llvm-core/llvm:15= ) llvm_slot_16? ( llvm-core/llvm:16= ) llvm_slot_17? ( llvm-core/llvm:17= ) llvm_slot_18? ( llvm-core/llvm:18= ) llvm_slot_19? ( llvm-core/llvm:19= )
 DESCRIPTION=Akarin's experimental VapourSynth plugin
 EAPI=8
 HOMEPAGE=https://github.com/AkarinVS/vapoursynth-plugin
 INHERIT=git-r3 meson llvm-r1
-IUSE=+llvm_slot_18 llvm_slot_15 llvm_slot_16 llvm_slot_17
+IUSE=+llvm_slot_19 llvm_slot_15 llvm_slot_16 llvm_slot_17 llvm_slot_18
 LICENSE=LGPL-3
 PROPERTIES=live
 RDEPEND=media-libs/vapoursynth
-REQUIRED_USE=^^ ( llvm_slot_15 llvm_slot_16 llvm_slot_17 llvm_slot_18 )
+REQUIRED_USE=^^ ( llvm_slot_15 llvm_slot_16 llvm_slot_17 llvm_slot_18 llvm_slot_19 )
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	flag-o-matic	357f1a896fbedcd06e5ce55419c49eb9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	42c5abe4a656a4993a06a4fc61dbdd12	meson	99466844dd8d4fcfb07578a76f5a9922	llvm-utils	7f49c40879f833f9d07e2d5a9643077b	llvm-r1	0bd586d3786517cd63802a520b404dda
-_md5_=ba78ebfdb860bfa53bc4d375bceb81df
+_md5_=f2198cb4318194c19cdd85e0da8f5942
