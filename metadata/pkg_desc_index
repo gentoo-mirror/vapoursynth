@@ -12,7 +12,7 @@ media-libs/zimg 3.0.5: Scaling, colorspace conversion, and dithering library
 media-plugins/acsuite 6.0.0 9999: Frame-based cutting/trimming/splicing of audio files from within VapourSynth
 media-plugins/audiocutter 20190712 99999999: A tool to cut audio and generate associated chapters/qpfiles for vapoursynth
 media-plugins/bestaudiosource 1 9999: Audio source plugin for Vapoursynth
-media-plugins/bestsource 10 9999-r1: Sample/frame accurate access to audio and video source plugin for VaporSynth
+media-plugins/bestsource 10 11 9999-r1: Sample/frame accurate access to audio and video source plugin for VaporSynth
 media-plugins/dmetrics 1 9999: Vapoursynth plugin that attaches the match metrics calculated by Telecide to frames as properties
 media-plugins/ocsuite 20200803 99999999: Mastroka ordered chapters automation script
 media-plugins/subtext 4 5-r1 9999: Subtitle plugin for VapourSynth based on libass
