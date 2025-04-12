@@ -9,5 +9,5 @@ RDEPEND=media-libs/vapoursynth
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/MonoS/VS-ContinuityFixer/archive/V7.tar.gz -> vapoursynth-continuityfixer-7.tar.gz
-_eclasses_=toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	vcs-snapshot	bd69bf57fd2c34e99964a03b1d968177
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multilib	b2a329026f2e404e9e371097dda47f96	vcs-snapshot	bd69bf57fd2c34e99964a03b1d968177
 _md5_=21ba466dd55257520a8ed0a82b956b86

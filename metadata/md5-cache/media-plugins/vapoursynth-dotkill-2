@@ -9,5 +9,5 @@ LICENSE=MIT
 RDEPEND=media-libs/vapoursynth
 SLOT=0
 SRC_URI=https://github.com/myrsloik/DotKill/archive/R2.tar.gz -> vapoursynth-dotkill-2.tar.gz
-_eclasses_=toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	vcs-snapshot	bd69bf57fd2c34e99964a03b1d968177
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	vcs-snapshot	bd69bf57fd2c34e99964a03b1d968177
 _md5_=cd9e8c7a78b6dcc777a17ff76197021a
