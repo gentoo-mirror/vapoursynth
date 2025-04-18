@@ -6,7 +6,7 @@ dev-python/stgpytools 1.0.5 1.1.1: Collection of stuff that's useful in general 
 media-libs/ffmpegsource 2.40 5.0: A libav/ffmpeg based source library for easy frame accurate access
 media-libs/l-smash 2.14.5 2.18.0 9999: Media library
 media-libs/obuparse 20241212: A simple and portable single file AV1 OBU parser.
-media-libs/vapoursynth 69 70 9999: VapourSynth is an library for video manipulation.
+media-libs/vapoursynth 70 71 9999: VapourSynth is an library for video manipulation.
 media-libs/waifu2x-converter-cpp 5.3.4-r1 9999-r1: Super-Resolution for anime-style-art using opencv
 media-libs/zimg 3.0.5: Scaling, colorspace conversion, and dithering library
 media-plugins/acsuite 6.0.0 9999: Frame-based cutting/trimming/splicing of audio files from within VapourSynth
