@@ -1,15 +1,15 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install setup unpack
-DEPEND=media-libs/vapoursynth[python_single_target_python3_10(-)?,python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?] media-plugins/vapoursynth-bm3d media-plugins/vapoursynth-knlmeanscl media-plugins/vapoursynth-fmtconv media-plugins/vapoursynth-dfttest media-plugins/vapoursynth-mvtools-sf media-plugins/vapoursynth-nnedi3
+DEPEND=media-libs/vapoursynth[python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?] media-plugins/vapoursynth-bm3d media-plugins/vapoursynth-knlmeanscl media-plugins/vapoursynth-fmtconv media-plugins/vapoursynth-dfttest media-plugins/vapoursynth-mvtools-sf media-plugins/vapoursynth-nnedi3
 DESCRIPTION=A top class de-noising filter against compression artifacts
 EAPI=8
 HOMEPAGE=https://github.com/IFeelBloated/Oyster
 INHERIT=python-single-r1 git-r3
-IUSE=doc python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13
+IUSE=doc python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13
 KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-3
 PROPERTIES=live
-RDEPEND=media-libs/vapoursynth[python_single_target_python3_10(-)?,python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?] media-plugins/vapoursynth-bm3d media-plugins/vapoursynth-knlmeanscl media-plugins/vapoursynth-fmtconv media-plugins/vapoursynth-dfttest media-plugins/vapoursynth-mvtools-sf media-plugins/vapoursynth-nnedi3
+RDEPEND=media-libs/vapoursynth[python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?] media-plugins/vapoursynth-bm3d media-plugins/vapoursynth-knlmeanscl media-plugins/vapoursynth-fmtconv media-plugins/vapoursynth-dfttest media-plugins/vapoursynth-mvtools-sf media-plugins/vapoursynth-nnedi3
 SLOT=0
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	python-utils-r1	974462533ec80cd68e5f366ad8a86002	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57	git-r3	875eb471682d3e1f18da124be97dcc81
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	python-utils-r1	b6ad054ea5bb201ed2fec9cac7a8d12b	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57	git-r3	875eb471682d3e1f18da124be97dcc81
 _md5_=3c3ec5f0fb86b47be47804faca142b7a
