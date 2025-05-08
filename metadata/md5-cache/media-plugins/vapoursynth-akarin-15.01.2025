@@ -12,5 +12,5 @@ RDEPEND=media-libs/vapoursynth
 REQUIRED_USE=^^ ( llvm_slot_15 llvm_slot_16 llvm_slot_17 llvm_slot_18 llvm_slot_19 )
 SLOT=0
 SRC_URI=https://github.com/Jaded-Encoding-Thaumaturgy/akarin-vapoursynth-plugin/archive/62a5bae73a10ad344e6c02a228c03c5525854678.tar.gz -> vapoursynth-akarin-15.01.2025.tar.gz
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	de71d9571aa267f353b9e8ab4666732e	meson	99466844dd8d4fcfb07578a76f5a9922	llvm-utils	846280a994c1843d9c21248c188bd147	llvm-r1	0bd586d3786517cd63802a520b404dda
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	e6fe2c451b7e577e827165580e5bdd64	meson	99466844dd8d4fcfb07578a76f5a9922	llvm-utils	846280a994c1843d9c21248c188bd147	llvm-r1	0bd586d3786517cd63802a520b404dda
 _md5_=3c3701bf8b8261363279e139bceeecd1
