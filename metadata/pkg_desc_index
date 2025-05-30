@@ -2,7 +2,7 @@ app-editors/vapoursynth-editor 5.7 6.8 9999-r1: VapourSynth Editor
 app-editors/vse-previewer 5 9999: VapourSynth standalone previewer
 dev-cpp/vapoursynth-plusplus 20210601 99999999: C++ wrapper for VSAPI to help you sketch your filter in the fastest possible way
 dev-python/pyparsedvd 0.0.3 9999: Parse and extract binary data from dvd files
-dev-python/stgpytools 1.0.5 1.1.1: Collection of stuff that's useful in general python programming.
+dev-python/stgpytools 1.0.5 1.1.1 1.2.2: Collection of stuff that's useful in general python programming.
 media-libs/ffmpegsource 2.40 5.0: A libav/ffmpeg based source library for easy frame accurate access
 media-libs/l-smash 2.14.5 2.18.0 9999: Media library
 media-libs/obuparse 20241212: A simple and portable single file AV1 OBU parser.
