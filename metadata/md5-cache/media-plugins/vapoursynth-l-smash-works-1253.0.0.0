@@ -1,0 +1,15 @@
+BDEPEND=>=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array
+DEFINED_PHASES=compile configure install test unpack
+DEPEND=media-video/ffmpeg media-libs/l-smash virtual/pkgconfig
+DESCRIPTION=Works based on L-SMASH project
+EAPI=8
+HOMEPAGE=https://github.com/HomeOfAviSynthPlusEvolution/L-SMASH-Works
+INHERIT=meson vcs-snapshot
+IUSE=lto
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=media-video/ffmpeg media-libs/l-smash
+SLOT=0
+SRC_URI=https://github.com/HomeOfAviSynthPlusEvolution/L-SMASH-Works/archive/1253.0.0.0.tar.gz -> vapoursynth-l-smash-works-1253.0.0.0.tar.gz
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	e6fe2c451b7e577e827165580e5bdd64	meson	99466844dd8d4fcfb07578a76f5a9922	vcs-snapshot	bd69bf57fd2c34e99964a03b1d968177
+_md5_=433add5183139fafe906a7b95213a1b9

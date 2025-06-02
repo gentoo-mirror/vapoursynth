@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=A simple and portable single file AV1 OBU parser.
+EAPI=8
+HOMEPAGE=https://github.com/dwbuiten/obuparse
+INHERIT=git-r3
+KEYWORDS=~amd64 ~x86
+LICENSE=ISC
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=305ba629c0f76ab0c733f8297b05d1da
