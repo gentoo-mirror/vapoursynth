@@ -27,7 +27,7 @@ media-plugins/vapoursynth-awarpsharp2 4 9999: Sharpens by wrapping
 media-plugins/vapoursynth-beziercurve 3 9999: A plugin which adjust the clip via bezier curve
 media-plugins/vapoursynth-bifrost 3.0 9999: Decrawler plugin for VapourSynth
 media-plugins/vapoursynth-bilateral 3 9999: Bilateral filter for VapourSynth
-media-plugins/vapoursynth-bilateralgpu 8 9 9999: Bilateral filter for VapourSynth based on the OpenCV-CUDA library
+media-plugins/vapoursynth-bilateralgpu 10 9999: Bilateral filter for VapourSynth based on the OpenCV-CUDA library
 media-plugins/vapoursynth-bm3d 9 9999: BM3D denoising filter for VapourSynth
 media-plugins/vapoursynth-bm3dcuda 2.12 9999: BM3D denoising filter for VapourSynth, implemented in CUDA
 media-plugins/vapoursynth-bmdegrain 2 9999: development prototype for block-matching-based denoising
