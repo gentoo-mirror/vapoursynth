@@ -159,7 +159,7 @@ media-plugins/vapoursynth-znedi3 2.1 9999: Optimized nnedi3 filter
 media-plugins/vivtc 1 9999: Field matcher and decimation filter for VapourSynth similar to TIVTC
 media-plugins/vs-ccd 0.3.1-r1 9999: 
 media-plugins/vs-imwri 2 9999: Image reader and writer for VapourSynth using the ImageMagick library
-media-plugins/vs-jetpack 0.4.0: Suite of filters, wrappers, and helper funcs for VapourSynth
+media-plugins/vs-jetpack 0.4.0-r1: Suite of filters, wrappers, and helper funcs for VapourSynth
 media-plugins/vs-mlrt 13.1 9999: Efficient CPU/GPU/Vulkan ML Runtimes for VapourSynth
 media-plugins/vs-ocr 3 9999: OCR plugin for VapourSynth
 media-plugins/vs-placebo 1.4.3-r1 1.4.4_p20241011 9999: libplacebo-based debanding, scaling and color mapping plugin for VapourSynth
