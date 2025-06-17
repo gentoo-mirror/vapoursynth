@@ -1,7 +1,7 @@
 app-editors/vapoursynth-editor 5.7 6.8 9999-r1: VapourSynth Editor
 app-editors/vse-previewer 5 9999: VapourSynth standalone previewer
 dev-cpp/vapoursynth-plusplus 20210601 99999999: C++ wrapper for VSAPI to help you sketch your filter in the fastest possible way
-dev-python/jetpytools 1.4.0: Collection of stuff that's useful in general python programming.
+dev-python/jetpytools 1.4.0-r1: Collection of stuff that's useful in general python programming.
 dev-python/pyparsedvd 0.0.3 9999: Parse and extract binary data from dvd files
 media-libs/ffmpegsource 2.40 5.0: A libav/ffmpeg based source library for easy frame accurate access
 media-libs/l-smash 2024.10.28 9999: Media library
@@ -159,7 +159,7 @@ media-plugins/vapoursynth-znedi3 2.1 9999: Optimized nnedi3 filter
 media-plugins/vivtc 1 9999: Field matcher and decimation filter for VapourSynth similar to TIVTC
 media-plugins/vs-ccd 0.3.1-r1 9999: 
 media-plugins/vs-imwri 2 9999: Image reader and writer for VapourSynth using the ImageMagick library
-media-plugins/vs-jetpack 0.4.0-r1: Suite of filters, wrappers, and helper funcs for VapourSynth
+media-plugins/vs-jetpack 0.4.0-r2: Suite of filters, wrappers, and helper funcs for VapourSynth
 media-plugins/vs-mlrt 13.1 9999: Efficient CPU/GPU/Vulkan ML Runtimes for VapourSynth
 media-plugins/vs-ocr 3 9999: OCR plugin for VapourSynth
 media-plugins/vs-placebo 1.4.3-r1 1.4.4_p20241011 9999: libplacebo-based debanding, scaling and color mapping plugin for VapourSynth
