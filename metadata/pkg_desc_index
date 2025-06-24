@@ -18,7 +18,7 @@ media-plugins/ocsuite 20200803 99999999: Mastroka ordered chapters automation sc
 media-plugins/subtext 4 5-r1 9999: Subtitle plugin for VapourSynth based on libass
 media-plugins/vapoursynth-addgrain 10 9999: AddGrain generates film like grain or other effects (like rain) by adding random noise to the video
 media-plugins/vapoursynth-adjust 1-r1 9999: This is a very basic port of the built-in Avisynth filter Tweak
-media-plugins/vapoursynth-akarin 15.01.2025 9999: Akarin's experimental VapourSynth plugin
+media-plugins/vapoursynth-akarin 06.04.2025 9999: Akarin's experimental VapourSynth plugin
 media-plugins/vapoursynth-arearesize 2 9999: AreaResize is an area average downscale resizer plugin for VapourSynth
 media-plugins/vapoursynth-asharp 1 9999: ASharp is an adaptive sharpening filter
 media-plugins/vapoursynth-astdr 4 9999: A derainbow function for VapourSynth
