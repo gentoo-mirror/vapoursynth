@@ -9,5 +9,5 @@ LICENSE=MIT
 RDEPEND=media-libs/vapoursynth dev-qt/qtbase[widgets] dev-qt/qtmultimedia:6
 SLOT=0
 SRC_URI=https://github.com/YomikoR/VapourSynth-Editor/archive/refs/tags/VSE-Previewer-R5.tar.gz -> vse-previewer-5.tar.gz
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	vcs-snapshot	bd69bf57fd2c34e99964a03b1d968177
+_eclasses_=toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	vcs-snapshot	bd69bf57fd2c34e99964a03b1d968177
 _md5_=8441628db87290c0443c2fdb1c660330

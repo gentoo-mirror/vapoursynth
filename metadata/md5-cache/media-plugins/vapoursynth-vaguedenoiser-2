@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=media-libs/vapoursynth
 SLOT=0
 SRC_URI=https://github.com/HomeOfVapourSynthEvolution/vapoursynth-vaguedenoiser/archive/r2.tar.gz -> vapoursynth-vaguedenoiser-2.tar.gz
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multilib	b2a329026f2e404e9e371097dda47f96	vcs-snapshot	bd69bf57fd2c34e99964a03b1d968177
+_eclasses_=toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	multilib	b2a329026f2e404e9e371097dda47f96	vcs-snapshot	bd69bf57fd2c34e99964a03b1d968177
 _md5_=773c0e18ac7b39e02034ade7958e1973
