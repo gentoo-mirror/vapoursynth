@@ -166,6 +166,7 @@ media-plugins/vs-placebo 1.4.3-r1 1.4.4_p20241011 9999: libplacebo-based debandi
 media-plugins/vs-removegrain 1 9999: VapourSynth port of RemoveGrain and Repair plugins from Avisynth
 media-plugins/vsutil 0.7.0 0.8.0 9999: A collection of general purpose Vapoursynth functions to be reused in modules and scripts
 media-video/d2vwitch 5-r2 9999: Cross-platform D2V creator
+media-video/getnative 3.2.1-r1 9999-r1: Find the native resolution(s) of upscaled material (mostly anime)
 media-video/mpv 0.40.0 9999: Media player for the command line
 media-video/wobbly 5 9999: IVTC assistant for VapourSynth, similar to Yatta
 sci-libs/vectorclass 2.02.00 9999: Vector class library
