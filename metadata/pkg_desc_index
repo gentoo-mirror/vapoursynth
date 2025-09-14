@@ -57,7 +57,7 @@ media-plugins/vapoursynth-dpid 6-r1 9999-r1: Rapid, Detail-Preserving Image Down
 media-plugins/vapoursynth-edgefixer 2 9999: EdgeFixer repairs bright and dark line artifacts near the border of an image
 media-plugins/vapoursynth-edi_rpow2 29 9999: Helpers for x2 upsizing using edi filters.
 media-plugins/vapoursynth-eedi2 7.1 9999: EEDI2 is an vertical resizer intended for edge-directed interpolation for deinterlacing
-media-plugins/vapoursynth-eedi3 4 6 9999: An intra-frame deinterlacer
+media-plugins/vapoursynth-eedi3 7 9999: An intra-frame deinterlacer
 media-plugins/vapoursynth-ffmpegsource 2.40-r1 5.0 9999: A libav/ffmpeg based source library for easy frame accurate access
 media-plugins/vapoursynth-fft3dfilter 2 9999: VapourSynth port of FFT3DFilter
 media-plugins/vapoursynth-fftspectrum 1-r1 99999999: A VapourSynth filter that displays the FFT frequency spectrum of a given clip

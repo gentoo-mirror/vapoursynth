@@ -1,14 +1,14 @@
 BDEPEND=>=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install test unpack
-DEPEND=media-libs/vapoursynth opencl? ( virtual/opencl dev-libs/opencl-icd-loader )
+DEPEND=media-libs/vapoursynth
 DESCRIPTION=An intra-frame deinterlacer
 EAPI=8
 HOMEPAGE=https://github.com/HomeOfVapourSynthEvolution/VapourSynth-EEDI3
 INHERIT=meson git-r3
-IUSE=lto opencl
+IUSE=lto
 LICENSE=GPL-2
 PROPERTIES=live
-RDEPEND=media-libs/vapoursynth opencl? ( virtual/opencl dev-libs/opencl-icd-loader )
+RDEPEND=media-libs/vapoursynth
 SLOT=0
 _eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	b7eb9c3a6dc6662368634584aab44a2c	meson	99466844dd8d4fcfb07578a76f5a9922	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=d42fb7d6986aed9269ce2b0b33e877bb
+_md5_=15f182cb5426f6c256476751b779a6f8
