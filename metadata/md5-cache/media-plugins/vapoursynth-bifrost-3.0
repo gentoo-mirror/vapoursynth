@@ -10,5 +10,5 @@ RDEPEND=media-libs/vapoursynth
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dubhater/vapoursynth-bifrost/archive/v3.0.tar.gz -> vapoursynth-bifrost-3.0.tar.gz
-_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	a199af442898963433d6f038a88cce9c
+_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	multilib	a199af442898963433d6f038a88cce9c
 _md5_=99aac073c4dfab3fe9cb400532b078c4

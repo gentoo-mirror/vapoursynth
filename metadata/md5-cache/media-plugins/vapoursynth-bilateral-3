@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=media-libs/vapoursynth
 SLOT=0
 SRC_URI=https://github.com/HomeOfVapourSynthEvolution/vapoursynth-bilateral/archive/r3.tar.gz -> vapoursynth-bilateral-3.tar.gz
-_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	a199af442898963433d6f038a88cce9c	vcs-snapshot	bd69bf57fd2c34e99964a03b1d968177
+_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	multilib	a199af442898963433d6f038a88cce9c	vcs-snapshot	bd69bf57fd2c34e99964a03b1d968177
 _md5_=6c7bcea4f22c5b31eecbf7574635e1e7
