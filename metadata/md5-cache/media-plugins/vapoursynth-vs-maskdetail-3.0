@@ -9,5 +9,5 @@ KEYWORDS=~amd64 ~x86
 RDEPEND=media-libs/vapoursynth[python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?] media-plugins/vapoursynth-descale media-plugins/vapoursynth-fmtconv media-plugins/vs-removegrain
 SLOT=0
 SRC_URI=https://github.com/MonoS/VS-MaskDetail/archive/V3.0.tar.gz -> vapoursynth-vs-maskdetail-3.0.tar.gz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	python-utils-r1	0b620dd604ab8af0bc9cd1bcc66d4f7c	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57	vcs-snapshot	bd69bf57fd2c34e99964a03b1d968177
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	python-utils-r1	dbb8c4d794033ad7e7221eaf567a6c90	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57	vcs-snapshot	bd69bf57fd2c34e99964a03b1d968177
 _md5_=f86dc85e831b43aa695735c57557f9eb
