@@ -1,13 +1,13 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install setup unpack
-DEPEND=media-libs/vapoursynth[python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?] media-plugins/vapoursynth-eedi2 media-plugins/vapoursynth-fmtconv media-plugins/vapoursynth-nnedi3 media-plugins/vapoursynth-nnedi3cl media-plugins/vapoursynth-znedi3
+DEPEND=media-libs/vapoursynth[python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?,python_single_target_python3_14(-)?] media-plugins/vapoursynth-eedi2 media-plugins/vapoursynth-fmtconv media-plugins/vapoursynth-nnedi3 media-plugins/vapoursynth-nnedi3cl media-plugins/vapoursynth-znedi3
 DESCRIPTION=Helpers for x2 upsizing using edi filters.
 EAPI=8
 HOMEPAGE=https://gist.github.com/YamashitaRen/020c497524e794779d9c
 INHERIT=python-single-r1 git-r3
-IUSE=python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13
+IUSE=python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13 python_single_target_python3_14
 PROPERTIES=live
-RDEPEND=media-libs/vapoursynth[python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?] media-plugins/vapoursynth-eedi2 media-plugins/vapoursynth-fmtconv media-plugins/vapoursynth-nnedi3 media-plugins/vapoursynth-nnedi3cl media-plugins/vapoursynth-znedi3
+RDEPEND=media-libs/vapoursynth[python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?,python_single_target_python3_14(-)?] media-plugins/vapoursynth-eedi2 media-plugins/vapoursynth-fmtconv media-plugins/vapoursynth-nnedi3 media-plugins/vapoursynth-nnedi3cl media-plugins/vapoursynth-znedi3
 SLOT=0
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	python-utils-r1	dbb8c4d794033ad7e7221eaf567a6c90	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=72a34a2c1209d61bc19d64a7f5f16ed1
+_md5_=09a285f9b21f96575880ed87c4ee6446

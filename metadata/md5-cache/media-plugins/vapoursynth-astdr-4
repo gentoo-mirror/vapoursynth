@@ -1,13 +1,13 @@
 DEFINED_PHASES=install setup
-DEPEND=media-libs/vapoursynth[python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?] media-plugins/vapoursynth-miscfilters-obsolete media-plugins/vs-removegrain media-plugins/vapoursynth-adjust media-plugins/vapoursynth-awarpsharp2 media-plugins/vapoursynth-ctmf media-plugins/vapoursynth-decross media-plugins/vapoursynth-fft3dfilter media-plugins/vapoursynth-fluxsmooth media-plugins/vapoursynth-hqdn3d media-plugins/vapoursynth-motionmask media-plugins/vapoursynth-mvtools media-plugins/vapoursynth-temporalsoften2
+DEPEND=media-libs/vapoursynth[python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?,python_single_target_python3_14(-)?] media-plugins/vapoursynth-miscfilters-obsolete media-plugins/vs-removegrain media-plugins/vapoursynth-adjust media-plugins/vapoursynth-awarpsharp2 media-plugins/vapoursynth-ctmf media-plugins/vapoursynth-decross media-plugins/vapoursynth-fft3dfilter media-plugins/vapoursynth-fluxsmooth media-plugins/vapoursynth-hqdn3d media-plugins/vapoursynth-motionmask media-plugins/vapoursynth-mvtools media-plugins/vapoursynth-temporalsoften2
 DESCRIPTION=A derainbow function for VapourSynth
 EAPI=8
 HOMEPAGE=https://github.com/dubhater/vapoursynth-astdr
 INHERIT=python-single-r1
-IUSE=python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13
+IUSE=python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13 python_single_target_python3_14
 KEYWORDS=~amd64 ~x86
-RDEPEND=media-libs/vapoursynth[python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?] media-plugins/vapoursynth-miscfilters-obsolete media-plugins/vs-removegrain media-plugins/vapoursynth-adjust media-plugins/vapoursynth-awarpsharp2 media-plugins/vapoursynth-ctmf media-plugins/vapoursynth-decross media-plugins/vapoursynth-fft3dfilter media-plugins/vapoursynth-fluxsmooth media-plugins/vapoursynth-hqdn3d media-plugins/vapoursynth-motionmask media-plugins/vapoursynth-mvtools media-plugins/vapoursynth-temporalsoften2
+RDEPEND=media-libs/vapoursynth[python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?,python_single_target_python3_14(-)?] media-plugins/vapoursynth-miscfilters-obsolete media-plugins/vs-removegrain media-plugins/vapoursynth-adjust media-plugins/vapoursynth-awarpsharp2 media-plugins/vapoursynth-ctmf media-plugins/vapoursynth-decross media-plugins/vapoursynth-fft3dfilter media-plugins/vapoursynth-fluxsmooth media-plugins/vapoursynth-hqdn3d media-plugins/vapoursynth-motionmask media-plugins/vapoursynth-mvtools media-plugins/vapoursynth-temporalsoften2
 SLOT=0
 SRC_URI=https://github.com/dubhater/vapoursynth-astdr/archive/v4.tar.gz -> vapoursynth-astdr-4.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	python-utils-r1	dbb8c4d794033ad7e7221eaf567a6c90	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57
-_md5_=f2293a25279118441de3d47b3ac1e3b4
+_md5_=b53c941cbfcac3fd67f894137cd2775f

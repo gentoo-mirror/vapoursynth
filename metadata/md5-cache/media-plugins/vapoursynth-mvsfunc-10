@@ -1,13 +1,13 @@
 DEFINED_PHASES=install setup unpack
-DEPEND=media-libs/vapoursynth[python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?] media-plugins/vapoursynth-bm3d media-plugins/vapoursynth-fmtconv
+DEPEND=media-libs/vapoursynth[python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?,python_single_target_python3_14(-)?] media-plugins/vapoursynth-bm3d media-plugins/vapoursynth-fmtconv
 DESCRIPTION=mawen1250's VapourSynth functions
 EAPI=8
 HOMEPAGE=http://forum.doom9.org/showthread.php?p=1737309
 INHERIT=python-single-r1 vcs-snapshot
-IUSE=python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13
+IUSE=python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13 python_single_target_python3_14
 KEYWORDS=~amd64 ~x86
-RDEPEND=media-libs/vapoursynth[python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?] media-plugins/vapoursynth-bm3d media-plugins/vapoursynth-fmtconv
+RDEPEND=media-libs/vapoursynth[python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?,python_single_target_python3_14(-)?] media-plugins/vapoursynth-bm3d media-plugins/vapoursynth-fmtconv
 SLOT=0
 SRC_URI=https://github.com/HomeOfVapourSynthEvolution/mvsfunc/archive/r10.tar.gz -> vapoursynth-mvsfunc-10.tar.gz
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	python-utils-r1	dbb8c4d794033ad7e7221eaf567a6c90	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57	vcs-snapshot	bd69bf57fd2c34e99964a03b1d968177
-_md5_=b6afbc0889cf805549b5fd1cd7e1d752
+_md5_=1747934a7033b4e72c799bc617d0b654

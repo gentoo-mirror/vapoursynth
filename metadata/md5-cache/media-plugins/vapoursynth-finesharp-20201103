@@ -1,14 +1,14 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install setup unpack
-DEPEND=>=media-libs/vapoursynth-47[python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?]
+DEPEND=>=media-libs/vapoursynth-47[python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?,python_single_target_python3_14(-)?]
 DESCRIPTION=Small and relatively fast realtime-sharpening function for VapourSynth
 EAPI=8
 HOMEPAGE=http://forum.doom9.org/showthread.php?t=166524
 INHERIT=python-single-r1 git-r3
-IUSE=python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13
+IUSE=python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13 python_single_target_python3_14
 KEYWORDS=~amd64 ~x86
 PROPERTIES=live
-RDEPEND=>=media-libs/vapoursynth-47[python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?]
+RDEPEND=>=media-libs/vapoursynth-47[python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?,python_single_target_python3_14(-)?]
 SLOT=0
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	python-utils-r1	dbb8c4d794033ad7e7221eaf567a6c90	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=97f006a1fabef13eb8e36a26e2d3584b
+_md5_=7df46e54b117d14196e490adb8a3f377
